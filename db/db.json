@@ -1,0 +1,102 @@
+{
+    "new_pledges": [
+        {
+            "id": 1,
+            "pledge": "MY 04/10 00291",
+            "date": "23 Dec 2023",
+            "expiry": "23 Dec 2023",
+            "closed": "23 Dec 2023",
+            "alpha": "MY 12/22 VABYX",
+            "valuer": "WLK- Avian U Yin Torn",
+            "original_pledge": "MY 12/22 00002",
+            "weight": "60.90",
+            "amount": 3600,
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "Murugesan Rajasekar",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "S7785266B",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Male",
+                    "race": "Indian",
+                    "email": "xyz123sekar@yahoo.com",
+                    "phone": "+65-89994266"
+                }
+            ],
+            "guarantor": {
+                "name": "Nagarajan Shebagavalli",
+                "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                "nric": "S7981374E",
+                "address": "419 Canberra Road #02-395 750419",
+                "nationality": "Singapore",
+                "sex": "Female",
+                "race": "Indian",
+                "email": "N/A",
+                "phone": "N/A"
+            },
+            "itemlist": [
+                {
+                    "id": "1",
+                    "no": "1",
+                    "code": "AG01",
+                    "desc": "GOLD RING [U]",
+                    "quantity": "4",
+                    "quality": "20K 22K",
+                    "remarks": "N/A",
+                    "serial": "N/A"
+                },
+                {
+                    "id": "2",
+                    "no": "2",
+                    "code": "AG02",
+                    "desc": "GOLD RING [U]",
+                    "quantity": "4",
+                    "quality": "20K 22K",
+                    "remarks": "N/A",
+                    "serial": "N/A"
+                }
+            ],
+            "branch": "Malaysia"
+        },
+        {
+            "id": 2,
+            "pledge": "SW 04/21 00001",
+            "date": "23 Dec 2023",
+            "expiry": "23 Dec 2023",
+            "closed": "23 Dec 2023",
+            "alpha": "MY 12/22 VABYX",
+            "valuer": "WLK- Avian U Yin Torn",
+            "original_pledge": "MY 12/22 00022",
+            "weight": "60.90",
+            "amount": 3600,
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "Anisah Binti Ramli",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "S7785266B",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Male",
+                    "race": "Indian",
+                    "email": "xyz123sekar@yahoo.com",
+                    "phone": "+65-89994266"
+                }
+            ],
+            "guarantor": {
+                "name": "Nagarajan Shebagavalli",
+                "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                "nric": "S7981374E",
+                "address": "419 Canberra Road #02-395 750419",
+                "nationality": "Singapore",
+                "sex": "Female",
+                "race": "Indian",
+                "email": "N/A",
+                "phone": "N/A"
+            },
+            "branch": "Singapore"
+        }
+    ]
+}
