@@ -3,6 +3,7 @@
         {
             "id": 1,
             "pledge": "MY 04/10 00291",
+            "status": "NEW",
             "date": "23 Dec 2023",
             "expiry": "23 Dec 2023",
             "closed": "23 Dec 2023",
@@ -15,7 +16,7 @@
             "customer": [
                 {
                     "name": "Murugesan Rajasekar",
-                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "avatar": "https://reqres.in/img/faces/8-image.jpg",
                     "nric": "S7785266B",
                     "address": "419 Canberra Road #02-395 750419",
                     "nationality": "Singapore",
@@ -25,17 +26,19 @@
                     "phone": "+65-89994266"
                 }
             ],
-            "guarantor": {
-                "name": "Nagarajan Shebagavalli",
-                "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                "nric": "S7981374E",
-                "address": "419 Canberra Road #02-395 750419",
-                "nationality": "Singapore",
-                "sex": "Female",
-                "race": "Indian",
-                "email": "N/A",
-                "phone": "N/A"
-            },
+            "guarantor": [
+                {
+                    "name": "Nagarajan Shebagavalli",
+                    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+                    "nric": "S7981374E",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Indian",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
             "itemlist": [
                 {
                     "id": "1",
@@ -63,6 +66,7 @@
         {
             "id": 2,
             "pledge": "SW 04/21 00001",
+            "status": "NEW",
             "date": "23 Dec 2023",
             "expiry": "23 Dec 2023",
             "closed": "23 Dec 2023",
@@ -75,7 +79,7 @@
             "customer": [
                 {
                     "name": "Anisah Binti Ramli",
-                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "avatar": "https://reqres.in/img/faces/3-image.jpg",
                     "nric": "S7785266B",
                     "address": "419 Canberra Road #02-395 750419",
                     "nationality": "Singapore",
@@ -85,17 +89,326 @@
                     "phone": "+65-89994266"
                 }
             ],
-            "guarantor": {
-                "name": "Nagarajan Shebagavalli",
-                "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                "nric": "S7981374E",
-                "address": "419 Canberra Road #02-395 750419",
-                "nationality": "Singapore",
-                "sex": "Female",
-                "race": "Indian",
-                "email": "N/A",
-                "phone": "N/A"
-            },
+            "guarantor": [
+                {
+                    "name": "Nagarajan Shebagavalli",
+                    "avatar": "https://reqres.in/img/faces/7-image.jpg",
+                    "nric": "S7981374E",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Indian",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "branch": "Singapore"
+        },
+        {
+            "id": 10,
+            "pledge": "N/A",
+            "date": "N/A",
+            "expiry": "N/A",
+            "closed": "N/A",
+            "alpha": "N/A",
+            "valuer": "N/A",
+            "original_pledge": "N/A",
+            "weight": "N/A",
+            "amount": "N/A",
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "N/A",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "N/A",
+                    "address": "N/A",
+                    "nationality": "N/A",
+                    "sex": "N/A",
+                    "race": "N/A",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "N/A",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "N/A",
+                    "address": "N/A",
+                    "nationality": "N/A",
+                    "sex": "N/A",
+                    "race": "N/A",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "itemList": [],
+            "branch": "Singapore"
+        }
+    ],
+    "redeem_pledges": [
+        {
+            "id": 1,
+            "pledge": "MY 04/10 00291",
+            "status": "CLOSED",
+            "date": "23 Dec 2023",
+            "expiry": "23 Dec 2023",
+            "closed": "23 Dec 2023",
+            "alpha": "MY 12/22 VABYX",
+            "valuer": "WLK- Avian U Yin Torn",
+            "original_pledge": "MY 12/22 00002",
+            "weight": "60.90",
+            "amount": 3600,
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "Murugesan Rajasekar",
+                    "avatar": "https://reqres.in/img/faces/8-image.jpg",
+                    "nric": "S7785266B",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Male",
+                    "race": "Indian",
+                    "email": "xyz123sekar@yahoo.com",
+                    "phone": "+65-89994266"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "Nagarajan Shebagavalli",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "S7981374E",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Indian",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "itemlist": [
+                {
+                    "id": "1",
+                    "no": "1",
+                    "code": "AG01",
+                    "desc": "GOLD RING [U]",
+                    "quantity": "4",
+                    "quality": "20K 22K",
+                    "remarks": "N/A",
+                    "serial": "N/A"
+                }
+            ],
+            "branch": "Malaysia"
+        },
+        {
+            "id": 2,
+            "pledge": "SW 04/21 00001",
+            "status": "CLOSED",
+            "date": "23 Dec 2023",
+            "expiry": "23 Dec 2023",
+            "closed": "23 Dec 2023",
+            "alpha": "MY 12/22 VABYX",
+            "valuer": "WLK- Avian U Yin Torn",
+            "original_pledge": "MY 12/22 00022",
+            "weight": "60.90",
+            "amount": 3600,
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "Anisah Binti Ramli",
+                    "avatar": "https://reqres.in/img/faces/6-image.jpg",
+                    "nric": "S7785266B",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Male",
+                    "race": "Indian",
+                    "email": "xyz123sekar@yahoo.com",
+                    "phone": "+65-89994266"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "Nagarajan Shebagavalli",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "S7981374E",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Indian",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "itemlist": [
+                {
+                    "id": "1",
+                    "no": "1",
+                    "code": "AG01",
+                    "desc": "GOLD RING [U]",
+                    "quantity": "4",
+                    "quality": "20K 22K",
+                    "remarks": "N/A",
+                    "serial": "N/A"
+                }
+            ],
+            "branch": "Singapore"
+        }
+    ],
+    "renew_pledges": [
+        {
+            "id": 1,
+            "pledge": "MY 04/10 00291",
+            "status": "OPEN",
+            "date": "23 Dec 2023",
+            "expiry": "23 Dec 2023",
+            "closed": "23 Dec 2023",
+            "alpha": "MY 12/22 VABYX",
+            "valuer": "WLK- Avian U Yin Torn",
+            "original_pledge": "MY 12/22 00002",
+            "weight": "60.90",
+            "amount": 3600,
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "Murugesan Rajasekar",
+                    "avatar": "https://reqres.in/img/faces/8-image.jpg",
+                    "nric": "S7785266B",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Male",
+                    "race": "Indian",
+                    "email": "xyz123sekar@yahoo.com",
+                    "phone": "+65-89994266"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "Nagarajan Shebagavalli",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "S7981374E",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Indian",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "itemlist": [
+                {
+                    "id": "1",
+                    "no": "1",
+                    "code": "AG01",
+                    "desc": "GOLD RING [U]",
+                    "quantity": "4",
+                    "quality": "20K 22K",
+                    "remarks": "N/A",
+                    "serial": "N/A"
+                },
+                {
+                    "id": "2",
+                    "no": "2",
+                    "code": "AG02",
+                    "desc": "GOLD RING [U]",
+                    "quantity": "4",
+                    "quality": "20K 22K",
+                    "remarks": "N/A",
+                    "serial": "N/A"
+                }
+            ],
+            "branch": "Malaysia"
+        },
+        {
+            "id": 2,
+            "pledge": "SW 04/21 00001",
+            "status": "OPEN",
+            "date": "23 Dec 2023",
+            "expiry": "23 Dec 2023",
+            "closed": "23 Dec 2023",
+            "alpha": "MY 12/22 VABYX",
+            "valuer": "WLK- Avian U Yin Torn",
+            "original_pledge": "MY 12/22 00022",
+            "weight": "60.90",
+            "amount": 3600,
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "Anisah Binti Ramli",
+                    "avatar": "https://reqres.in/img/faces/6-image.jpg",
+                    "nric": "S7785266B",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Male",
+                    "race": "Indian",
+                    "email": "xyz123sekar@yahoo.com",
+                    "phone": "+65-89994266"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "Nagarajan Shebagavalli",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "S7981374E",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Indian",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "branch": "Singapore"
+        },
+        {
+            "id": 3,
+            "pledge": "test",
+            "status": "OPEN",
+            "date": "2024-01-04",
+            "expiry": "2024-01-04",
+            "closed": "2024-01-04",
+            "alpha": "test",
+            "valuer": "N/A",
+            "original_pledge": "N/A",
+            "weight": "N/A",
+            "amount": "N/A",
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "N/A",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "N/A",
+                    "address": "N/A",
+                    "nationality": "N/A",
+                    "sex": "N/A",
+                    "race": "N/A",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "N/A",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "N/A",
+                    "address": "N/A",
+                    "nationality": "N/A",
+                    "sex": "N/A",
+                    "race": "N/A",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "itemList": [
+                {
+                    "no": 1,
+                    "code": "12",
+                    "desc": "dsf",
+                    "quantity": "4",
+                    "quality": "dfsf",
+                    "remarks": "df",
+                    "serial": "fds"
+                }
+            ],
             "branch": "Singapore"
         }
     ]
