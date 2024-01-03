@@ -103,47 +103,6 @@
                 }
             ],
             "branch": "Singapore"
-        },
-        {
-            "id": 10,
-            "pledge": "N/A",
-            "date": "N/A",
-            "expiry": "N/A",
-            "closed": "N/A",
-            "alpha": "N/A",
-            "valuer": "N/A",
-            "original_pledge": "N/A",
-            "weight": "N/A",
-            "amount": "N/A",
-            "interest": "N/A",
-            "customer": [
-                {
-                    "name": "N/A",
-                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                    "nric": "N/A",
-                    "address": "N/A",
-                    "nationality": "N/A",
-                    "sex": "N/A",
-                    "race": "N/A",
-                    "email": "N/A",
-                    "phone": "N/A"
-                }
-            ],
-            "guarantor": [
-                {
-                    "name": "N/A",
-                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                    "nric": "N/A",
-                    "address": "N/A",
-                    "nationality": "N/A",
-                    "sex": "N/A",
-                    "race": "N/A",
-                    "email": "N/A",
-                    "phone": "N/A"
-                }
-            ],
-            "itemList": [],
-            "branch": "Singapore"
         }
     ],
     "redeem_pledges": [
@@ -355,58 +314,6 @@
                     "race": "Indian",
                     "email": "N/A",
                     "phone": "N/A"
-                }
-            ],
-            "branch": "Singapore"
-        },
-        {
-            "id": 3,
-            "pledge": "test",
-            "status": "OPEN",
-            "date": "2024-01-04",
-            "expiry": "2024-01-04",
-            "closed": "2024-01-04",
-            "alpha": "test",
-            "valuer": "N/A",
-            "original_pledge": "N/A",
-            "weight": "N/A",
-            "amount": "N/A",
-            "interest": "N/A",
-            "customer": [
-                {
-                    "name": "N/A",
-                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                    "nric": "N/A",
-                    "address": "N/A",
-                    "nationality": "N/A",
-                    "sex": "N/A",
-                    "race": "N/A",
-                    "email": "N/A",
-                    "phone": "N/A"
-                }
-            ],
-            "guarantor": [
-                {
-                    "name": "N/A",
-                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                    "nric": "N/A",
-                    "address": "N/A",
-                    "nationality": "N/A",
-                    "sex": "N/A",
-                    "race": "N/A",
-                    "email": "N/A",
-                    "phone": "N/A"
-                }
-            ],
-            "itemList": [
-                {
-                    "no": 1,
-                    "code": "12",
-                    "desc": "dsf",
-                    "quantity": "4",
-                    "quality": "dfsf",
-                    "remarks": "df",
-                    "serial": "fds"
                 }
             ],
             "branch": "Singapore"
