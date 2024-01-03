@@ -103,6 +103,54 @@
                 }
             ],
             "branch": "Singapore"
+        },
+        {
+            "id": 3,
+            "pledge": "SW 01/24 00001",
+            "date": "2024-01-03",
+            "expiry": "2024-06-03",
+            "closed": "N/A",
+            "alpha": "SW 01/24 00001",
+            "valuer": "BDG - PHILIP TAN",
+            "original_pledge": "SW 01/24 00001",
+            "weight": "13.90",
+            "amount": "230.00",
+            "interest": "\t3.45",
+            "customer": [
+                {
+                    "name": "MURUGESAN RAJASEKAR",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "S7785266B",
+                    "address": "419 CANBERRA ROAD #02-395",
+                    "nationality": "SINGAPORE",
+                    "sex": "MALE",
+                    "race": "INDIAN",
+                    "email": "test@email.com",
+                    "phone": "+65-89994266"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "NAGARAJAN SHEBAGAVALLI",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "S7981374E",
+                    "address": "419 CANBERRA ROAD #02-395",
+                    "nationality": "SINGAPORE",
+                    "sex": "FEMALE",
+                    "race": "INDIAN",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "itemList": [
+                {
+                    "no": 1,
+                    "code": "\tAG02",
+                    "desc": "GOLD CHAIN [D][22K]",
+                    "quantity": "1"
+                }
+            ],
+            "branch": "Singapore"
         }
     ],
     "redeem_pledges": [
