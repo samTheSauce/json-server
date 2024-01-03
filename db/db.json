@@ -107,6 +107,7 @@
         {
             "id": 3,
             "pledge": "SW 01/24 00001",
+            "status": "NEW",
             "date": "2024-01-03",
             "expiry": "2024-06-03",
             "closed": "N/A",
