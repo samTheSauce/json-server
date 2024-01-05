@@ -12,7 +12,7 @@
             "original_pledge": "MY 12/22 00002",
             "weight": "60.90",
             "amount": 3600,
-            "interest": "N/A",
+            "interest": "-",
             "customer": [
                 {
                     "name": "Murugesan Rajasekar",
@@ -35,8 +35,8 @@
                     "nationality": "Singapore",
                     "sex": "Female",
                     "race": "Indian",
-                    "email": "N/A",
-                    "phone": "N/A"
+                    "email": "-",
+                    "phone": "-"
                 }
             ],
             "itemlist": [
@@ -47,8 +47,8 @@
                     "desc": "GOLD RING [U]",
                     "quantity": "4",
                     "quality": "20K 22K",
-                    "remarks": "N/A",
-                    "serial": "N/A"
+                    "remarks": "-",
+                    "serial": "-"
                 },
                 {
                     "id": "2",
@@ -57,8 +57,8 @@
                     "desc": "GOLD RING [U]",
                     "quantity": "4",
                     "quality": "20K 22K",
-                    "remarks": "N/A",
-                    "serial": "N/A"
+                    "remarks": "-",
+                    "serial": "-"
                 }
             ],
             "branch": "Malaysia"
@@ -75,7 +75,7 @@
             "original_pledge": "MY 12/22 00022",
             "weight": "60.90",
             "amount": 3600,
-            "interest": "N/A",
+            "interest": "-",
             "customer": [
                 {
                     "name": "Anisah Binti Ramli",
@@ -98,47 +98,129 @@
                     "nationality": "Singapore",
                     "sex": "Female",
                     "race": "Indian",
-                    "email": "N/A",
-                    "phone": "N/A"
+                    "email": "-",
+                    "phone": "-"
                 }
             ],
             "branch": "Singapore"
         },
         {
-            "id": 3,
-            "pledge": "SW 01/24 00001",
-            "status": "NEW",
-            "date": "2024-01-03",
-            "expiry": "2024-06-03",
-            "closed": "N/A",
-            "alpha": "SW 01/24 00001",
-            "valuer": "BDG - PHILIP TAN",
-            "original_pledge": "SW 01/24 00001",
-            "weight": "13.90",
-            "amount": "230.00",
-            "interest": "\t3.45",
+            "id": 10,
+            "pledge": "-",
+            "date": "-",
+            "expiry": "-",
+            "closed": "-",
+            "alpha": "-",
+            "valuer": "-",
+            "original_pledge": "-",
+            "weight": "-",
+            "amount": "-",
+            "interest": "-",
             "customer": [
                 {
-                    "name": "MURUGESAN RAJASEKAR",
+                    "name": "-",
                     "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                    "nric": "S7785266B",
-                    "address": "419 CANBERRA ROAD #02-395",
-                    "nationality": "SINGAPORE",
-                    "sex": "MALE",
-                    "race": "INDIAN",
-                    "email": "test@email.com",
-                    "phone": "+65-89994266"
+                    "nric": "-",
+                    "address": "-",
+                    "nationality": "-",
+                    "sex": "-",
+                    "race": "-",
+                    "email": "-",
+                    "phone": "-"
                 }
             ],
             "guarantor": [
                 {
-                    "name": "NAGARAJAN SHEBAGAVALLI",
+                    "name": "-",
                     "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                    "nric": "S7981374E",
-                    "address": "419 CANBERRA ROAD #02-395",
-                    "nationality": "SINGAPORE",
-                    "sex": "FEMALE",
-                    "race": "INDIAN",
+                    "nric": "-",
+                    "address": "-",
+                    "nationality": "-",
+                    "sex": "-",
+                    "race": "-",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ],
+            "itemList": [],
+            "branch": "Singapore"
+        },
+        {
+            "id": 11,
+            "pledge": "fdghgfh",
+            "date": "-",
+            "expiry": "-",
+            "closed": "-",
+            "alpha": "-",
+            "valuer": "-",
+            "original_pledge": "-",
+            "weight": "-",
+            "amount": "-",
+            "interest": "-",
+            "customer": [
+                {
+                    "name": "fghgf",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "fgh",
+                    "address": "-",
+                    "nationality": "-",
+                    "sex": "-",
+                    "race": "-",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "-",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "-",
+                    "address": "-",
+                    "nationality": "-",
+                    "sex": "-",
+                    "race": "-",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ],
+            "itemList": [],
+            "branch": "Singapore"
+        },
+        {
+            "id": 12,
+            "pledge": "Test",
+            "status": "NEW",
+            "date": "2024-01-06",
+            "expiry": "2024-06-02",
+            "closed": "N/A",
+            "alpha": "Test",
+            "valuer": "Test valuer",
+            "original_pledge": "N/A",
+            "weight": "50.2",
+            "amount": "200",
+            "interest": "N/A",
+            "customer": [
+                {
+                    "name": "Test",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "N/A",
+                    "address": "N/A",
+                    "nationality": "Singapore",
+                    "sex": "N/A",
+                    "race": "N/A",
+                    "email": "N/A",
+                    "phone": "N/A"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "N/A",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "N/A",
+                    "address": "N/A",
+                    "nationality": "N/A",
+                    "sex": "N/A",
+                    "race": "N/A",
                     "email": "N/A",
                     "phone": "N/A"
                 }
@@ -146,9 +228,10 @@
             "itemList": [
                 {
                     "no": 1,
-                    "code": "\tAG02",
-                    "desc": "GOLD CHAIN [D][22K]",
-                    "quantity": "1"
+                    "code": "A01",
+                    "desc": "Gold 22K",
+                    "quantity": "1",
+                    "quality": "22K"
                 }
             ],
             "branch": "Singapore"
@@ -167,7 +250,7 @@
             "original_pledge": "MY 12/22 00002",
             "weight": "60.90",
             "amount": 3600,
-            "interest": "N/A",
+            "interest": "-",
             "customer": [
                 {
                     "name": "Murugesan Rajasekar",
@@ -190,8 +273,8 @@
                     "nationality": "Singapore",
                     "sex": "Female",
                     "race": "Indian",
-                    "email": "N/A",
-                    "phone": "N/A"
+                    "email": "-",
+                    "phone": "-"
                 }
             ],
             "itemlist": [
@@ -202,8 +285,8 @@
                     "desc": "GOLD RING [U]",
                     "quantity": "4",
                     "quality": "20K 22K",
-                    "remarks": "N/A",
-                    "serial": "N/A"
+                    "remarks": "-",
+                    "serial": "-"
                 }
             ],
             "branch": "Malaysia"
@@ -220,7 +303,7 @@
             "original_pledge": "MY 12/22 00022",
             "weight": "60.90",
             "amount": 3600,
-            "interest": "N/A",
+            "interest": "-",
             "customer": [
                 {
                     "name": "Anisah Binti Ramli",
@@ -243,8 +326,8 @@
                     "nationality": "Singapore",
                     "sex": "Female",
                     "race": "Indian",
-                    "email": "N/A",
-                    "phone": "N/A"
+                    "email": "-",
+                    "phone": "-"
                 }
             ],
             "itemlist": [
@@ -255,8 +338,8 @@
                     "desc": "GOLD RING [U]",
                     "quantity": "4",
                     "quality": "20K 22K",
-                    "remarks": "N/A",
-                    "serial": "N/A"
+                    "remarks": "-",
+                    "serial": "-"
                 }
             ],
             "branch": "Singapore"
@@ -275,7 +358,7 @@
             "original_pledge": "MY 12/22 00002",
             "weight": "60.90",
             "amount": 3600,
-            "interest": "N/A",
+            "interest": "-",
             "customer": [
                 {
                     "name": "Murugesan Rajasekar",
@@ -298,8 +381,8 @@
                     "nationality": "Singapore",
                     "sex": "Female",
                     "race": "Indian",
-                    "email": "N/A",
-                    "phone": "N/A"
+                    "email": "-",
+                    "phone": "-"
                 }
             ],
             "itemlist": [
@@ -310,8 +393,8 @@
                     "desc": "GOLD RING [U]",
                     "quantity": "4",
                     "quality": "20K 22K",
-                    "remarks": "N/A",
-                    "serial": "N/A"
+                    "remarks": "-",
+                    "serial": "-"
                 },
                 {
                     "id": "2",
@@ -320,8 +403,8 @@
                     "desc": "GOLD RING [U]",
                     "quantity": "4",
                     "quality": "20K 22K",
-                    "remarks": "N/A",
-                    "serial": "N/A"
+                    "remarks": "-",
+                    "serial": "-"
                 }
             ],
             "branch": "Malaysia"
@@ -338,7 +421,7 @@
             "original_pledge": "MY 12/22 00022",
             "weight": "60.90",
             "amount": 3600,
-            "interest": "N/A",
+            "interest": "-",
             "customer": [
                 {
                     "name": "Anisah Binti Ramli",
@@ -361,11 +444,385 @@
                     "nationality": "Singapore",
                     "sex": "Female",
                     "race": "Indian",
-                    "email": "N/A",
-                    "phone": "N/A"
+                    "email": "-",
+                    "phone": "-"
                 }
             ],
             "branch": "Singapore"
+        },
+        {
+            "id": 3,
+            "pledge": "test",
+            "status": "OPEN",
+            "date": "2024-01-04",
+            "expiry": "2024-01-04",
+            "closed": "2024-01-04",
+            "alpha": "test",
+            "valuer": "-",
+            "original_pledge": "-",
+            "weight": "-",
+            "amount": "-",
+            "interest": "-",
+            "customer": [
+                {
+                    "name": "-",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "-",
+                    "address": "-",
+                    "nationality": "-",
+                    "sex": "-",
+                    "race": "-",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "-",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "nric": "-",
+                    "address": "-",
+                    "nationality": "-",
+                    "sex": "-",
+                    "race": "-",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ],
+            "itemList": [
+                {
+                    "no": 1,
+                    "code": "12",
+                    "desc": "dsf",
+                    "quantity": "4",
+                    "quality": "dfsf",
+                    "remarks": "df",
+                    "serial": "fds"
+                }
+            ],
+            "branch": "Singapore"
+        }
+    ],
+    "seized_pledges": [
+        {
+            "id": 1,
+            "pledge": "MY 03/11 02423",
+            "status": "SEIZED",
+            "date": "19 Mar 2011",
+            "expiry": "18 Sep 2011",
+            "seized": "22 Mar 2011",
+            "closed": "-",
+            "alpha": "MY 03/11 02423",
+            "valuer": "B - NG BOON MENG",
+            "original_pledge": "MY 03/11 02423",
+            "weight": "1.00",
+            "amount": 800,
+            "interest": "-",
+            "noarticles": 1,
+            "authority": "Central Police Div",
+            "customer": [
+                {
+                    "name": "LIM YONG SENG",
+                    "avatar": "https://reqres.in/img/faces/8-image.jpg",
+                    "idtype": "NRIC",
+                    "nric": "S8719174E",
+                    "address": "644 YISHUN STREET 61 #11-312",
+                    "nationality": "Singapore",
+                    "sex": "Male",
+                    "race": "Chinese",
+                    "email": "-",
+                    "phone": "+65-99998984"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "SHIRLEY GO XUE YU",
+                    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+                    "nric": "S9026149E",
+                    "address": "644 YISHUN STREET 61 #11-312",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Chinese",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ],
+            "itemlist": [
+                {
+                    "id": "1",
+                    "no": "1",
+                    "code": "AWAD07",
+                    "desc": "K WHITE DIAMOND EARSTUD [D]",
+                    "quantity": "2",
+                    "quality": "18K",
+                    "remarks": "-",
+                    "serial": "-"
+                }
+            ],
+            "branch": "Singapore"
+        }
+    ],
+    "pawners": [
+        {
+            "id": 1,
+            "name": "Lim Yong Seng",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg",
+            "nationality": "Singapore",
+            "email": "alex@gmail.com",
+            "idtype": "NRIC",
+            "idno": "S8719174E",
+            "joinedOn": "23 Dec 2023",
+            "lastActive": "5 hr ago",
+            "contact": "012-3456789",
+            "remarks": "Caution List",
+            "remarksdetail": "Extention 1% -1/1/2014",
+            "branch": "Yishun Branch",
+            "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
+            "sex": "Male",
+            "race": "Chinese",
+            "phone": "+65-89994266",
+            "exposure": "17,940.00",
+            "itemlist": [
+                {
+                    "id": "1",
+                    "pledge": "MY 10/21 00579 GOCVG",
+                    "ori_pledge": "MY 04/21 01222",
+                    "date": "07 Oct 2021",
+                    "val": "WLK",
+                    "weight": "53.50",
+                    "expiry": "07 Oct 2021",
+                    "closed": "-",
+                    "code": "AWAD07",
+                    "desc": [
+                        {
+                            "item": "1/GOLD NECKLACE [U]/22K"
+                        },
+                        {
+                            "item": "1/GOLD STONE PEARL NECKLACE [U]/22K"
+                        },
+                        {
+                            "item": "1/GOLD CHAIN [U]/22K"
+                        },
+                        {
+                            "item": "2/GOLD EAR CHAIN [U]/22K"
+                        },
+                        {
+                            "item": "1/GOLD BRACELET [U]/22K"
+                        }
+                    ],
+                    "status": "OPEN",
+                    "cdd": "no",
+                    "amount": "3,270.00"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "SHIRLEY GO XUE YU",
+                    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+                    "nric": "S9026149E",
+                    "address": "644 YISHUN STREET 61 #11-312",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Chinese",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Zarinah Binti Mamat",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg",
+            "nationality": "Singapore",
+            "email": "syarah@gmail.com",
+            "idtype": "NRIC",
+            "idno": "S7400507A",
+            "joinedOn": "01 Jan 2023",
+            "lastActive": "15 min ago",
+            "contact": "012-3456789",
+            "remarks": "-",
+            "remarksdetail": "",
+            "branch": "Woodlands Branch",
+            "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
+            "sex": "Female",
+            "race": "Malay",
+            "phone": "+65-89994266",
+            "exposure": "17,940.00",
+            "itemlist": [
+                {
+                    "id": "1",
+                    "pledge": "MY 10/21 00579 GOCVG",
+                    "ori_pledge": "MY 04/21 01222",
+                    "date": "07 Oct 2021",
+                    "val": "WLK",
+                    "weight": "53.50",
+                    "expiry": "07 Oct 2021",
+                    "closed": "-",
+                    "code": "AWAD07",
+                    "desc": [
+                        {
+                            "item": "1/GOLD BRACELET [U]/22K"
+                        }
+                    ],
+                    "status": "OPEN",
+                    "cdd": "no",
+                    "amount": "3,270.00"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "SHIRLEY GO XUE YU",
+                    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+                    "nric": "S9026149E",
+                    "address": "644 YISHUN STREET 61 #11-312",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Chinese",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Irene Cuevas Mangahas",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg",
+            "nationality": "Philipines",
+            "email": "anis@gmail.com",
+            "idtype": "FIN",
+            "idno": "G7714447T",
+            "joinedOn": "23 Dec 2023",
+            "lastActive": "20 hr ago",
+            "contact": "012-3456789",
+            "remarks": "Caution List",
+            "remarksdetail": "Extention 1% -1/1/2014",
+            "branch": "Ang Mo Kio Branch",
+            "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
+            "sex": "Female",
+            "race": "Pinay",
+            "phone": "+65-89994266",
+            "exposure": "17,940.00",
+            "itemlist": [
+                {
+                    "id": "1",
+                    "pledge": "MY 10/21 00579 GOCVG",
+                    "ori_pledge": "MY 04/21 01222",
+                    "date": "07 Oct 2021",
+                    "val": "WLK",
+                    "weight": "53.50",
+                    "expiry": "07 Oct 2021",
+                    "closed": "-",
+                    "code": "AWAD07",
+                    "desc": [
+                        {
+                            "item": "2/GOLD EAR CHAIN [U]/22K"
+                        },
+                        {
+                            "item": "1/GOLD BRACELET [U]/22K"
+                        }
+                    ],
+                    "status": "OPEN",
+                    "cdd": "no",
+                    "amount": "3,270.00"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "SHIRLEY GO XUE YU",
+                    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+                    "nric": "S9026149E",
+                    "address": "644 YISHUN STREET 61 #11-312",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Chinese",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ]
+        }
+    ],
+    "lost_tickets": [
+        {
+            "id": 1,
+            "name": "Wong Yee Mui",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg",
+            "pledge": "MY 05/21 00814",
+            "date": "12 May 2021",
+            "lost": "22 Jun 2022",
+            "idtype": "NRIC",
+            "idno": "S8719174E",
+            "ltd_format": "customer",
+            "reprint_cnt": "0",
+            "status": "open",
+            "receipt": "LR220003",
+            "amount": "1,240.00"
+        },
+        {
+            "id": 2,
+            "name": "Delima Binti Ishak",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg",
+            "pledge": "MY 03/22 00001",
+            "date": "12 May 2021",
+            "lost": "22 Jun 2022",
+            "idtype": "NRIC",
+            "idno": "S8719657H",
+            "ltd_format": "customer",
+            "reprint_cnt": "0",
+            "status": "open",
+            "receipt": "LR220001",
+            "amount": "310.00"
+        }
+    ],
+    "businesses": [
+        {
+            "id": 1,
+            "branch": "AH-MONEYMAX PTE LTD (ANG MO KIO BRANCH)",
+            "date": "1 Jan 2022",
+            "stock_in": "10,240.00",
+            "stock_out": "10,800.00",
+            "interest": "5,990.00",
+            "opening": "50,000.00",
+            "closing": "12,000.00"
+        },
+        {
+            "id": 2,
+            "branch": "AK-MONEYMAX GROUP PTE LTD (CHENG SAN BRANCH)",
+            "date": "1 Jan 2022",
+            "stock_in": "10,240.00",
+            "stock_out": "10,800.00",
+            "interest": "5,990.00",
+            "opening": "50,000.00",
+            "closing": "12,000.00"
+        },
+        {
+            "id": 3,
+            "branch": "AM-MONEYMAX PTE LTD (AMK MRT BRANCH)",
+            "date": "1 Jan 2022",
+            "stock_in": "10,240.00",
+            "stock_out": "10,800.00",
+            "interest": "5,990.00",
+            "opening": "50,000.00",
+            "closing": "12,000.00"
+        },
+        {
+            "id": 4,
+            "branch": "BH-MONEYMAX PTE LTD (ZHENG HUA BRANCH)",
+            "date": "1 Jan 2022",
+            "stock_in": "10,240.00",
+            "stock_out": "10,800.00",
+            "interest": "5,990.00",
+            "opening": "50,000.00",
+            "closing": "12,000.00"
+        },
+        {
+            "id": 5,
+            "branch": "BJ-BAN JOO PAWNSHOP PTE LTD",
+            "date": "1 Jan 2022",
+            "stock_in": "10,240.00",
+            "stock_out": "10,800.00",
+            "interest": "5,990.00",
+            "opening": "50,000.00",
+            "closing": "12,000.00"
         }
     ]
 }
