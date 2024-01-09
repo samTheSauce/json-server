@@ -574,5 +574,37 @@
             "opening": "50,000.00",
             "closing": "12,000.00"
         }
+    ],
+    "roles": [
+        {
+            "code": "Hoadm",
+            "desc": "System Administrator",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Srmgt",
+            "desc": "Senior Management",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Account",
+            "desc": "Account Dept",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Goldprice",
+            "desc": "Modify Goldprice",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Romgrs",
+            "desc": "RO Managers",
+            "branch": "Branch"
+        },
+        {
+            "code": "Brmgrv",
+            "desc": "RO With Valuer Role",
+            "branch": "Branch"
+        }
     ]
 }
