@@ -310,6 +310,63 @@
                 }
             ],
             "branch": "Singapore"
+        },
+        {
+            "id": 5,
+            "pledge": "MY 03/11 02423",
+            "status": "EXPIRING",
+            "date": "19 Mar 2011",
+            "expiry": "18 Sep 2011",
+            "seized": "22 Mar 2011",
+            "closed": "-",
+            "alpha": "MY 03/11 02423",
+            "valuer": "B - NG BOON MENG",
+            "original_pledge": "MY 03/11 02423",
+            "weight": "1.00",
+            "amount": 800,
+            "interest": "-",
+            "noarticles": 1,
+            "authority": "Central Police Div",
+            "customer": [
+                {
+                    "name": "LIM YONG SENG",
+                    "avatar": "https://reqres.in/img/faces/8-image.jpg",
+                    "idtype": "NRIC",
+                    "nric": "S8719174E",
+                    "address": "644 YISHUN STREET 61 #11-312",
+                    "nationality": "Singapore",
+                    "sex": "Male",
+                    "race": "Chinese",
+                    "email": "-",
+                    "phone": "+65-99998984"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "SHIRLEY GO XUE YU",
+                    "avatar": "https://reqres.in/img/faces/2-image.jpg",
+                    "nric": "S9026149E",
+                    "address": "644 YISHUN STREET 61 #11-312",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Chinese",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ],
+            "itemlist": [
+                {
+                    "id": "1",
+                    "no": "1",
+                    "code": "AWAD07",
+                    "desc": "K WHITE DIAMOND EARSTUD [D]",
+                    "quantity": "2",
+                    "quality": "18K",
+                    "remarks": "-",
+                    "serial": "-"
+                }
+            ],
+            "branch": "Singapore"
         }
     ],
     "pawners": [
@@ -604,6 +661,153 @@
         {
             "code": "Brmgrv",
             "desc": "RO With Valuer Role",
+            "branch": "Branch"
+        }
+    ],
+    "roles_bc": [
+        {
+            "code": "Hoadm",
+            "desc": "System Administrator",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Srmgt",
+            "desc": "Senior Management",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Account",
+            "desc": "Account Dept",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Report",
+            "desc": "Report",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Goldprice",
+            "desc": "Modify Goldprice",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Mkt",
+            "desc": "Marketing Dept",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Snro",
+            "desc": "Senior Ro",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Romgr",
+            "desc": "Ro Managers",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Label",
+            "desc": "Print Address Label",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Enquiry",
+            "desc": "Police Enquiry",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Snact",
+            "desc": "Senior Accounts",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Adt",
+            "desc": "Audit",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Hrd",
+            "desc": "HR Dept",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Cashtrfrpt",
+            "desc": "Cash Transfer Report",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Csd",
+            "desc": "Customer Service Dept",
+            "branch": "Head Office"
+        },
+        {
+            "code": "Aasnt",
+            "desc": "Store Admin Assistant",
+            "branch": "Branch"
+        },
+        {
+            "code": "Val",
+            "desc": "Valuer",
+            "branch": "Branch"
+        },
+        {
+            "code": "Brmgr",
+            "desc": "RO",
+            "branch": "Branch"
+        },
+        {
+            "code": "Acc",
+            "desc": "Accounts",
+            "branch": "Branch"
+        },
+        {
+            "code": "Abrmgr",
+            "desc": "Store Admin",
+            "branch": "Branch"
+        },
+        {
+            "code": "Aasnt2",
+            "desc": "Store Admin Assistant 2",
+            "branch": "Branch"
+        },
+        {
+            "code": "Mgt",
+            "desc": "Management",
+            "branch": "Branch"
+        },
+        {
+            "code": "1St Ic",
+            "desc": "Store Admin Valuer",
+            "branch": "Branch"
+        },
+        {
+            "code": "Adm",
+            "desc": "Admin",
+            "branch": "Branch"
+        },
+        {
+            "code": "Dataentry",
+            "desc": "Data Entry",
+            "branch": "Branch"
+        },
+        {
+            "code": "Romgrs",
+            "desc": "RO Managers",
+            "branch": "Branch"
+        },
+        {
+            "code": "Brmgrv",
+            "desc": "RO With Valuer Role",
+            "branch": "Branch"
+        },
+        {
+            "code": "Stabrmgr",
+            "desc": "Stand Alone Store Admin",
+            "branch": "Branch"
+        },
+        {
+            "code": "Stval",
+            "desc": "Stand Alone Store Admin Valuer",
             "branch": "Branch"
         }
     ]
