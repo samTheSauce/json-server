@@ -9,7 +9,7 @@
             "closed": "23 Dec 2023",
             "seized": "",
             "alpha": "MY 12/22 VABYX",
-            "valuer": "WLK- Avian U Yin Torn",
+            "Valuer": "WLK- Avian U Yin Torn",
             "original_pledge": "MY 12/22 00002",
             "weight": "60.90",
             "amount": 3600,
@@ -75,7 +75,7 @@
             "closed": "23 Dec 2023",
             "seized": "",
             "alpha": "MY 12/22 VABYX",
-            "valuer": "WLK- Avian U Yin Torn",
+            "Valuer": "WLK- Avian U Yin Torn",
             "original_pledge": "MY 12/22 00022",
             "weight": "60.90",
             "amount": 3600,
@@ -141,7 +141,7 @@
             "closed": "23 Dec 2023",
             "seized": "",
             "alpha": "MY 12/22 VABYX",
-            "valuer": "WLK- Avian U Yin Torn",
+            "Valuer": "WLK- Avian U Yin Torn",
             "original_pledge": "MY 12/22 00002",
             "weight": "60.90",
             "amount": 3600,
@@ -197,7 +197,7 @@
             "closed": "23 Dec 2023",
             "seized": "",
             "alpha": "MY 12/22 VABYX",
-            "valuer": "WLK- Avian U Yin Torn",
+            "Valuer": "WLK- Avian U Yin Torn",
             "original_pledge": "MY 12/22 00002",
             "weight": "60.90",
             "amount": 3600,
@@ -263,7 +263,7 @@
             "seized": "22 Mar 2011",
             "closed": "-",
             "alpha": "MY 03/11 02423",
-            "valuer": "B - NG BOON MENG",
+            "Valuer": "B - NG BOON MENG",
             "original_pledge": "MY 03/11 02423",
             "weight": "1.00",
             "amount": 800,
@@ -320,7 +320,7 @@
             "seized": "22 Mar 2011",
             "closed": "-",
             "alpha": "MY 03/11 02423",
-            "valuer": "B - NG BOON MENG",
+            "Valuer": "B - NG BOON MENG",
             "original_pledge": "MY 03/11 02423",
             "weight": "1.00",
             "amount": 800,
@@ -548,45 +548,14 @@
             ]
         }
     ],
-    "lost_tickets": [
-        {
-            "id": 1,
-            "name": "Wong Yee Mui",
-            "avatar": "https://reqres.in/img/faces/1-image.jpg",
-            "pledge": "MY 05/21 00814",
-            "date": "12 May 2021",
-            "lost": "22 Jun 2022",
-            "idtype": "NRIC",
-            "idno": "S8719174E",
-            "ltd_format": "customer",
-            "reprint_cnt": "0",
-            "status": "open",
-            "receipt": "LR220003",
-            "amount": "1,240.00"
-        },
-        {
-            "id": 2,
-            "name": "Delima Binti Ishak",
-            "avatar": "https://reqres.in/img/faces/1-image.jpg",
-            "pledge": "MY 03/22 00001",
-            "date": "12 May 2021",
-            "lost": "22 Jun 2022",
-            "idtype": "NRIC",
-            "idno": "S8719657H",
-            "ltd_format": "customer",
-            "reprint_cnt": "0",
-            "status": "open",
-            "receipt": "LR220001",
-            "amount": "310.00"
-        }
-    ],
+    "lost_tickets": [],
     "businesses": [
         {
             "id": 1,
             "branch": "AH-MONEYMAX PTE LTD (ANG MO KIO BRANCH)",
             "date": "1 Jan 2022",
             "stock_in": "10,240.00",
-            "stock_out": "10,800.00",
+            "stock_out": "10,8000.00",
             "interest": "5,990.00",
             "opening": "50,000.00",
             "closing": "12,000.00"
@@ -809,6 +778,223 @@
             "code": "Stval",
             "desc": "Stand Alone Store Admin Valuer",
             "branch": "Branch"
+        }
+    ],
+    "users": [
+        {
+            "name": "John",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "email": "MMQ012",
+            "role": "Store Admin",
+            "branch": "Head Office",
+            "joinedOn": "22 Jun 2022",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "name": "Amin",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg",
+            "email": "MMQ023",
+            "role": "Valuer",
+            "branch": "Head Office",
+            "joinedOn": "22 Jun 2022",
+            "lastActive": "5 hr ago",
+            "remarks": "Transfered",
+            "status": "Active"
+        },
+        {
+            "name": "Shiella",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg",
+            "email": "MMQ010",
+            "role": "RO",
+            "branch": "Branch",
+            "joinedOn": "22 Jun 2022",
+            "lastActive": "5 hr ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "name": "Anne",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg",
+            "email": "MMQ028",
+            "role": "Admin Assistant",
+            "branch": "Branch",
+            "joinedOn": "22 Jun 2022",
+            "lastActive": "-",
+            "remarks": "Resigned",
+            "status": "Deactivated"
+        }
+    ],
+    "pawnshops": [
+        {
+            "id": 1,
+            "code": "AH",
+            "name": "MoneyMax Pte Ltd (Ang Mo Kio Branch)",
+            "contact_person": "Lim Yong Guan",
+            "phone": "67523733",
+            "bank": "UOB",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "code": "AK",
+            "name": "MONEYMAX GROUP PTE LTD (CHENG SAN BRANCH)",
+            "contact_person": "Lim Yong Guan",
+            "phone": "67523733",
+            "bank": "OCBC",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "code": "AM",
+            "name": "MONEYMAX PTE LTD (AMK MRT BRANCH)",
+            "contact_person": "Lim Yong Guan",
+            "phone": "67523733",
+            "bank": "UOB",
+            "status": "Active"
+        },
+        {
+            "id": 4,
+            "code": "BH",
+            "name": "MONEYMAX PTE LTD (ZHENG HUA BRANCH)",
+            "contact_person": "Lim Yong Guan",
+            "phone": "67523733",
+            "bank": "UOB",
+            "status": "Active"
+        },
+        {
+            "id": 5,
+            "code": "BJ",
+            "name": "BAN JOO PAWNSHOP PTE LTD",
+            "contact_person": "Lim Yong Guan",
+            "phone": "62212794",
+            "bank": "",
+            "status": "Active"
+        }
+    ],
+    "articleItems": [
+        {
+            "id": 1,
+            "code": "01",
+            "desc": "Ring",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 2,
+            "code": "02",
+            "desc": "Chain",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 3,
+            "code": "03",
+            "desc": "Pendant",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 4,
+            "code": "04",
+            "desc": "Bracelet",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 5,
+            "code": "05",
+            "desc": "Bangle",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 6,
+            "code": "06",
+            "desc": "Earring",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 7,
+            "code": "07",
+            "desc": "Earstud",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 8,
+            "code": "08",
+            "desc": "Ear Pendant",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 9,
+            "code": "09",
+            "desc": "Necklace",
+            "serial": "No",
+            "weight": "Yes"
+        },
+        {
+            "id": 10,
+            "code": "10",
+            "desc": "Nosestud",
+            "serial": "No",
+            "weight": "Yes"
+        }
+    ],
+    "articleMaterials": [
+        {
+            "id": 1,
+            "code": "AA",
+            "desc": "-"
+        },
+        {
+            "id": 2,
+            "code": "AD",
+            "desc": "DIAMOND"
+        },
+        {
+            "id": 3,
+            "code": "AG",
+            "desc": "Gold"
+        },
+        {
+            "id": 4,
+            "code": "AI",
+            "desc": "Intan"
+        },
+        {
+            "id": 5,
+            "code": "AJ",
+            "desc": "Jade"
+        },
+        {
+            "id": 6,
+            "code": "AK",
+            "desc": "K Gold"
+        },
+        {
+            "id": 7,
+            "code": "AN",
+            "desc": "Note"
+        },
+        {
+            "id": 8,
+            "code": "AP",
+            "desc": "Pearl"
+        },
+        {
+            "id": 9,
+            "code": "AS",
+            "desc": "Stone"
+        },
+        {
+            "id": 10,
+            "code": "AV",
+            "desc": "Silver"
         }
     ]
 }
