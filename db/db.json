@@ -3,16 +3,16 @@
         {
             "id": 1,
             "pledge": "MY 04/10 00291",
-            "status": "DRAFT",
-            "date": "23 Dec 2023",
-            "expiry": "23 Dec 2023",
-            "closed": "23 Dec 2023",
+            "status": "OPEN",
+            "date": "2023-12-23",
+            "expiry": "2023-12-24",
+            "closed": "2023-12-23",
             "alpha": "MY 12/22 VABYX",
             "valuer": "WLK- Avian U Yin Torn",
             "original_pledge": "MY 12/22 00002",
             "weight": "60.90",
             "amount": 3600,
-            "interest": "-",
+            "interest": "23",
             "customer": [
                 {
                     "name": "Murugesan Rajasekar",
@@ -66,80 +66,12 @@
             "branch": "Malaysia"
         },
         {
-            "id": 2,
-            "pledge": "SW 04/21 00001",
-            "status": "OPEN",
-            "date": "23 Dec 2023",
-            "expiry": "23 Dec 2023",
-            "closed": "23 Dec 2023",
-            "seized": "",
-            "alpha": "MY 12/22 VABYX",
-            "valuer": "WLK- Avian U Yin Torn",
-            "original_pledge": "MY 12/22 00022",
-            "weight": "60.90",
-            "amount": 3600,
-            "interest": "-",
-            "noarticles": 1,
-            "authority": "-",
-            "customer": [
-                {
-                    "name": "Anisah Binti Ramli",
-                    "avatar": "https://reqres.in/img/faces/3-image.jpg",
-                    "idtype": "NRIC",
-                    "idno": "S7785266B",
-                    "address": "419 Canberra Road #02-395 750419",
-                    "nationality": "Singapore",
-                    "sex": "Male",
-                    "race": "Indian",
-                    "email": "xyz123sekar@yahoo.com",
-                    "phone": "+65-89994266"
-                }
-            ],
-            "guarantor": [
-                {
-                    "name": "Nagarajan Shebagavalli",
-                    "avatar": "https://reqres.in/img/faces/7-image.jpg",
-                    "idtype": "NRIC",
-                    "idno": "S7981374E",
-                    "address": "419 Canberra Road #02-395 750419",
-                    "nationality": "Singapore",
-                    "sex": "Female",
-                    "race": "Indian",
-                    "email": "-",
-                    "phone": "-"
-                }
-            ],
-            "itemlist": [
-                {
-                    "id": "1",
-                    "no": "1",
-                    "code": "AG01",
-                    "desc": "GOLD RING [U]",
-                    "quantity": "4",
-                    "quality": "20K 22K",
-                    "remarks": "-",
-                    "serial": "-"
-                },
-                {
-                    "id": "2",
-                    "no": "2",
-                    "code": "AG02",
-                    "desc": "GOLD RING [U]",
-                    "quantity": "4",
-                    "quality": "20K 22K",
-                    "remarks": "-",
-                    "serial": "-"
-                }
-            ],
-            "branch": "Singapore"
-        },
-        {
             "id": 3,
             "pledge": "MY 04/10 00291",
             "status": "CLOSED",
-            "date": "23 Dec 2023",
-            "expiry": "23 Dec 2023",
-            "closed": "23 Dec 2023",
+            "date": "2023-12-23",
+            "expiry": "2023-12-23",
+            "closed": "2023-12-23",
             "seized": "",
             "alpha": "MY 12/22 VABYX",
             "valuer": "WLK- Avian U Yin Torn",
@@ -195,9 +127,9 @@
             "id": 4,
             "pledge": "MY 04/10 00291",
             "status": "CLOSED",
-            "date": "23 Dec 2023",
-            "expiry": "23 Dec 2023",
-            "closed": "23 Dec 2023",
+            "date": "2023-12-23",
+            "expiry": "2023-12-23",
+            "closed": "2023-12-23",
             "seized": "",
             "alpha": "MY 12/22 VABYX",
             "valuer": "WLK- Avian U Yin Torn",
@@ -263,10 +195,9 @@
             "id": 5,
             "pledge": "MY 03/11 02423",
             "status": "SEIZED",
-            "date": "19 Mar 2011",
-            "expiry": "18 Sep 2011",
-            "seized": "22 Mar 2011",
-            "closed": "-",
+            "date": "2023-12-23",
+            "expiry": "2023-12-23",
+            "closed": "2023-12-23",
             "alpha": "MY 03/11 02423",
             "valuer": "B - NG BOON MENG",
             "original_pledge": "MY 03/11 02423",
@@ -321,9 +252,9 @@
             "id": 6,
             "pledge": "MY 03/11 02423",
             "status": "EXPIRING",
-            "date": "19 Mar 2011",
-            "expiry": "18 Sep 2011",
-            "seized": "22 Mar 2011",
+            "date": "2011-03-19",
+            "expiry": "2011-09-18",
+            "seized": "2011-03-22",
             "closed": "-",
             "alpha": "MY 03/11 02423",
             "valuer": "B - NG BOON MENG",
@@ -385,7 +316,7 @@
             "email": "alex@gmail.com",
             "idtype": "NRIC",
             "idno": "S8719174E",
-            "joinedOn": "23 Dec 2023",
+            "joinedOn": "2023-12-01",
             "lastActive": "5 hr ago",
             "contact": "012-3456789",
             "remarks": "Caution List",
@@ -451,7 +382,7 @@
             "email": "syarah@gmail.com",
             "idtype": "NRIC",
             "idno": "S7400507A",
-            "joinedOn": "01 Jan 2023",
+            "joinedOn": "2023-01-01",
             "lastActive": "15 min ago",
             "contact": "012-3456789",
             "remarks": "-",
@@ -505,7 +436,7 @@
             "email": "anis@gmail.com",
             "idtype": "FIN",
             "idno": "G7714447T",
-            "joinedOn": "23 Dec 2023",
+            "joinedOn": "2023-12-01",
             "lastActive": "20 hr ago",
             "contact": "012-3456789",
             "remarks": "Caution List",
@@ -555,12 +486,43 @@
             ]
         }
     ],
-    "lost_tickets": [],
+    "lost_tickets": [
+        {
+            "id": 1,
+            "name": "Wong Yee Mui",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg",
+            "pledge": "MY 05/21 00814",
+            "date": "12 May 2021",
+            "lost": "22 Jun 2022",
+            "idtype": "NRIC",
+            "idno": "S8719174E",
+            "ltd_format": "customer",
+            "reprint_cnt": "0",
+            "status": "open",
+            "receipt": "LR220003",
+            "amount": "1,240.00"
+        },
+        {
+            "id": 2,
+            "name": "Delima Binti Ishak",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg",
+            "pledge": "MY 03/22 00001",
+            "date": "12 May 2021",
+            "lost": "22 Jun 2022",
+            "idtype": "NRIC",
+            "idno": "S8719657H",
+            "ltd_format": "customer",
+            "reprint_cnt": "0",
+            "status": "open",
+            "receipt": "LR220001",
+            "amount": "310.00"
+        }
+    ],
     "businesses": [
         {
             "id": 1,
             "branch": "AH-MONEYMAX PTE LTD (ANG MO KIO BRANCH)",
-            "date": "1 Jan 2022",
+            "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,8000.00",
             "interest": "5,990.00",
@@ -570,7 +532,7 @@
         {
             "id": 2,
             "branch": "AK-MONEYMAX GROUP PTE LTD (CHENG SAN BRANCH)",
-            "date": "1 Jan 2022",
+            "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,800.00",
             "interest": "5,990.00",
@@ -580,7 +542,7 @@
         {
             "id": 3,
             "branch": "AM-MONEYMAX PTE LTD (AMK MRT BRANCH)",
-            "date": "1 Jan 2022",
+            "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,800.00",
             "interest": "5,990.00",
@@ -590,7 +552,7 @@
         {
             "id": 4,
             "branch": "BH-MONEYMAX PTE LTD (ZHENG HUA BRANCH)",
-            "date": "1 Jan 2022",
+            "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,800.00",
             "interest": "5,990.00",
@@ -600,7 +562,7 @@
         {
             "id": 5,
             "branch": "BJ-BAN JOO PAWNSHOP PTE LTD",
-            "date": "1 Jan 2022",
+            "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,800.00",
             "interest": "5,990.00",
@@ -610,31 +572,37 @@
     ],
     "roles": [
         {
+            "id": 1,
             "code": "Hoadm",
             "desc": "System Administrator",
             "branch": "Head Office"
         },
         {
+            "id": 2,
             "code": "Srmgt",
             "desc": "Senior Management",
             "branch": "Head Office"
         },
         {
+            "id": 3,
             "code": "Account",
             "desc": "Account Dept",
             "branch": "Head Office"
         },
         {
+            "id": 4,
             "code": "Goldprice",
             "desc": "Modify Goldprice",
             "branch": "Head Office"
         },
         {
+            "id": 5,
             "code": "Romgrs",
             "desc": "RO Managers",
             "branch": "Branch"
         },
         {
+            "id": 6,
             "code": "Brmgrv",
             "desc": "RO With Valuer Role",
             "branch": "Branch"
@@ -793,8 +761,9 @@
             "avatar": "https://reqres.in/img/faces/5-image.jpg",
             "email": "MMQ012",
             "role": "Store Admin",
+            "code": "",
             "branch": "Head Office",
-            "joinedOn": "22 Jun 2022",
+            "joinedOn": "2022-06-22",
             "lastActive": "40 min ago",
             "remarks": "-",
             "status": "Active"
@@ -804,8 +773,9 @@
             "avatar": "https://reqres.in/img/faces/4-image.jpg",
             "email": "MMQ023",
             "role": "Valuer",
+            "code": "A",
             "branch": "Head Office",
-            "joinedOn": "22 Jun 2022",
+            "joinedOn": "2022-06-22",
             "lastActive": "5 hr ago",
             "remarks": "Transfered",
             "status": "Active"
@@ -815,8 +785,9 @@
             "avatar": "https://reqres.in/img/faces/3-image.jpg",
             "email": "MMQ010",
             "role": "RO",
+            "code": "",
             "branch": "Branch",
-            "joinedOn": "22 Jun 2022",
+            "joinedOn": "2022-06-22",
             "lastActive": "5 hr ago",
             "remarks": "-",
             "status": "Active"
@@ -826,11 +797,24 @@
             "avatar": "https://reqres.in/img/faces/3-image.jpg",
             "email": "MMQ028",
             "role": "Admin Assistant",
+            "code": "",
             "branch": "Branch",
-            "joinedOn": "22 Jun 2022",
+            "joinedOn": "2022-06-22",
             "lastActive": "-",
             "remarks": "Resigned",
             "status": "Deactivated"
+        },
+        {
+            "id": 5,
+            "email": "sdssd",
+            "name": "sads",
+            "role": "Valuer",
+            "code": "F",
+            "branch": "",
+            "joinedOn": "2024-01-17T02:09:58.258Z",
+            "lastActive": "-",
+            "remarks": "zxz",
+            "status": "Active"
         }
     ],
     "pawnshops": [
@@ -878,6 +862,51 @@
             "phone": "62212794",
             "bank": "",
             "status": "Active"
+        },
+        {
+            "id": 6,
+            "code": "FDG",
+            "name": "fg",
+            "contact_person": "dfg",
+            "phone": "dfg",
+            "bank": "dfg",
+            "status": "Active"
+        },
+        {
+            "id": 7,
+            "code": "XCV",
+            "name": "xv",
+            "contact_person": "xcv",
+            "phone": "cx",
+            "bank": "vc",
+            "status": "Active"
+        },
+        {
+            "id": 8,
+            "code": "ZXC",
+            "name": "zxc",
+            "contact_person": "zxc",
+            "phone": "zxc",
+            "bank": "zcx",
+            "status": "Active"
+        },
+        {
+            "id": 9,
+            "code": "ZC",
+            "name": "ZC",
+            "contact_person": "ZC",
+            "phone": "CZ",
+            "bank": "ZC",
+            "status": "Active"
+        },
+        {
+            "id": 11,
+            "code": "ZC",
+            "name": "ZC",
+            "contact_person": "ZC",
+            "phone": "CZ",
+            "bank": "ZC",
+            "status": "Inactive"
         }
     ],
     "articleItems": [
@@ -950,6 +979,13 @@
             "desc": "Nosestud",
             "serial": "No",
             "weight": "Yes"
+        },
+        {
+            "id": 11,
+            "code": "11",
+            "desc": "assad",
+            "serial": "Yes",
+            "weight": "No"
         }
     ],
     "articleMaterials": [
@@ -1002,6 +1038,11 @@
             "id": 10,
             "code": "AV",
             "desc": "Silver"
+        },
+        {
+            "id": 11,
+            "code": "scsd",
+            "desc": "sdcdsc"
         }
     ]
 }
