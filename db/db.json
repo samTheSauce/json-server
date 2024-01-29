@@ -932,5 +932,43 @@
                 }
             ]
         }
+    ],
+    "valuations": [
+        {
+            "id": 1,
+            "serial": "S01234",
+            "valuer": "Song Shian Chee",
+            "pledge_no": "MY 04/10 00291",
+            "pledge_date": "2022-06-22",
+            "desc": "1/WATCH MARKED AUDEMARS PIGUET[U/C] G84328",
+            "branch": "Moneymax Pte Ltd (Ang Mo Kio Branch)",
+            "weight": 135.80,
+            "gold_price": 294.55,
+            "amount": 40000.00
+        },
+        {
+            "id": 2,
+            "serial": "S01235",
+            "valuer": "Stanley Yap Jia Rong",
+            "pledge_no": "MY 08/10 00012",
+            "pledge_date": "2022-06-22",
+            "desc": "1/WATCH MARKED AUDEMARS PIGUET[U/C] G84328",
+            "branch": "Moneymax Pte Ltd (Ang Mo Kio Branch)",
+            "weight": 163.30,
+            "gold_price": 200.83,
+            "amount": 34000.00
+        },
+        {
+            "id": 3,
+            "serial": "S01234",
+            "valuer": "Stanley Yap Jia Rong",
+            "pledge_no": "MY 12/10 00023",
+            "pledge_date": "2022-06-22",
+            "desc": "1/WATCH MARKED AUDEMARS PIGUET[U/C] G84328",
+            "branch": "Moneymax Pte Ltd (Ang Mo Kio Branch)",
+            "weight": 133.90,
+            "gold_price": 388.35,
+            "amount": 52000.00
+        }
     ]
 }
