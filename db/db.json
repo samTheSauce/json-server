@@ -16,10 +16,11 @@
             "lost": "Yes",
             "lost_date": "2024-01-04",
             "ltd_format": "sdfdfs",
-            "reprint_cnt": "0",
+            "reprint_cnt": "1",
             "receipt": "fdf",
             "customer": [
                 {
+                    "id": 4,
                     "name": "Murugesan Rajasekar",
                     "avatar": "https://reqres.in/img/faces/8-image.jpg",
                     "idtype": "NRIC",
@@ -68,6 +69,10 @@
                     "serial": "-"
                 }
             ],
+            "loan": {
+                "progress": 70,
+                "transaction_date": "2024-01-04"
+            },
             "branch": "Malaysia"
         },
         {
@@ -93,6 +98,7 @@
             "authority": "-",
             "customer": [
                 {
+                    "id": 4,
                     "name": "Murugesan Rajasekar",
                     "avatar": "https://reqres.in/img/faces/8-image.jpg",
                     "idtype": "NRIC",
@@ -141,6 +147,10 @@
                     "serial": "-"
                 }
             ],
+            "loan": {
+                "progress": 100,
+                "transaction_date": "2024-01-04"
+            },
             "branch": "Malaysia"
         },
         {
@@ -165,8 +175,9 @@
             "authority": "Central Police Div",
             "customer": [
                 {
+                    "id": 1,
                     "name": "LIM YONG SENG",
-                    "avatar": "https://reqres.in/img/faces/8-image.jpg",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
                     "idtype": "NRIC",
                     "idno": "S8719174E",
                     "address": "644 YISHUN STREET 61 #11-312",
@@ -203,6 +214,10 @@
                     "serial": "-"
                 }
             ],
+            "loan": {
+                "progress": 43,
+                "transaction_date": "2024-01-04"
+            },
             "branch": "Singapore"
         },
         {
@@ -228,8 +243,9 @@
             "authority": "Central Police Div",
             "customer": [
                 {
+                    "id": 1,
                     "name": "LIM YONG SENG",
-                    "avatar": "https://reqres.in/img/faces/8-image.jpg",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
                     "idtype": "NRIC",
                     "idno": "S8719174E",
                     "address": "644 YISHUN STREET 61 #11-312",
@@ -266,6 +282,10 @@
                     "serial": "-"
                 }
             ],
+            "loan": {
+                "progress": 43,
+                "transaction_date": "2024-01-04"
+            },
             "branch": "Singapore"
         }
     ],
@@ -281,8 +301,8 @@
             "joinedOn": "2023-12-01",
             "lastActive": "5 hr ago",
             "contact": "012-3456789",
-            "remarks": "Caution List",
-            "remarksdetail": "Extention 1% -1/1/2014",
+            "status": "Caution List",
+            "remarks": "Extention 1% -1/1/2014",
             "branch": "Moneymax Group Pte Ltd (Boon Lay Branch)",
             "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
             "sex": "Male",
@@ -348,8 +368,8 @@
             "joinedOn": "2023-01-01",
             "lastActive": "15 min ago",
             "contact": "012-3456789",
-            "remarks": "-",
-            "remarksdetail": "",
+            "status": "Caution List",
+            "remarks": "",
             "branch": "Woodlands Branch",
             "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
             "sex": "Female",
@@ -403,8 +423,8 @@
             "joinedOn": "2023-12-01",
             "lastActive": "5 hr ago",
             "contact": "012-3456789",
-            "remarks": "Caution List",
-            "remarksdetail": "Extention 1% -1/1/2014",
+            "status": "CDD",
+            "remarks": "",
             "branch": "Moneymax Group Pte Ltd (Boon Lay Branch)",
             "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
             "sex": "Male",
@@ -458,12 +478,83 @@
                     "phone": "-"
                 }
             ]
+        },
+        {
+            "id": 4,
+            "name": "Murugesan Rajasekar",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg",
+            "nationality": "Singapore",
+            "email": "xyz123sekar@yahoo.com",
+            "idtype": "NRIC",
+            "idno": "S7785266B",
+            "joinedOn": "2023-12-01",
+            "lastActive": "5 hr ago",
+            "contact": "012-3456789",
+            "status": "CDD",
+            "remarks": "",
+            "branch": "Moneymax Group Pte Ltd (Boon Lay Branch)",
+            "address": "419 Canberra Road #02-395 750419",
+            "sex": "Male",
+            "race": "Indian",
+            "phone": "+65-89994266",
+            "exposure": "17,940.00",
+            "itemlist": [
+                {
+                    "id": "1",
+                    "pledge": "MY 10/21 00579 GOCVG",
+                    "ori_pledge": "MY 04/21 01222",
+                    "date": "07 Oct 2021",
+                    "val": "WLK",
+                    "weight": "53.50",
+                    "expiry": "07 Oct 2021",
+                    "closed": "-",
+                    "code": "AWAD07",
+                    "desc": [
+                        {
+                            "item": "1/GOLD NECKLACE [U]/22K"
+                        },
+                        {
+                            "item": "1/GOLD STONE PEARL NECKLACE [U]/22K"
+                        },
+                        {
+                            "item": "1/GOLD CHAIN [U]/22K"
+                        },
+                        {
+                            "item": "2/GOLD EAR CHAIN [U]/22K"
+                        },
+                        {
+                            "item": "1/GOLD BRACELET [U]/22K"
+                        }
+                    ],
+                    "status": "OPEN",
+                    "cdd": "no",
+                    "amount": "3,270.00"
+                }
+            ],
+            "guarantor": [
+                {
+                    "name": "Nagarajan Shebagavalli",
+                    "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                    "idtype": "NRIC",
+                    "idno": "S7981374E",
+                    "address": "419 Canberra Road #02-395 750419",
+                    "nationality": "Singapore",
+                    "sex": "Female",
+                    "race": "Indian",
+                    "email": "-",
+                    "phone": "-"
+                }
+            ]
         }
     ],
     "businesses": [
         {
             "id": 1,
-            "branch": "AH-MONEYMAX PTE LTD (ANG MO KIO BRANCH)",
+            "branch": "Ang Mo Kio",
+            "code": "AH",
+            "business": "Moneymax Pte Ltd",
+            "pledge_count": 2500,
+            "pledge_total": 34500,
             "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,8000.00",
@@ -473,7 +564,11 @@
         },
         {
             "id": 2,
-            "branch": "AK-MONEYMAX GROUP PTE LTD (CHENG SAN BRANCH)",
+            "branch": "Cheng San",
+            "code": "AK",
+            "business": "Moneymax Group Pte Ltd",
+            "pledge_count": 6550,
+            "pledge_total": 208700,
             "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,800.00",
@@ -483,7 +578,11 @@
         },
         {
             "id": 3,
-            "branch": "AM-MONEYMAX PTE LTD (AMK MRT BRANCH)",
+            "branch": "Amk Mrt",
+            "code": "AM",
+            "business": "Moneymax Pte Ltd",
+            "pledge_count": 2500,
+            "pledge_total": 34500,
             "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,800.00",
@@ -493,7 +592,11 @@
         },
         {
             "id": 4,
-            "branch": "BH-MONEYMAX PTE LTD (ZHENG HUA BRANCH)",
+            "branch": "Zheng Hua",
+            "code": "BH",
+            "business": "Moneymax Pte Ltd",
+            "pledge_count": 2500,
+            "pledge_total": 34500,
             "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,800.00",
@@ -503,7 +606,11 @@
         },
         {
             "id": 5,
-            "branch": "BJ-BAN JOO PAWNSHOP PTE LTD",
+            "branch": "Ban Joo",
+            "code": "BJ",
+            "business": "Ban Joo Pawnshop Pte Ltd",
+            "pledge_count": 2500,
+            "pledge_total": 34500,
             "date": "2022-01-12",
             "stock_in": "10,240.00",
             "stock_out": "10,800.00",
@@ -2759,6 +2866,69 @@
             "auctioned_count": 22,
             "auctioned_amount": 67718.00,
             "auctioned_interest": 6345.45
+        }
+    ],
+    "caution_list": [
+        {
+            "id": 1,
+            "seqid": 154,
+            "name": "Malik Noorzai",
+            "dob": "1957",
+            "passport": "FA0157612",
+            "nationality": "Afghanistan",
+            "listed_date": "4 Oct 2011"
+        },
+        {
+            "id": 2,
+            "seqid": 155,
+            "name": "Abdul Azziz Abbasin",
+            "dob": "1969",
+            "passport": "NA",
+            "nationality": "NA",
+            "listed_date": "4 Oct 2011"
+        },
+        {
+            "id": 3,
+            "seqid": 293,
+            "name": "Abdul Rahim Ba’aysir",
+            "dob": "16 Nov 1977",
+            "passport": "NA",
+            "nationality": "Indonesia",
+            "listed_date": "19 Jul 2011"
+        },
+        {
+            "id": 4,
+            "seqid": 312,
+            "name": "Amir Ali Chaudhry",
+            "dob": "3 Aug 1986",
+            "passport": "Pakistan number BN 4196361, issued on 28 Oct. 2008",
+            "nationality": "Pakistan",
+            "listed_date": "18 Oct 2012"
+        }
+    ],
+    "auction_list": [
+        {
+            "id": "1",
+            "code": "ER01",
+            "desc": "Gold Earring ",
+            "type": "24K",
+            "reserve_price": 350,
+            "highest_bid": 450,
+            "bid_no": 25,
+            "status": "Active",
+            "serial": "AKER0012-2",
+            "branch": "Ang Mo Kio"
+        },
+        {
+            "id": "2",
+            "code": "PD02",
+            "desc": "Gold Pendant",
+            "type": "24K",
+            "reserve_price": 1850,
+            "highest_bid": 2050,
+            "bid_no": 130,
+            "status": "Sold",
+            "branch": "Ang Mo Kio"
         }
     ]
 }
