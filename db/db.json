@@ -806,60 +806,142 @@
     ],
     "users": [
         {
-            "name": "John",
+            "user_id": "MMQ001",
+            "username": "Anis Suraya",
             "avatar": "https://reqres.in/img/faces/5-image.jpg",
-            "email": "MMQ012",
             "role": "Store Admin",
             "code": "",
-            "branch": "Head Office",
+            "branch": "Ang Mo Kio",
             "joinedOn": "2022-06-22",
+            "joinedTime": "9:45 AM",
             "lastActive": "40 min ago",
             "remarks": "-",
             "status": "Active"
         },
         {
-            "name": "Amin",
-            "avatar": "https://reqres.in/img/faces/4-image.jpg",
-            "email": "MMQ023",
-            "role": "Valuer",
-            "code": "A",
-            "branch": "Head Office",
-            "joinedOn": "2022-06-22",
-            "lastActive": "5 hr ago",
-            "remarks": "Transfered",
-            "status": "Active"
-        },
-        {
-            "name": "Shiella",
-            "avatar": "https://reqres.in/img/faces/3-image.jpg",
-            "email": "MMQ010",
-            "role": "RO",
+            "user_id": "MMQ002",
+            "username": "Fiona Lee",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "Branch Manager",
             "code": "",
-            "branch": "Branch",
+            "branch": "Ang Mo Kio",
             "joinedOn": "2022-06-22",
-            "lastActive": "5 hr ago",
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
             "remarks": "-",
             "status": "Active"
         },
         {
-            "name": "Anne",
-            "avatar": "https://reqres.in/img/faces/3-image.jpg",
-            "email": "MMQ028",
-            "role": "Admin Assistant",
+            "user_id": "MMQ003",
+            "username": "Esther Puyang",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "System Admin",
             "code": "",
-            "branch": "Branch",
+            "branch": "Head Office",
             "joinedOn": "2022-06-22",
-            "lastActive": "-",
-            "remarks": "Resigned",
-            "status": "Deactivated"
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "user_id": "MMQ004",
+            "username": "Khaliq Ahmad",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "Account",
+            "code": "",
+            "branch": "Ang Mo Kio",
+            "joinedOn": "2022-06-22",
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "user_id": "MMQ005",
+            "username": "Chris Lee",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "Branch Admin",
+            "code": "",
+            "branch": "Ang Mo Kio",
+            "joinedOn": "2022-06-22",
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "user_id": "MMQ006",
+            "username": "Gwen Tanin",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "Retail Officer",
+            "code": "",
+            "branch": "Cheng San",
+            "joinedOn": "2022-06-22",
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "user_id": "MMQ007",
+            "username": "Sam Kim",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "Retail Officer",
+            "code": "",
+            "branch": "Ang Mo Kio",
+            "joinedOn": "2022-06-22",
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "user_id": "MMQ008",
+            "username": "Raju Kumar",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "Valuer",
+            "code": "",
+            "branch": "Ang Mo Kio",
+            "joinedOn": "2022-06-22",
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "user_id": "MMQ009",
+            "username": "Hazirah Bujang",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "Branch Manager",
+            "code": "",
+            "branch": "Ban Joo",
+            "joinedOn": "2022-06-22",
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
+        },
+        {
+            "user_id": "MMQ010",
+            "username": "Lim Eng Hoon",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "role": "Retail Officer",
+            "code": "",
+            "branch": "Ang Mo Kio",
+            "joinedOn": "2022-06-22",
+            "joinedTime": "9:45 AM",
+            "lastActive": "40 min ago",
+            "remarks": "-",
+            "status": "Active"
         }
     ],
     "pawnshops": [
         {
             "id": 1,
             "code": "AH",
-            "name": "Moneymax Pte Ltd (Ang Mo Kio Branch)",
-            "short_name": "Ang Mo Kio Branch",
+            "long_name": "Moneymax Pte Ltd (Ang Mo Kio Branch)",
+            "name": "Ang Mo Kio",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -884,8 +966,8 @@
         {
             "id": 2,
             "code": "AK",
-            "name": "Moneymax Group Pte Ltd (Cheng San Branch)",
-            "short_name": "Cheng San Branch",
+            "long_name": "Moneymax Group Pte Ltd (Cheng San Branch)",
+            "name": "Cheng San",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -910,8 +992,8 @@
         {
             "id": 3,
             "code": "AM",
-            "name": "Moneymax Pte Ltd (Amk Mrt Branch)",
-            "short_name": "Amk Mrt Branch",
+            "long_name": "Moneymax Pte Ltd (Amk Mrt Branch)",
+            "name": "Amk Mrt",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -936,8 +1018,8 @@
         {
             "id": 4,
             "code": "BH",
-            "name": "Moneymax Pte Ltd (Zheng Hua Branch)",
-            "short_name": "Zheng Hua Branch",
+            "long_name": "Moneymax Pte Ltd (Zheng Hua Branch)",
+            "name": "Zheng Hua",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -962,8 +1044,8 @@
         {
             "id": 5,
             "code": "BJ",
-            "name": "Ban Joo Pawnshop Pte Ltd",
-            "short_name": "Ban Joo",
+            "long_name": "Ban Joo Pawnshop Pte Ltd",
+            "name": "Ban Joo",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -987,8 +1069,8 @@
         {
             "id": 6,
             "code": "BK",
-            "name": "Moneymax Pte Ltd (Bukit Gombak Branch)",
-            "short_name": "Bukit Gombak Branch",
+            "long_name": "Moneymax Pte Ltd (Bukit Gombak Branch)",
+            "name": "Bukit Gombak",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1013,8 +1095,8 @@
         {
             "id": 7,
             "code": "BL",
-            "name": "Moneymax Group Pte Ltd (Boon Lay Branch)",
-            "short_name": "Boon Lay Branch",
+            "long_name": "Moneymax Group Pte Ltd (Boon Lay Branch)",
+            "name": "Boon Lay",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1039,7 +1121,8 @@
         {
             "id": 8,
             "code": "BM",
-            "name": "Moneymax Pawnshop Pte Ltd (Bukit Merah Branch)",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Bukit Merah Branch)",
+            "name": "Bukit Merah",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1064,8 +1147,8 @@
         {
             "id": 9,
             "code": "BN",
-            "name": "Moneymax Pte Ltd (Bendemeer Branch)",
-            "short_name": "Bukit Merah Branch",
+            "long_name": "Moneymax Pte Ltd (Bendemeer Branch)",
+            "name": "Bendemeer",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1090,8 +1173,8 @@
         {
             "id": 10,
             "code": "BP",
-            "name": "Moneymax Pawnshop Pte Ltd (Bukit Panjang Branch)",
-            "short_name": "Bukit Panjang Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Bukit Panjang Branch)",
+            "name": "Bukit Panjang",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1116,8 +1199,8 @@
         {
             "id": 11,
             "code": "BS",
-            "name": "Moneymax Pte Ltd (Bishan Branch)",
-            "short_name": "Bishan Branch",
+            "long_name": "Moneymax Pte Ltd (Bishan Branch)",
+            "name": "Bishan",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1142,8 +1225,8 @@
         {
             "id": 12,
             "code": "CK",
-            "name": "Moneymax Group Pte Ltd (Choa Chu Kang Branch)",
-            "short_name": "Choa Chu Kang Branch",
+            "long_name": "Moneymax Group Pte Ltd (Choa Chu Kang Branch)",
+            "name": "Choa Chu Kang",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1168,8 +1251,8 @@
         {
             "id": 13,
             "code": "CP",
-            "name": "Moneymax Group Pte Ltd (Chong Pang Branch)",
-            "short_name": "Chong Pang Branch",
+            "long_name": "Moneymax Group Pte Ltd (Chong Pang Branch)",
+            "name": "Chong Pang",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1194,8 +1277,8 @@
         {
             "id": 14,
             "code": "CW",
-            "name": "Moneymax Express Pte Ltd (Causeway Point Branch)",
-            "short_name": "Causeway Point Branch",
+            "long_name": "Moneymax Express Pte Ltd (Causeway Point Branch)",
+            "name": "Causeway Point",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1220,8 +1303,8 @@
         {
             "id": 15,
             "code": "GE",
-            "name": "Moneymax Pawnshop Pte Ltd (Geylang Branch)",
-            "short_name": "Geylang Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Geylang Branch)",
+            "name": "Geylang",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1246,8 +1329,8 @@
         {
             "id": 16,
             "code": "HA",
-            "name": "Moneymax Group Pte Ltd (Hougang Mall Branch)",
-            "short_name": "Hougang Mall Branch",
+            "long_name": "Moneymax Group Pte Ltd (Hougang Mall Branch)",
+            "name": "Hougang Mall",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1272,8 +1355,8 @@
         {
             "id": 17,
             "code": "HH",
-            "name": "Moneymax Group Pte Ltd (Kovan Branch)",
-            "short_name": "Kovan Branch",
+            "long_name": "Moneymax Group Pte Ltd (Kovan Branch)",
+            "name": "Kovan",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1298,8 +1381,8 @@
         {
             "id": 18,
             "code": "HM",
-            "name": "Moneymax Pte Ltd (Hougang Branch)",
-            "short_name": "Hougang Branch",
+            "long_name": "Moneymax Pte Ltd (Hougang Branch)",
+            "name": "Hougang",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1324,8 +1407,8 @@
         {
             "id": 19,
             "code": "JC",
-            "name": "Moneymax Group Pte Ltd (Joo Chiat Branch)",
-            "short_name": "Joo Chiat Branch",
+            "long_name": "Moneymax Group Pte Ltd (Joo Chiat Branch)",
+            "name": "Joo Chiat",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1350,8 +1433,8 @@
         {
             "id": 20,
             "code": "JE",
-            "name": "Moneymax Group Pte Ltd (Jurong East Branch)",
-            "short_name": "Jurong East Branch",
+            "long_name": "Moneymax Group Pte Ltd (Jurong East Branch)",
+            "name": "Jurong East",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1376,8 +1459,8 @@
         {
             "id": 21,
             "code": "JP",
-            "name": "Moneymax Pte Ltd (Jurong Point Branch)",
-            "short_name": "Jurong Point Branch",
+            "long_name": "Moneymax Pte Ltd (Jurong Point Branch)",
+            "name": "Jurong Point",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1402,8 +1485,8 @@
         {
             "id": 22,
             "code": "JS",
-            "name": "Moneymax Group Pte Ltd (Junction 8)",
-            "short_name": "Junction 8",
+            "long_name": "Moneymax Group Pte Ltd (Junction 8)",
+            "name": "Junction 8",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1428,8 +1511,8 @@
         {
             "id": 23,
             "code": "JT",
-            "name": "Moneymax Group Pte Ltd (Jurong East Mrt Branch)",
-            "short_name": "Jurong East Mrt Branch",
+            "long_name": "Moneymax Group Pte Ltd (Jurong East Mrt Branch)",
+            "name": "Jurong East Mrt",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1454,8 +1537,8 @@
         {
             "id": 24,
             "code": "JW",
-            "name": "Moneymax Group Pte Ltd (Jurong West Branch)",
-            "short_name": "Jurong West Branch",
+            "long_name": "Moneymax Group Pte Ltd (Jurong West Branch)",
+            "name": "Jurong West",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1480,8 +1563,8 @@
         {
             "id": 25,
             "code": "LA",
-            "name": "Moneymax Express Pte Ltd (Lucky Plaza Branch)",
-            "short_name": "Lucky Plaza Branch",
+            "long_name": "Moneymax Express Pte Ltd (Lucky Plaza Branch)",
+            "name": "Lucky Plaza",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1506,8 +1589,8 @@
         {
             "id": 26,
             "code": "LK",
-            "name": "Moneymax Group Pte Ltd (Lucky Plaza Branch)",
-            "short_name": "Lucky Plaza Branch",
+            "long_name": "Moneymax Group Pte Ltd (Lucky Plaza Branch)",
+            "name": "Lucky Plaza",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1532,8 +1615,8 @@
         {
             "id": 27,
             "code": "LM",
-            "name": "Moneymax Group Pte Ltd (Lucky Plaza B1-04/05 Branch)",
-            "short_name": "Lucky Plaza B1-04/05 Branch",
+            "long_name": "Moneymax Group Pte Ltd (Lucky Plaza B1-04/05 Branch)",
+            "name": "Lucky Plaza B1-04/05",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1558,8 +1641,8 @@
         {
             "id": 28,
             "code": "MB",
-            "name": "Moneymax Pawnshop Pte Ltd (Bedok Branch)",
-            "short_name": "Bedok Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Bedok Branch)",
+            "name": "Bedok",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1584,8 +1667,8 @@
         {
             "id": 29,
             "code": "MC",
-            "name": "Moneymax Pawnshop Pte Ltd (Clementi Branch)",
-            "short_name": "Clementi Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Clementi Branch)",
+            "name": "Clementi",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1610,8 +1693,8 @@
         {
             "id": 30,
             "code": "MT",
-            "name": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
-            "short_name": "Tampines Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
+            "name": "Tampines",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1636,8 +1719,8 @@
         {
             "id": 31,
             "code": "MY",
-            "name": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
-            "short_name": "Yishun Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
+            "name": "Yishun",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1662,8 +1745,8 @@
         {
             "id": 32,
             "code": "NJ",
-            "name": "Moneymax Group Pte Ltd (Serangoon Nex Branch)",
-            "short_name": "Serangoon Nex Branch",
+            "long_name": "Moneymax Group Pte Ltd (Serangoon Nex Branch)",
+            "name": "Serangoon Nex",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1688,8 +1771,8 @@
         {
             "id": 33,
             "code": "PB",
-            "name": "Moneymax Pte Ltd (Paya Lebar Mrt Branch)",
-            "short_name": "Paya Lebar Mrt Branch",
+            "long_name": "Moneymax Pte Ltd (Paya Lebar Mrt Branch)",
+            "name": "Paya Lebar Mrt",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1714,8 +1797,8 @@
         {
             "id": 34,
             "code": "PJ",
-            "name": "Moneymax Express Pte Ltd (Poiz Centre Branch)",
-            "short_name": "Poiz Centre Branch",
+            "long_name": "Moneymax Express Pte Ltd (Poiz Centre Branch)",
+            "name": "Poiz Centre",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1740,8 +1823,8 @@
         {
             "id": 35,
             "code": "PP",
-            "name": "Moneymax Group Pte Ltd (Peoples Park Branch)",
-            "short_name": "Peoples Park Branch",
+            "long_name": "Moneymax Group Pte Ltd (Peoples Park Branch)",
+            "name": "Peoples Park",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1766,8 +1849,8 @@
         {
             "id": 36,
             "code": "RH",
-            "name": "Moneymax Pte Ltd (Redhill Branch)",
-            "short_name": "Redhill Branch",
+            "long_name": "Moneymax Pte Ltd (Redhill Branch)",
+            "name": "Redhill",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1792,8 +1875,8 @@
         {
             "id": 37,
             "code": "RV",
-            "name": "Moneymax Group Pte Ltd (Sengkang Branch)",
-            "short_name": "Sengkang Branch",
+            "long_name": "Moneymax Group Pte Ltd (Sengkang Branch)",
+            "name": "Sengkang",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1818,8 +1901,8 @@
         {
             "id": 38,
             "code": "SE",
-            "name": "Moneymax Group Pte Ltd (Little India 160 Branch)",
-            "short_name": "Little India 160 Branch",
+            "long_name": "Moneymax Group Pte Ltd (Little India 160 Branch)",
+            "name": "Little India 160",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1844,8 +1927,8 @@
         {
             "id": 39,
             "code": "SI",
-            "name": "Sin Lian Pawnshop",
-            "short_name": "Sin Lian",
+            "long_name": "Sin Lian Pawnshop",
+            "name": "Sin Lian",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1869,8 +1952,8 @@
         {
             "id": 40,
             "code": "SL",
-            "name": "Moneymax Group Pte Ltd (Soon Lee Branch)",
-            "short_name": "Soon Lee Branch",
+            "long_name": "Moneymax Group Pte Ltd (Soon Lee Branch)",
+            "name": "Soon Lee",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1895,8 +1978,8 @@
         {
             "id": 41,
             "code": "SN",
-            "name": "Moneymax Group Pte Ltd (Serangoon Branch)",
-            "short_name": "Serangoon Branch",
+            "long_name": "Moneymax Group Pte Ltd (Serangoon Branch)",
+            "name": "Serangoon",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1921,8 +2004,8 @@
         {
             "id": 42,
             "code": "SS",
-            "name": "Moneymax Express Pte Ltd (Little India Branch)",
-            "short_name": "Little India Branch",
+            "long_name": "Moneymax Express Pte Ltd (Little India Branch)",
+            "name": "Little India",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1947,8 +2030,8 @@
         {
             "id": 43,
             "code": "ST",
-            "name": "Moneymax Group Pte Ltd (Tekka Branch)",
-            "short_name": "Tekka Branch",
+            "long_name": "Moneymax Group Pte Ltd (Tekka Branch)",
+            "name": "Tekka",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1973,8 +2056,8 @@
         {
             "id": 44,
             "code": "SW",
-            "name": "Moneymax Pte Ltd (Sembawang Mrt Branch)",
-            "short_name": "Sembawang Mrt Branch",
+            "long_name": "Moneymax Pte Ltd (Sembawang Mrt Branch)",
+            "name": "Sembawang Mrt",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -1999,8 +2082,8 @@
         {
             "id": 45,
             "code": "TA",
-            "name": "Moneymax Group Pte Ltd (Tampines St 21 Branch)",
-            "short_name": "Tampines St 21 Branch",
+            "long_name": "Moneymax Group Pte Ltd (Tampines St 21 Branch)",
+            "name": "Tampines St 21",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -2025,8 +2108,8 @@
         {
             "id": 46,
             "code": "TG",
-            "name": "Moneymax Express Pte Ltd (Tanjong Pagar)",
-            "short_name": "Tanjong Pagar",
+            "long_name": "Moneymax Express Pte Ltd (Tanjong Pagar)",
+            "name": "Tanjong Pagar",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -2050,8 +2133,8 @@
         {
             "id": 47,
             "code": "TP",
-            "name": "Moneymax Pawnshop Pte Ltd (Toa Payoh Branch)",
-            "short_name": "Toa Payoh Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Toa Payoh Branch)",
+            "name": "Toa Payoh",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -2076,8 +2159,8 @@
         {
             "id": 48,
             "code": "WL",
-            "name": "Moneymax Pawnshop Pte Ltd (Woodlands Branch)",
-            "short_name": "Woodlands Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Woodlands Branch)",
+            "name": "Woodlands",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -2102,8 +2185,8 @@
         {
             "id": 49,
             "code": "WM",
-            "name": "Moneymax Pawnshop Pte Ltd (Woodlands Mrt Branch)",
-            "short_name": "Woodlands Mrt Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Woodlands Mrt Branch)",
+            "name": "Woodlands Mrt",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -2128,8 +2211,8 @@
         {
             "id": 50,
             "code": "WS",
-            "name": "Moneymax Pawnshop Pte Ltd (Pasir Ris Branch)",
-            "short_name": "Pasir Ris Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Pasir Ris Branch)",
+            "name": "Pasir Ris",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -2154,8 +2237,8 @@
         {
             "id": 51,
             "code": "YT",
-            "name": "Moneymax Pawnshop Pte Ltd (Yew Tee Branch)",
-            "short_name": "Yew Tee Branch",
+            "long_name": "Moneymax Pawnshop Pte Ltd (Yew Tee Branch)",
+            "name": "Yew Tee",
             "rcb_no": "200905887G",
             "new_ticket_format": "Yes",
             "zone": "Zone H",
@@ -2181,80 +2264,102 @@
     "articleItems": [
         {
             "id": 1,
-            "code": "01",
+            "code": "I001",
             "desc": "Ring",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 2,
-            "code": "02",
+            "code": "I002",
             "desc": "Chain",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 3,
-            "code": "03",
+            "code": "I003",
             "desc": "Pendant",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 4,
-            "code": "04",
+            "code": "I004",
             "desc": "Bracelet",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 5,
-            "code": "05",
+            "code": "I005",
             "desc": "Bangle",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 6,
-            "code": "06",
+            "code": "I006",
             "desc": "Earring",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 7,
-            "code": "07",
+            "code": "I007",
             "desc": "Earstud",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 8,
-            "code": "08",
+            "code": "I008",
             "desc": "Ear Pendant",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 9,
-            "code": "09",
+            "code": "I009",
             "desc": "Necklace",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 10,
-            "code": "10",
+            "code": "I010",
             "desc": "Nosestud",
             "serial": "No",
-            "weight": "Yes"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         },
         {
             "id": 11,
-            "code": "11",
+            "code": "I011",
             "desc": "assad",
             "serial": "Yes",
-            "weight": "No"
+            "weight": "Yes",
+            "update_on": "2022-06-22",
+            "update_time": "9:45 AM"
         }
     ],
     "articleMaterials": [
@@ -2929,6 +3034,425 @@
             "bid_no": 130,
             "status": "Sold",
             "branch": "Ang Mo Kio"
+        }
+    ],
+    "user_manage": [
+        {
+            "users": [
+                {
+                    "user_id": "MMQ001",
+                    "username": "Anis Suraya",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Store Admin",
+                    "code": "",
+                    "branch": "Ang Mo Kio",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ002",
+                    "username": "Fiona Lee",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Branch Manager",
+                    "code": "",
+                    "branch": "Ang Mo Kio",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ003",
+                    "username": "Esther Puyang",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "System Admin",
+                    "code": "",
+                    "branch": "Head Office",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ004",
+                    "username": "Khaliq Ahmad",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Account",
+                    "code": "",
+                    "branch": "Ang Mo Kio",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ005",
+                    "username": "Chris Lee",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Branch Admin",
+                    "code": "",
+                    "branch": "Ang Mo Kio",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ006",
+                    "username": "Gwen Tanin",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Retail Officer",
+                    "code": "",
+                    "branch": "Cheng San",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ007",
+                    "username": "Sam Kim",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Retail Officer",
+                    "code": "",
+                    "branch": "Ang Mo Kio",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ008",
+                    "username": "Raju Kumar",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Valuer",
+                    "code": "",
+                    "branch": "Ang Mo Kio",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ009",
+                    "username": "Hazirah Bujang",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Branch Manager",
+                    "code": "",
+                    "branch": "Ban Joo",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                },
+                {
+                    "user_id": "MMQ010",
+                    "username": "Lim Eng Hoon",
+                    "avatar": "https://reqres.in/img/faces/5-image.jpg",
+                    "role": "Retail Officer",
+                    "code": "",
+                    "branch": "Ang Mo Kio",
+                    "joinedOn": "2022-06-22",
+                    "joinedTime": "9:45 AM",
+                    "lastActive": "40 min ago",
+                    "remarks": "-",
+                    "status": "Active"
+                }
+            ]
+        },
+        {
+            "rolespermission": [
+                {
+                    "role_id": "R001",
+                    "role": "Account",
+                    "access_list": [
+                        {
+                            "id": "1",
+                            "module": "Financial Reports"
+                        },
+                        {
+                            "id": "2",
+                            "module": "Branch Reports"
+                        },
+                        {
+                            "id": "3",
+                            "module": "Transaction"
+                        },
+                        {
+                            "id": "4",
+                            "module": "Auction"
+                        }
+                    ],
+                    "create_date": "2022-06-22"
+                },
+                {
+                    "role_id": "R002",
+                    "role": "Branch Admin",
+                    "access_list": [
+                        {
+                            "id": "1",
+                            "module": "Financial Reports"
+                        },
+                        {
+                            "id": "2",
+                            "module": "Branch Reports"
+                        },
+                        {
+                            "id": "3",
+                            "module": "Transaction"
+                        },
+                        {
+                            "id": "4",
+                            "module": "Auction"
+                        }
+                    ],
+                    "create_date": "2022-06-22",
+                    "create_time": "9:45 AM"
+                },
+                {
+                    "role_id": "R003",
+                    "role": "Branch Manager",
+                    "access_list": [
+                        {
+                            "id": "1",
+                            "module": "Financial Reports"
+                        },
+                        {
+                            "id": "2",
+                            "module": "Branch Reports"
+                        },
+                        {
+                            "id": "3",
+                            "module": "Transaction"
+                        },
+                        {
+                            "id": "4",
+                            "module": "Auction"
+                        }
+                    ],
+                    "create_date": "2022-06-22",
+                    "create_time": "9:45 AM"
+                },
+                {
+                    "role_id": "R004",
+                    "role": "Retail Officer",
+                    "access_list": [
+                        {
+                            "id": "2",
+                            "module": "Branch Reports"
+                        },
+                        {
+                            "id": "3",
+                            "module": "Inventory"
+                        },
+                        {
+                            "id": "4",
+                            "module": "Pledge"
+                        }
+                    ],
+                    "create_date": "2022-06-22",
+                    "create_time": "9:45 AM"
+                },
+                {
+                    "role_id": "R005",
+                    "role": "System Admin",
+                    "access_list": [
+                        {
+                            "id": "1",
+                            "module": "All"
+                        }
+                    ],
+                    "create_date": "2022-06-22",
+                    "create_time": "9:45 AM"
+                }
+            ]
+        }
+    ],
+    "roles_permission": [
+        {
+            "role_id": "R001",
+            "role": "Account",
+            "branch": "Ang Mo Kio",
+            "access_list": [
+                {
+                    "id": "1",
+                    "module": "Financial Reports"
+                },
+                {
+                    "id": "2",
+                    "module": "Branch Reports"
+                },
+                {
+                    "id": "3",
+                    "module": "Transaction"
+                },
+                {
+                    "id": "4",
+                    "module": "Auction"
+                }
+            ],
+            "create_date": "2022-06-22"
+        },
+        {
+            "role_id": "R002",
+            "role": "Branch Admin",
+            "branch": "Ang Mo Kio",
+            "access_list": [
+                {
+                    "id": "1",
+                    "module": "Financial Reports"
+                },
+                {
+                    "id": "2",
+                    "module": "Branch Reports"
+                },
+                {
+                    "id": "3",
+                    "module": "Transaction"
+                },
+                {
+                    "id": "4",
+                    "module": "Auction"
+                }
+            ],
+            "create_date": "2022-06-22",
+            "create_time": "9:45 AM"
+        },
+        {
+            "role_id": "R003",
+            "role": "Branch Manager",
+            "branch": "Ang Mo Kio",
+            "access_list": [
+                {
+                    "id": "1",
+                    "module": "Financial Reports"
+                },
+                {
+                    "id": "2",
+                    "module": "Branch Reports"
+                },
+                {
+                    "id": "3",
+                    "module": "Transaction"
+                },
+                {
+                    "id": "4",
+                    "module": "Auction"
+                }
+            ],
+            "create_date": "2022-06-22",
+            "create_time": "9:45 AM"
+        },
+        {
+            "role_id": "R004",
+            "role": "Retail Officer",
+            "branch": "Ang Mo Kio",
+            "access_list": [
+                {
+                    "id": "2",
+                    "module": "Branch Reports"
+                },
+                {
+                    "id": "3",
+                    "module": "Inventory"
+                },
+                {
+                    "id": "4",
+                    "module": "Pledge"
+                }
+            ],
+            "create_date": "2022-06-22",
+            "create_time": "9:45 AM"
+        },
+        {
+            "role_id": "R005",
+            "role": "System Admin",
+            "branch": "Ang Mo Kio",
+            "access_list": [
+                {
+                    "id": "1",
+                    "module": "All"
+                }
+            ],
+            "create_date": "2022-06-22",
+            "create_time": "9:45 AM"
+        }
+    ],
+    "pledge_params": [
+        {
+            "ref_id": "P001",
+            "parameter": "Pledge Duration",
+            "unit": "Month",
+            "value": "6",
+            "update_on": "2022-03-13",
+            "update_time": "9:45 AM"
+        },
+        {
+            "ref_id": "P002",
+            "parameter": "Monthly pledge interest rate",
+            "unit": "%",
+            "value": "1.5",
+            "update_on": "2022-03-13",
+            "update_time": "9:45 AM"
+        }
+    ],
+    "customer_params": [
+        {
+            "ref_id": "C001",
+            "parameter": "Enable Singpass Myinfo",
+            "unit": "NA",
+            "value": "No",
+            "update_on": "2022-03-13",
+            "update_time": "9:45 AM"
+        }
+    ],
+    "report_manage": [
+        {
+            "ref_id": "R001",
+            "report_name": "Pledge Listing",
+            "group": "Pledge",
+            "auto": "Yes",
+            "enable": "Yes",
+            "update_on": "2022-03-13",
+            "update_time": "9:45 AM"
+        },
+        {
+            "ref_id": "R002",
+            "report_name": "Valuation Review",
+            "group": "Pledge",
+            "auto": "Yes",
+            "enable": "Yes",
+            "update_on": "2022-03-13",
+            "update_time": "9:45 AM"
+        },
+        {
+            "ref_id": "R003",
+            "report_name": "New Customer",
+            "group": "Customer",
+            "auto": "Yes",
+            "enable": "Yes",
+            "update_on": "2022-03-13",
+            "update_time": "9:45 AM"
+        },
+        {
+            "ref_id": "R004",
+            "report_name": "Outstanding Customer Listing",
+            "group": "Customer",
+            "auto": "Yes",
+            "enable": "Yes",
+            "update_on": "2022-03-13",
+            "update_time": "9:45 AM"
         }
     ]
 }
