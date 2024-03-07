@@ -1,19 +1,2240 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "id": 1,
+    "pledge": "MY 04/10 00291",
+    "status": "OPEN",
+    "date": "2023-12-23",
+    "expiry": "2023-12-24",
+    "closed": "2023-12-23",
+    "alpha": "MY 12/22 VABYX",
+    "valuer": "WLK- Avian U Yin Torn",
+    "original_pledge": "MY 12/22 00002",
+    "weight": "60.90",
+    "amount": 3600,
+    "interest": "23",
+    "lost": "Yes",
+    "lost_date": "2024-01-04",
+    "ltd_format": "sdfdfs",
+    "reprint_cnt": "1",
+    "receipt": "fdf",
+    "customer": [
+      {
+        "id": 4,
+        "name": "Murugesan Rajasekar",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S7785266B",
+        "address": "419 Canberra Road #02-395 750419",
+        "nationality": "Singapore",
+        "sex": "Male",
+        "race": "Indian",
+        "email": "xyz123sekar@yahoo.com",
+        "phone": "+65-89994266"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Nagarajan Shebagavalli",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S7981374E",
+        "address": "419 Canberra Road #02-395 750419",
+        "nationality": "Singapore",
+        "sex": "Female",
+        "race": "Indian",
+        "email": "-",
+        "phone": "-"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "1",
+        "no": "1",
+        "code": "AG01",
+        "desc": "GOLD RING [U]",
+        "quantity": "4",
+        "quality": "20K 22K",
+        "remarks": "-",
+        "serial": "-"
+      },
+      {
+        "id": "2",
+        "no": "2",
+        "code": "AG02",
+        "desc": "GOLD RING [U]",
+        "quantity": "4",
+        "quality": "20K 22K",
+        "remarks": "-",
+        "serial": "-"
+      }
+    ],
+    "loan": {
+      "progress": 70,
+      "transaction_date": "2024-01-04"
+    },
+    "branch": "Malaysia"
+  },
+  {
+    "id": 4,
+    "pledge": "MY 04/10 00291",
+    "status": "REDEEMED",
+    "date": "2023-12-23",
+    "expiry": "2023-12-23",
+    "closed": "2023-12-23",
+    "seized": "",
+    "alpha": "MY 12/22 VABYX",
+    "valuer": "WLK- Avian U Yin Torn",
+    "original_pledge": "MY 12/22 00002",
+    "weight": "60.90",
+    "amount": 3600,
+    "interest": "-",
+    "lost": "",
+    "lost_date": "",
+    "ltd_format": "",
+    "reprint_cnt": "",
+    "receipt": "",
+    "noarticles": 1,
+    "authority": "-",
+    "customer": [
+      {
+        "id": 4,
+        "name": "Murugesan Rajasekar",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S7785266B",
+        "address": "419 Canberra Road #02-395 750419",
+        "nationality": "Singapore",
+        "sex": "Male",
+        "race": "Indian",
+        "email": "xyz123sekar@yahoo.com",
+        "phone": "+65-89994266"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Nagarajan Shebagavalli",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S7981374E",
+        "address": "419 Canberra Road #02-395 750419",
+        "nationality": "Singapore",
+        "sex": "Female",
+        "race": "Indian",
+        "email": "-",
+        "phone": "-"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "1",
+        "no": "1",
+        "code": "AG01",
+        "desc": "GOLD RING [U]",
+        "quantity": "4",
+        "quality": "20K 22K",
+        "remarks": "-",
+        "serial": "-"
+      },
+      {
+        "id": "2",
+        "no": "2",
+        "code": "AG02",
+        "desc": "GOLD RING [U]",
+        "quantity": "4",
+        "quality": "20K 22K",
+        "remarks": "-",
+        "serial": "-"
+      }
+    ],
+    "loan": {
+      "progress": 100,
+      "transaction_date": "2024-01-04"
+    },
+    "branch": "Malaysia"
+  },
+  {
+    "id": 5,
+    "pledge": "MY 03/11 02423",
+    "status": "SEIZED",
+    "date": "2023-12-23",
+    "expiry": "2023-12-23",
+    "closed": "2023-12-23",
+    "alpha": "MY 03/11 02423",
+    "valuer": "B - NG BOON MENG",
+    "original_pledge": "MY 03/11 02423",
+    "weight": "1.00",
+    "amount": 800,
+    "interest": "-",
+    "lost": "",
+    "lost_date": "",
+    "ltd_format": "",
+    "reprint_cnt": "",
+    "receipt": "",
+    "noarticles": 1,
+    "authority": "Central Police Div",
+    "customer": [
+      {
+        "id": 1,
+        "name": "LIM YONG SENG",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8719174E",
+        "address": "644 YISHUN STREET 61 #11-312",
+        "nationality": "Singapore",
+        "sex": "Male",
+        "race": "Chinese",
+        "email": "-",
+        "phone": "+65-99998984"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "SHIRLEY GO XUE YU",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg",
+        "idno": "S9026149E",
+        "idtype": "NRIC",
+        "address": "644 YISHUN STREET 61 #11-312",
+        "nationality": "Singapore",
+        "sex": "Female",
+        "race": "Chinese",
+        "email": "-",
+        "phone": "-"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "1",
+        "no": "1",
+        "code": "AWAD07",
+        "desc": "K WHITE DIAMOND EARSTUD [D]",
+        "quantity": "2",
+        "quality": "18K",
+        "remarks": "-",
+        "serial": "-"
+      }
+    ],
+    "loan": {
+      "progress": 43,
+      "transaction_date": "2024-01-04"
+    },
+    "branch": "Singapore"
+  },
+  {
+    "id": 6,
+    "pledge": "MY 03/11 02423",
+    "status": "EXPIRING",
+    "date": "2011-03-19",
+    "expiry": "2011-09-18",
+    "seized": "2011-03-22",
+    "closed": "-",
+    "alpha": "MY 03/11 02423",
+    "valuer": "B - NG BOON MENG",
+    "original_pledge": "MY 03/11 02423",
+    "weight": "1.00",
+    "amount": 800,
+    "interest": "-",
+    "lost": "",
+    "lost_date": "",
+    "ltd_format": "",
+    "reprint_cnt": "",
+    "receipt": "",
+    "noarticles": 1,
+    "authority": "Central Police Div",
+    "customer": [
+      {
+        "id": 1,
+        "name": "LIM YONG SENG",
+        "avatar": "https://reqres.in/img/faces/1-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8719174E",
+        "address": "644 YISHUN STREET 61 #11-312",
+        "nationality": "Singapore",
+        "sex": "Male",
+        "race": "Chinese",
+        "email": "-",
+        "phone": "+65-99998984"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "SHIRLEY GO XUE YU",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S9026149E",
+        "address": "644 YISHUN STREET 61 #11-312",
+        "nationality": "Singapore",
+        "sex": "Female",
+        "race": "Chinese",
+        "email": "-",
+        "phone": "-"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "1",
+        "no": "1",
+        "code": "AWAD07",
+        "desc": "K WHITE DIAMOND EARSTUD [D]",
+        "quantity": "2",
+        "quality": "18K",
+        "remarks": "-",
+        "serial": "-"
+      }
+    ],
+    "loan": {
+      "progress": 43,
+      "transaction_date": "2024-01-04"
+    },
+    "branch": "Singapore"
+  },
+  {
+    "id": 24,
+    "pledge": "US 09/10 00567",
+    "status": "FORFEITED",
+    "date": "2024-02-28",
+    "expiry": "2024-03-28",
+    "closed": "2024-03-10",
+    "alpha": "US 12/23 XYZAB",
+    "valuer": "Gemstone Assessments LLC",
+    "original_pledge": "US 12/23 00025",
+    "weight": "56.80",
+    "amount": 3300,
+    "interest": "15",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "asdfghj",
+    "reprint_cnt": "0",
+    "receipt": "zxcvb",
+    "customer": [
+      {
+        "id": 27,
+        "name": "Olivia Smith",
+        "avatar": "https://reqres.in/img/faces/274-image.jpg",
+        "idtype": "Social Security",
+        "idno": "SSN123456",
+        "address": "789 Maple Avenue #07-890 200789",
+        "nationality": "United States",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "olivia.smith@example.com",
+        "phone": "+1-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "William Johnson",
+        "avatar": "https://reqres.in/img/faces/280-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Pine Street #12-567 300456",
+        "nationality": "United States",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "william.johnson@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "25",
+        "no": "25",
+        "code": "SA04",
+        "desc": "SAPPHIRE NECKLACE",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Princess-cut sapphires",
+        "serial": "S67890"
+      }
+    ],
+    "loan": {
+      "progress": 0,
+      "transaction_date": null
+    },
+    "branch": "United States"
+  },
+  {
+    "id": 25,
+    "pledge": "SG 03/12 00678",
+    "status": "FORFEITED",
+    "date": "2024-03-15",
+    "expiry": "2024-04-15",
+    "closed": "2024-04-05",
+    "alpha": "SG 12/23 ABCDE",
+    "valuer": "Singapore Gem Valuations",
+    "original_pledge": "SG 12/23 00026",
+    "weight": "61.25",
+    "amount": 3600,
+    "interest": "17",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "qwerty",
+    "reprint_cnt": "1",
+    "receipt": "zxcvb",
+    "customer": [
+      {
+        "id": 28,
+        "name": "Ethan Lim",
+        "avatar": "https://reqres.in/img/faces/286-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8881234A",
+        "address": "789 Orchard Road #07-345 238765",
+        "nationality": "Singapore",
+        "sex": "Male",
+        "race": "Chinese",
+        "email": "ethan.lim@example.com",
+        "phone": "+65-87654321"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Leah Wong",
+        "avatar": "https://reqres.in/img/faces/292-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8987654B",
+        "address": "456 Clementi Street #12-567 120456",
+        "nationality": "Singapore",
+        "sex": "Female",
+        "race": "Chinese",
+        "email": "leah.wong@example.com",
+        "phone": "+65-98765432"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "26",
+        "no": "26",
+        "code": "RU04",
+        "desc": "RUBY BRACELET",
+        "quantity": "1",
+        "quality": "20K",
+        "remarks": "Oval-cut rubies",
+        "serial": "R67890"
+      }
+    ],
+    "loan": {
+      "progress": 0,
+      "transaction_date": null
+    },
+    "branch": "Singapore"
+  },
+  {
+    "id": 26,
+    "pledge": "IN 05/18 00987",
+    "status": "FORFEITED",
+    "date": "2024-02-10",
+    "expiry": "2024-03-10",
+    "closed": "2024-02-28",
+    "alpha": "IN 12/23 LMNOP",
+    "valuer": "Mumbai Gem Appraisals",
+    "original_pledge": "IN 12/23 00027",
+    "weight": "47.80",
+    "amount": 2800,
+    "interest": "15",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "hjkl78",
+    "reprint_cnt": "2",
+    "receipt": "ghjkl",
+    "customer": [
+      {
+        "id": 29,
+        "name": "Aarav Patel",
+        "avatar": "https://reqres.in/img/faces/298-image.jpg",
+        "idtype": "Aadhar Card",
+        "idno": "A1234567890",
+        "address": "789 Mumbai Street #10-234 400789",
+        "nationality": "India",
+        "sex": "Male",
+        "race": "Asian",
+        "email": "aarav.patel@example.com",
+        "phone": "+91-7890123456"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Ananya Gupta",
+        "avatar": "https://reqres.in/img/faces/304-image.jpg",
+        "idtype": "PAN Card",
+        "idno": "ABCDE1234F",
+        "address": "456 Delhi Road #15-456 110456",
+        "nationality": "India",
+        "sex": "Female",
+        "race": "Asian",
+        "email": "ananya.gupta@example.com",
+        "phone": "+91-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "27",
+        "no": "27",
+        "code": "EM06",
+        "desc": "EMERALD RING",
+        "quantity": "1",
+        "quality": "22K",
+        "remarks": "Oval-cut emerald",
+        "serial": "E67890"
+      }
+    ],
+    "loan": {
+      "progress": 0,
+      "transaction_date": null
+    },
+    "branch": "India"
+  },
+  {
+    "id": 27,
+    "pledge": "MY 11/28 00543",
+    "status": "FORFEITED",
+    "date": "2024-03-10",
+    "expiry": "2024-04-10",
+    "closed": "2024-04-01",
+    "alpha": "MY 12/23 JKLPQ",
+    "valuer": "Kuala Lumpur Gem Valuations",
+    "original_pledge": "MY 12/23 00028",
+    "weight": "54.30",
+    "amount": 3200,
+    "interest": "16",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "mnbvcx",
+    "reprint_cnt": "1",
+    "receipt": "asdfg",
+    "customer": [
+      {
+        "id": 30,
+        "name": "Nurul Abdullah",
+        "avatar": "https://reqres.in/img/faces/310-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8881234A",
+        "address": "789 Kuala Lumpur Street #07-345 560789",
+        "nationality": "Malaysia",
+        "sex": "Female",
+        "race": "Malay",
+        "email": "nurul.abdullah@example.com",
+        "phone": "+60-87654321"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Ismail Ibrahim",
+        "avatar": "https://reqres.in/img/faces/316-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8987654B",
+        "address": "456 Petaling Jaya Road #12-567 460456",
+        "nationality": "Malaysia",
+        "sex": "Male",
+        "race": "Malay",
+        "email": "ismail.ibrahim@example.com",
+        "phone": "+60-98765432"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "28",
+        "no": "28",
+        "code": "TO04",
+        "desc": "TOURMALINE RING",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Multicolored stones",
+        "serial": "T67890"
+      }
+    ],
+    "loan": {
+      "progress": 0,
+      "transaction_date": null
+    },
+    "branch": "Malaysia"
+  },
+  {
+    "id": 28,
+    "pledge": "CA 04/15 00876",
+    "status": "FORFEITED",
+    "date": "2024-01-25",
+    "expiry": "2024-02-25",
+    "closed": "2024-02-15",
+    "alpha": "CA 12/23 ABCDE",
+    "valuer": "Canadian Gem Authority",
+    "original_pledge": "CA 12/23 00029",
+    "weight": "62.80",
+    "amount": 3700,
+    "interest": "18",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "qwerty",
+    "reprint_cnt": "2",
+    "receipt": "zxcvb",
+    "customer": [
+      {
+        "id": 31,
+        "name": "Sophia Martin",
+        "avatar": "https://reqres.in/img/faces/322-image.jpg",
+        "idtype": "Social Insurance Number",
+        "idno": "SIN123456",
+        "address": "789 Maple Avenue #07-890 200789",
+        "nationality": "Canada",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "sophia.martin@example.com",
+        "phone": "+1-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Ethan Davis",
+        "avatar": "https://reqres.in/img/faces/328-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Pine Street #12-567 300456",
+        "nationality": "Canada",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "ethan.davis@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "29",
+        "no": "29",
+        "code": "DI05",
+        "desc": "DIAMOND BRACELET",
+        "quantity": "1",
+        "quality": "22K",
+        "remarks": "Round-cut diamonds",
+        "serial": "D67890"
+      }
+    ],
+    "loan": {
+      "progress": 0,
+      "transaction_date": null
+    },
+    "branch": "Canada"
+  },
+  {
+    "id": 29,
+    "pledge": "UK 08/22 00543",
+    "status": "FORFEITED",
+    "date": "2024-02-15",
+    "expiry": "2024-03-15",
+    "closed": "2024-03-05",
+    "alpha": "UK 12/23 JKLPQ",
+    "valuer": "Britannia Gem Assessors",
+    "original_pledge": "UK 12/23 00030",
+    "weight": "49.50",
+    "amount": 2900,
+    "interest": "16",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "mnbvcx",
+    "reprint_cnt": "1",
+    "receipt": "asdfg",
+    "customer": [
+      {
+        "id": 32,
+        "name": "Aiden Brown",
+        "avatar": "https://reqres.in/img/faces/334-image.jpg",
+        "idtype": "Passport",
+        "idno": "P678901",
+        "address": "789 Baker Street #07-345 200789",
+        "nationality": "United Kingdom",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "aiden.brown@example.com",
+        "phone": "+44-6789012345"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Emma Taylor",
+        "avatar": "https://reqres.in/img/faces/340-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL345678",
+        "address": "456 Oxford Road #12-567 300456",
+        "nationality": "United Kingdom",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "emma.taylor@example.com",
+        "phone": "+44-3456789012"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "30",
+        "no": "30",
+        "code": "AM05",
+        "desc": "AMETHYST BRACELET",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Heart-shaped amethysts",
+        "serial": "A67890"
+      }
+    ],
+    "loan": {
+      "progress": 0,
+      "transaction_date": null
+    },
+    "branch": "United Kingdom"
+  },
+  {
+    "id": 30,
+    "pledge": "AU 01/05 00876",
+    "status": "FORFEITED",
+    "date": "2024-03-01",
+    "expiry": "2024-04-01",
+    "closed": "2024-03-20",
+    "alpha": "AU 12/23 ABCDE",
+    "valuer": "Australian Gem Appraisers",
+    "original_pledge": "AU 12/23 00031",
+    "weight": "55.80",
+    "amount": 3400,
+    "interest": "17",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "qwerty",
+    "reprint_cnt": "2",
+    "receipt": "zxcvb",
+    "customer": [
+      {
+        "id": 33,
+        "name": "Lily Wilson",
+        "avatar": "https://reqres.in/img/faces/346-image.jpg",
+        "idtype": "Passport",
+        "idno": "P789012",
+        "address": "789 Sydney Street #10-123 200789",
+        "nationality": "Australia",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "lily.wilson@example.com",
+        "phone": "+61-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Noah Smith",
+        "avatar": "https://reqres.in/img/faces/352-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Melbourne Road #15-456 300456",
+        "nationality": "Australia",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "noah.smith@example.com",
+        "phone": "+61-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "31",
+        "no": "31",
+        "code": "DI06",
+        "desc": "DIAMOND NECKLACE",
+        "quantity": "1",
+        "quality": "22K",
+        "remarks": "Princess-cut diamonds",
+        "serial": "D67890"
+      }
+    ],
+    "loan": {
+      "progress": 0,
+      "transaction_date": null
+    },
+    "branch": "Australia"
+  },
+  {
+    "id": 101,
+    "pledge": "AB 01/23 45678",
+    "status": "RETURNED",
+    "date": "2024-02-15",
+    "expiry": "2024-03-15",
+    "closed": "2024-03-01",
+    "alpha": "XY 09/24 ZWERT",
+    "valuer": "Valuation Experts Ltd.",
+    "original_pledge": "XY 09/24 00001",
+    "weight": "45.80",
+    "amount": 2500,
+    "interest": "15",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "random123",
+    "reprint_cnt": "1",
+    "receipt": "return987",
+    "customer": [
+      {
+        "id": 128,
+        "name": "Alex Johnson",
+        "avatar": "https://reqres.in/img/faces/128-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL987654",
+        "address": "789 Main Street #123, Cityville 98765",
+        "nationality": "USA",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "alex.j@example.com",
+        "phone": "+1-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Emily Thompson",
+        "avatar": "https://reqres.in/img/faces/134-image.jpg",
+        "idtype": "Social Security",
+        "idno": "SSN456789",
+        "address": "456 Oak Lane #67, Townsville 87654",
+        "nationality": "USA",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "emily.t@example.com",
+        "phone": "+1-9876543210"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "35",
+        "no": "35",
+        "code": "WT09",
+        "desc": "WATCH",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Analog display",
+        "serial": "W98765"
+      }
+    ],
+    "loan": {
+      "progress": 100,
+      "transaction_date": "2024-03-05"
+    },
+    "branch": "USA"
+  },
+  {
+    "id": 202,
+    "pledge": "CD 03/25 98765",
+    "status": "RETURNED",
+    "date": "2024-01-10",
+    "expiry": "2024-02-10",
+    "closed": "2024-01-25",
+    "alpha": "YZ 11/21 QWERTY",
+    "valuer": "Gem Appraisals Inc.",
+    "original_pledge": "YZ 11/21 00002",
+    "weight": "30.50",
+    "amount": 1800,
+    "interest": "10",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "random456",
+    "reprint_cnt": "3",
+    "receipt": "return654",
+    "customer": [
+      {
+        "id": 345,
+        "name": "Mia Davis",
+        "avatar": "https://reqres.in/img/faces/345-image.jpg",
+        "idtype": "Passport",
+        "idno": "P876543",
+        "address": "123 Maple Avenue #456, Villagetown 54321",
+        "nationality": "Canada",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "mia.d@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Oliver Smith",
+        "avatar": "https://reqres.in/img/faces/352-image.jpg",
+        "idtype": "National ID",
+        "idno": "NID987654",
+        "address": "789 Cedar Street #012, Hamletville 23456",
+        "nationality": "Canada",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "oliver.s@example.com",
+        "phone": "+1-7890123456"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "48",
+        "no": "48",
+        "code": "DM08",
+        "desc": "DIAMOND NECKLACE",
+        "quantity": "1",
+        "quality": "22K",
+        "remarks": "Princess-cut diamonds",
+        "serial": "D87654"
+      }
+    ],
+    "loan": {
+      "progress": 80,
+      "transaction_date": "2024-02-01"
+    },
+    "branch": "Canada"
+  },
+  {
+    "id": 303,
+    "pledge": "EF 05/27 12345",
+    "status": "RETURNED",
+    "date": "2024-04-20",
+    "expiry": "2024-05-20",
+    "closed": "2024-05-05",
+    "alpha": "AB 07/22 ZXCVBN",
+    "valuer": "Jewelry Assessments Ltd.",
+    "original_pledge": "AB 07/22 00003",
+    "weight": "18.75",
+    "amount": 1200,
+    "interest": "12",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "random789",
+    "reprint_cnt": "1",
+    "receipt": "return321",
+    "customer": [
+      {
+        "id": 567,
+        "name": "Liam Wilson",
+        "avatar": "https://reqres.in/img/faces/567-image.jpg",
+        "idtype": "Identity Card",
+        "idno": "IC543210",
+        "address": "456 Pine Street #789, Grovetown 67890",
+        "nationality": "UK",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "liam.w@example.com",
+        "phone": "+44-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Sophie Turner",
+        "avatar": "https://reqres.in/img/faces/574-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL876543",
+        "address": "789 Oak Lane #012, Parkville 78901",
+        "nationality": "UK",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "sophie.t@example.com",
+        "phone": "+44-7890123456"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "57",
+        "no": "57",
+        "code": "RG03",
+        "desc": "ROSE GOLD RING",
+        "quantity": "1",
+        "quality": "14K",
+        "remarks": "Round-cut gemstone",
+        "serial": "R12345"
+      }
+    ],
+    "loan": {
+      "progress": 95,
+      "transaction_date": "2024-05-01"
+    },
+    "branch": "UK"
+  },
+  {
+    "id": 404,
+    "pledge": "GH 07/30 54321",
+    "status": "RETURNED",
+    "date": "2024-03-10",
+    "expiry": "2024-04-10",
+    "closed": "2024-03-25",
+    "alpha": "MN 01/25 QAZWSX",
+    "valuer": "Gemstone Valuations Co.",
+    "original_pledge": "MN 01/25 00004",
+    "weight": "55.25",
+    "amount": 3200,
+    "interest": "18",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "randomabc",
+    "reprint_cnt": "2",
+    "receipt": "returnxyz",
+    "customer": [
+      {
+        "id": 789,
+        "name": "Eva Rodriguez",
+        "avatar": "https://reqres.in/img/faces/789-image.jpg",
+        "idtype": "National ID",
+        "idno": "NID234567",
+        "address": "789 Cedar Lane #345, Townsville 01234",
+        "nationality": "Spain",
+        "sex": "Female",
+        "race": "Hispanic",
+        "email": "eva.r@example.com",
+        "phone": "+34-678901234"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Carlos Hernandez",
+        "avatar": "https://reqres.in/img/faces/796-image.jpg",
+        "idtype": "Passport",
+        "idno": "P765432",
+        "address": "456 Oak Street #678, Villagetown 56789",
+        "nationality": "Spain",
+        "sex": "Male",
+        "race": "Hispanic",
+        "email": "carlos.h@example.com",
+        "phone": "+34-1234567890"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "69",
+        "no": "69",
+        "code": "SR07",
+        "desc": "SAPPHIRE RING",
+        "quantity": "1",
+        "quality": "20K",
+        "remarks": "Princess-cut sapphire",
+        "serial": "S54321"
+      }
+    ],
+    "loan": {
+      "progress": 90,
+      "transaction_date": "2024-04-01"
+    },
+    "branch": "Spain"
+  },
+  {
+    "id": 505,
+    "pledge": "IJ 09/15 98765",
+    "status": "RETURNED",
+    "date": "2024-06-05",
+    "expiry": "2024-07-05",
+    "closed": "2024-06-20",
+    "alpha": "OP 03/18 ASDFGH",
+    "valuer": "Gem & Jewelry Evaluations",
+    "original_pledge": "OP 03/18 00005",
+    "weight": "40.80",
+    "amount": 2800,
+    "interest": "14",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "randomdef",
+    "reprint_cnt": "1",
+    "receipt": "returndef",
+    "customer": [
+      {
+        "id": 912,
+        "name": "Sophia Brown",
+        "avatar": "https://reqres.in/img/faces/912-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL543210",
+        "address": "123 Maple Lane #678, Cityville 90123",
+        "nationality": "USA",
+        "sex": "Female",
+        "race": "African American",
+        "email": "sophia.b@example.com",
+        "phone": "+1-5678901234"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Michael Davis",
+        "avatar": "https://reqres.in/img/faces/919-image.jpg",
+        "idtype": "Social Security",
+        "idno": "SSN098765",
+        "address": "456 Cedar Street #012, Hamletville 89012",
+        "nationality": "USA",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "michael.d@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "78",
+        "no": "78",
+        "code": "PD04",
+        "desc": "PEARL EARRINGS",
+        "quantity": "1",
+        "quality": "14K",
+        "remarks": "Cultured pearls",
+        "serial": "P98765"
+      }
+    ],
+    "loan": {
+      "progress": 85,
+      "transaction_date": "2024-06-10"
+    },
+    "branch": "USA"
+  },
+  {
+    "id": 606,
+    "pledge": "KL 11/22 23456",
+    "status": "RETURNED",
+    "date": "2024-08-15",
+    "expiry": "2024-09-15",
+    "closed": "2024-08-30",
+    "alpha": "QR 05/31 ZXCVBNM",
+    "valuer": "Gemstone Assessments & Co.",
+    "original_pledge": "QR 05/31 00006",
+    "weight": "28.60",
+    "amount": 2000,
+    "interest": "16",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "randomxyz",
+    "reprint_cnt": "2",
+    "receipt": "returnmno",
+    "customer": [
+      {
+        "id": 123,
+        "name": "Noah White",
+        "avatar": "https://reqres.in/img/faces/123-image.jpg",
+        "idtype": "Passport",
+        "idno": "P432156",
+        "address": "789 Cedar Lane #345, Townsville 01234",
+        "nationality": "Australia",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "noah.w@example.com",
+        "phone": "+61-9876543210"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Emma Taylor",
+        "avatar": "https://reqres.in/img/faces/130-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL654321",
+        "address": "456 Oak Street #678, Villagetown 56789",
+        "nationality": "Australia",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "emma.t@example.com",
+        "phone": "+61-1234567890"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "89",
+        "no": "89",
+        "code": "TG02",
+        "desc": "TANZANITE GOLD RING",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Oval-cut tanzanite",
+        "serial": "T23456"
+      }
+    ],
+    "loan": {
+      "progress": 75,
+      "transaction_date": "2024-09-01"
+    },
+    "branch": "Australia"
+  },
+  {
+    "id": 707,
+    "pledge": "MN 02/21 34567",
+    "status": "RETURNED",
+    "date": "2024-07-10",
+    "expiry": "2024-08-10",
+    "closed": "2024-07-25",
+    "alpha": "XY 08/23 QWERTY",
+    "valuer": "Gemstone Valuations Ltd.",
+    "original_pledge": "XY 08/23 00007",
+    "weight": "36.20",
+    "amount": 2400,
+    "interest": "14",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "randompqr",
+    "reprint_cnt": "1",
+    "receipt": "returnxyz",
+    "customer": [
+      {
+        "id": 234,
+        "name": "Aria Smith",
+        "avatar": "https://reqres.in/img/faces/234-image.jpg",
+        "idtype": "National ID",
+        "idno": "NID567890",
+        "address": "123 Pine Lane #678, Cityville 90123",
+        "nationality": "Canada",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "aria.s@example.com",
+        "phone": "+1-5678901234"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Daniel Brown",
+        "avatar": "https://reqres.in/img/faces/241-image.jpg",
+        "idtype": "Passport",
+        "idno": "P678901",
+        "address": "456 Maple Street #012, Villagetown 34567",
+        "nationality": "Canada",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "daniel.b@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "96",
+        "no": "96",
+        "code": "EP01",
+        "desc": "EMERALD PENDANT",
+        "quantity": "1",
+        "quality": "20K",
+        "remarks": "Round-cut emerald",
+        "serial": "E34567"
+      }
+    ],
+    "loan": {
+      "progress": 88,
+      "transaction_date": "2024-08-01"
+    },
+    "branch": "Canada"
+  },
+  {
+    "id": 808,
+    "pledge": "OP 12/24 45678",
+    "status": "RETURNED",
+    "date": "2024-10-05",
+    "expiry": "2024-11-05",
+    "closed": "2024-10-20",
+    "alpha": "AB 06/26 ZXCVBNM",
+    "valuer": "Jewelry Valuations & Co.",
+    "original_pledge": "AB 06/26 00008",
+    "weight": "42.90",
+    "amount": 2800,
+    "interest": "16",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "randomstu",
+    "reprint_cnt": "2",
+    "receipt": "returnvwx",
+    "customer": [
+      {
+        "id": 345,
+        "name": "Isaac Miller",
+        "avatar": "https://reqres.in/img/faces/345-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL345678",
+        "address": "123 Oak Lane #456, Grovetown 78901",
+        "nationality": "USA",
+        "sex": "Male",
+        "race": "African American",
+        "email": "isaac.m@example.com",
+        "phone": "+1-6789012345"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Ava Taylor",
+        "avatar": "https://reqres.in/img/faces/352-image.jpg",
+        "idtype": "Social Security",
+        "idno": "SSN234567",
+        "address": "456 Cedar Street #678, Hamletville 01234",
+        "nationality": "USA",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "ava.t@example.com",
+        "phone": "+1-3456789012"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "102",
+        "no": "102",
+        "code": "DR05",
+        "desc": "DIAMOND RING",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Round-cut diamond",
+        "serial": "D45678"
+      }
+    ],
+    "loan": {
+      "progress": 92,
+      "transaction_date": "2024-11-01"
+    },
+    "branch": "USA"
+  },
+  {
+    "id": 23,
+    "pledge": "JP 07/22 00876",
+    "status": "AUCTIONED",
+    "date": "2024-03-05",
+    "expiry": "2024-04-05",
+    "closed": "2024-03-25",
+    "alpha": "JP 12/23 ABCDE",
+    "valuer": "Tokyo Gem Assessments",
+    "original_pledge": "JP 12/23 00024",
+    "weight": "62.50",
+    "amount": 3700,
+    "interest": "20",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "asdfghj",
+    "reprint_cnt": "2",
+    "receipt": "lkjhgf",
+    "customer": [
+      {
+        "id": 26,
+        "name": "Sakura Yamamoto",
+        "avatar": "https://reqres.in/img/faces/262-image.jpg",
+        "idtype": "Resident Card",
+        "idno": "RC456789",
+        "address": "789 Sakura Street #10-234 200789",
+        "nationality": "Japan",
+        "sex": "Female",
+        "race": "Asian",
+        "email": "sakura.yamamoto@example.com",
+        "phone": "+81-7890123456"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Hiroshi Suzuki",
+        "avatar": "https://reqres.in/img/faces/268-image.jpg",
+        "idtype": "Passport",
+        "idno": "P890123",
+        "address": "456 Fuji Lane #12-567 300456",
+        "nationality": "Japan",
+        "sex": "Male",
+        "race": "Asian",
+        "email": "hiroshi.suzuki@example.com",
+        "phone": "+81-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "24",
+        "no": "24",
+        "code": "EM05",
+        "desc": "EMERALD BRACELET",
+        "quantity": "1",
+        "quality": "24K",
+        "remarks": "Oval-cut gemstones",
+        "serial": "E67890"
+      }
+    ],
+    "loan": {
+      "progress": 90,
+      "transaction_date": "2024-04-01"
+    },
+    "branch": "Japan"
+  },
+  {
+    "id": 22,
+    "pledge": "SG 10/28 00543",
+    "status": "AUCTIONED",
+    "date": "2024-02-28",
+    "expiry": "2024-03-28",
+    "closed": "2024-03-15",
+    "alpha": "SG 12/23 JKLPQ",
+    "valuer": "Singapore Gem Valuations",
+    "original_pledge": "SG 12/23 00023",
+    "weight": "58.20",
+    "amount": 3500,
+    "interest": "17",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "hjkl78",
+    "reprint_cnt": "1",
+    "receipt": "ghjkl",
+    "customer": [
+      {
+        "id": 25,
+        "name": "Isaac Tan",
+        "avatar": "https://reqres.in/img/faces/250-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8881234A",
+        "address": "789 Orchard Road #07-345 238765",
+        "nationality": "Singapore",
+        "sex": "Male",
+        "race": "Chinese",
+        "email": "isaac.tan@example.com",
+        "phone": "+65-87654321"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Leah Wong",
+        "avatar": "https://reqres.in/img/faces/256-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8987654B",
+        "address": "456 Clementi Street #12-567 120456",
+        "nationality": "Singapore",
+        "sex": "Female",
+        "race": "Chinese",
+        "email": "leah.wong@example.com",
+        "phone": "+65-98765432"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "23",
+        "no": "23",
+        "code": "TO03",
+        "desc": "TOURMALINE BRACELET",
+        "quantity": "1",
+        "quality": "20K",
+        "remarks": "Multicolored stones",
+        "serial": "T67890"
+      }
+    ],
+    "loan": {
+      "progress": 80,
+      "transaction_date": "2024-03-10"
+    },
+    "branch": "Singapore"
+  },
+  {
+    "id": 21,
+    "pledge": "AU 02/12 00987",
+    "status": "AUCTIONED",
+    "date": "2024-01-10",
+    "expiry": "2024-02-10",
+    "closed": "2024-01-30",
+    "alpha": "AU 12/23 LMNOP",
+    "valuer": "Australian Gem Appraisers",
+    "original_pledge": "AU 12/23 00022",
+    "weight": "48.30",
+    "amount": 2900,
+    "interest": "16",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "asdfgh",
+    "reprint_cnt": "2",
+    "receipt": "zxcvb",
+    "customer": [
+      {
+        "id": 24,
+        "name": "Ava Wilson",
+        "avatar": "https://reqres.in/img/faces/238-image.jpg",
+        "idtype": "Passport",
+        "idno": "P789012",
+        "address": "789 Sydney Street #10-123 200789",
+        "nationality": "Australia",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "ava.wilson@example.com",
+        "phone": "+61-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Jack Smith",
+        "avatar": "https://reqres.in/img/faces/244-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Melbourne Road #15-456 300456",
+        "nationality": "Australia",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "jack.smith@example.com",
+        "phone": "+61-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "22",
+        "no": "22",
+        "code": "DI04",
+        "desc": "DIAMOND EARRINGS",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Round-cut diamonds",
+        "serial": "D67890"
+      }
+    ],
+    "loan": {
+      "progress": 60,
+      "transaction_date": "2024-02-05"
+    },
+    "branch": "Australia"
+  },
+  {
+    "id": 20,
+    "pledge": "UK 09/05 00789",
+    "status": "AUCTIONED",
+    "date": "2024-02-01",
+    "expiry": "2024-03-01",
+    "closed": "2024-02-25",
+    "alpha": "UK 12/23 ABCDE",
+    "valuer": "Britannia Gem Assessors",
+    "original_pledge": "UK 12/23 00021",
+    "weight": "55.90",
+    "amount": 3400,
+    "interest": "19",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "qwerty",
+    "reprint_cnt": "1",
+    "receipt": "zxcvb",
+    "customer": [
+      {
+        "id": 23,
+        "name": "Ella Brown",
+        "avatar": "https://reqres.in/img/faces/226-image.jpg",
+        "idtype": "Passport",
+        "idno": "P678901",
+        "address": "789 Baker Street #07-345 200789",
+        "nationality": "United Kingdom",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "ella.brown@example.com",
+        "phone": "+44-6789012345"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Henry Taylor",
+        "avatar": "https://reqres.in/img/faces/232-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL345678",
+        "address": "456 Oxford Road #12-567 300456",
+        "nationality": "United Kingdom",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "henry.taylor@example.com",
+        "phone": "+44-3456789012"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "21",
+        "no": "21",
+        "code": "AM04",
+        "desc": "AMETHYST NECKLACE",
+        "quantity": "1",
+        "quality": "20K",
+        "remarks": "Princess-cut gemstones",
+        "serial": "A67890"
+      }
+    ],
+    "loan": {
+      "progress": 70,
+      "transaction_date": "2024-03-10"
+    },
+    "branch": "United Kingdom"
+  },
+  {
+    "id": 19,
+    "pledge": "CA 06/14 00345",
+    "status": "AUCTIONED",
+    "date": "2024-01-20",
+    "expiry": "2024-02-20",
+    "closed": "2024-02-10",
+    "alpha": "CA 12/23 XYZAB",
+    "valuer": "Canadian Gem Authority",
+    "original_pledge": "CA 12/23 00020",
+    "weight": "68.75",
+    "amount": 4100,
+    "interest": "18",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "mnbvcx",
+    "reprint_cnt": "0",
+    "receipt": "asdfg",
+    "customer": [
+      {
+        "id": 22,
+        "name": "Liam Miller",
+        "avatar": "https://reqres.in/img/faces/214-image.jpg",
+        "idtype": "Social Insurance Number",
+        "idno": "SIN123456",
+        "address": "789 Maple Avenue #07-890 200789",
+        "nationality": "Canada",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "liam.miller@example.com",
+        "phone": "+1-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Sophie Johnson",
+        "avatar": "https://reqres.in/img/faces/220-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Pine Street #12-567 300456",
+        "nationality": "Canada",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "sophie.johnson@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "20",
+        "no": "20",
+        "code": "RU03",
+        "desc": "RUBY RING",
+        "quantity": "1",
+        "quality": "22K",
+        "remarks": "Oval-cut gemstone",
+        "serial": "R67890"
+      }
+    ],
+    "loan": {
+      "progress": 50,
+      "transaction_date": "2024-02-20"
+    },
+    "branch": "Canada"
+  },
+  {
+    "id": 18,
+    "pledge": "JP 04/18 00678",
+    "status": "REDEEMED",
+    "date": "2024-03-10",
+    "expiry": "2024-04-10",
+    "closed": "2024-04-05",
+    "alpha": "JP 02/24 JKLPQ",
+    "valuer": "Tokyo Gem Assessments",
+    "original_pledge": "JP 02/24 00019",
+    "weight": "68.90",
+    "amount": 4000,
+    "interest": "19",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "mnbvc",
+    "reprint_cnt": "1",
+    "receipt": "lkjhgf",
+    "customer": [
+      {
+        "id": 21,
+        "name": "Haruki Nakamura",
+        "avatar": "https://reqres.in/img/faces/202-image.jpg",
+        "idtype": "Resident Card",
+        "idno": "RC456789",
+        "address": "789 Sakura Street #10-234 200789",
+        "nationality": "Japan",
+        "sex": "Male",
+        "race": "Asian",
+        "email": "haruki.nakamura@example.com",
+        "phone": "+81-7890123456"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Yui Suzuki",
+        "avatar": "https://reqres.in/img/faces/208-image.jpg",
+        "idtype": "Passport",
+        "idno": "P890123",
+        "address": "456 Fuji Lane #12-567 300456",
+        "nationality": "Japan",
+        "sex": "Female",
+        "race": "Asian",
+        "email": "yui.suzuki@example.com",
+        "phone": "+81-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "19",
+        "no": "19",
+        "code": "TO02",
+        "desc": "TOURMALINE EARRINGS",
+        "quantity": "1",
+        "quality": "20K",
+        "remarks": "Multicolored stones",
+        "serial": "Q67890"
+      }
+    ],
+    "loan": {
+      "progress": 90,
+      "transaction_date": "2024-04-01"
+    },
+    "branch": "Japan"
+  },
+  {
+    "id": 17,
+    "pledge": "AU 11/05 00456",
+    "status": "REDEEMED",
+    "date": "2024-01-25",
+    "expiry": "2024-02-25",
+    "closed": "2024-02-20",
+    "alpha": "AU 01/24 LMNOP",
+    "valuer": "Australian Gem Appraisers",
+    "original_pledge": "AU 01/24 00018",
+    "weight": "58.60",
+    "amount": 3500,
+    "interest": "17",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "bnm789",
+    "reprint_cnt": "0",
+    "receipt": "qwert",
+    "customer": [
+      {
+        "id": 20,
+        "name": "Sophie Wilson",
+        "avatar": "https://reqres.in/img/faces/190-image.jpg",
+        "idtype": "Passport",
+        "idno": "P789012",
+        "address": "789 Sydney Street #10-123 200789",
+        "nationality": "Australia",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "sophie.wilson@example.com",
+        "phone": "+61-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Liam Jones",
+        "avatar": "https://reqres.in/img/faces/196-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Melbourne Road #15-456 300456",
+        "nationality": "Australia",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "liam.jones@example.com",
+        "phone": "+61-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "18",
+        "no": "18",
+        "code": "OP03",
+        "desc": "OPAL PENDANT",
+        "quantity": "1",
+        "quality": "14K",
+        "remarks": "Australian Fire Opal",
+        "serial": "P67890"
+      }
+    ],
+    "loan": {
+      "progress": 100,
+      "transaction_date": "2024-02-20"
+    },
+    "branch": "Australia"
+  },
+  {
+    "id": 16,
+    "pledge": "SG 01/20 00765",
+    "status": "REDEEMED",
+    "date": "2024-02-28",
+    "expiry": "2024-03-28",
+    "closed": "2024-03-20",
+    "alpha": "SG 02/24 ABCDE",
+    "valuer": "Singapore Gem Valuations",
+    "original_pledge": "SG 02/24 00017",
+    "weight": "65.80",
+    "amount": 3800,
+    "interest": "18",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "hjkl89",
+    "reprint_cnt": "2",
+    "receipt": "ghjkl",
+    "customer": [
+      {
+        "id": 19,
+        "name": "Kai Tan",
+        "avatar": "https://reqres.in/img/faces/178-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8881234A",
+        "address": "789 Orchard Road #07-345 238765",
+        "nationality": "Singapore",
+        "sex": "Male",
+        "race": "Chinese",
+        "email": "kai.tan@example.com",
+        "phone": "+65-87654321"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Leah Wong",
+        "avatar": "https://reqres.in/img/faces/184-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8987654B",
+        "address": "456 Clementi Street #12-567 120456",
+        "nationality": "Singapore",
+        "sex": "Female",
+        "race": "Chinese",
+        "email": "leah.wong@example.com",
+        "phone": "+65-98765432"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "17",
+        "no": "17",
+        "code": "AM03",
+        "desc": "AMETHYST BRACELET",
+        "quantity": "1",
+        "quality": "20K",
+        "remarks": "Heart-shaped gemstones",
+        "serial": "O67890"
+      }
+    ],
+    "loan": {
+      "progress": 80,
+      "transaction_date": "2024-03-15"
+    },
+    "branch": "Singapore"
+  },
+  {
+    "id": 15,
+    "pledge": "US 03/15 00111",
+    "status": "REDEEMED",
+    "date": "2023-12-10",
+    "expiry": "2024-01-10",
+    "closed": "2024-01-05",
+    "alpha": "US 12/23 JKLPQ",
+    "valuer": "Gemstone Assessments LLC",
+    "original_pledge": "US 12/23 00016",
+    "weight": "72.25",
+    "amount": 4200,
+    "interest": "20",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "asdfgh",
+    "reprint_cnt": "1",
+    "receipt": "zxcvb",
+    "customer": [
+      {
+        "id": 18,
+        "name": "Emma Johnson",
+        "avatar": "https://reqres.in/img/faces/166-image.jpg",
+        "idtype": "Social Security",
+        "idno": "SSN567890",
+        "address": "789 Maple Avenue #07-890 200789",
+        "nationality": "United States",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "emma.johnson@example.com",
+        "phone": "+1-5678901234"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Robert Davis",
+        "avatar": "https://reqres.in/img/faces/172-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Pine Street #12-567 300456",
+        "nationality": "United States",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "robert.davis@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "16",
+        "no": "16",
+        "code": "DI03",
+        "desc": "DIAMOND NECKLACE",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Princess-cut diamonds",
+        "serial": "N67890"
+      }
+    ],
+    "loan": {
+      "progress": 100,
+      "transaction_date": "2024-01-05"
+    },
+    "branch": "United States"
+  },
+  {
+    "id": 14,
+    "pledge": "IN 08/27 00234",
+    "status": "REDEEMED",
+    "date": "2024-02-15",
+    "expiry": "2024-03-15",
+    "closed": "2024-03-10",
+    "alpha": "IN 02/24 WXYZA",
+    "valuer": "Mumbai Gem Appraisals",
+    "original_pledge": "IN 02/24 00015",
+    "weight": "45.90",
+    "amount": 2800,
+    "interest": "15",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "poiuyt",
+    "reprint_cnt": "0",
+    "receipt": "lkjhg",
+    "customer": [
+      {
+        "id": 17,
+        "name": "Aarav Patel",
+        "avatar": "https://reqres.in/img/faces/154-image.jpg",
+        "idtype": "Aadhar Card",
+        "idno": "A1234567890",
+        "address": "789 Mumbai Street #10-234 400789",
+        "nationality": "India",
+        "sex": "Male",
+        "race": "Asian",
+        "email": "aarav.patel@example.com",
+        "phone": "+91-7890123456"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Ananya Gupta",
+        "avatar": "https://reqres.in/img/faces/160-image.jpg",
+        "idtype": "PAN Card",
+        "idno": "ABCDE1234F",
+        "address": "456 Delhi Road #15-456 110456",
+        "nationality": "India",
+        "sex": "Female",
+        "race": "Asian",
+        "email": "ananya.gupta@example.com",
+        "phone": "+91-9876543210"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "15",
+        "no": "15",
+        "code": "SA02",
+        "desc": "SAPPHIRE RING",
+        "quantity": "1",
+        "quality": "22K",
+        "remarks": "Blue sapphire gemstone",
+        "serial": "M67890"
+      }
+    ],
+    "loan": {
+      "progress": 100,
+      "transaction_date": "2024-03-10"
+    },
+    "branch": "India"
+  },
+  {
+    "id": 13,
+    "pledge": "UK 05/19 00876",
+    "status": "EXPIRING",
+    "date": "2024-04-05",
+    "expiry": "2024-05-05",
+    "closed": null,
+    "alpha": "UK 04/24 JKLPQ",
+    "valuer": "Britannia Gem Assessors",
+    "original_pledge": "UK 04/24 00014",
+    "weight": "62.75",
+    "amount": 3600,
+    "interest": "19",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "zxcvb",
+    "reprint_cnt": "1",
+    "receipt": "asdfg",
+    "customer": [
+      {
+        "id": 16,
+        "name": "Olivia Brown",
+        "avatar": "https://reqres.in/img/faces/142-image.jpg",
+        "idtype": "Passport",
+        "idno": "P678901",
+        "address": "789 Baker Street #07-345 200789",
+        "nationality": "United Kingdom",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "olivia.brown@example.com",
+        "phone": "+44-6789012345"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Henry Taylor",
+        "avatar": "https://reqres.in/img/faces/148-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL345678",
+        "address": "456 Oxford Road #12-567 300456",
+        "nationality": "United Kingdom",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "henry.taylor@example.com",
+        "phone": "+44-3456789012"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "14",
+        "no": "14",
+        "code": "RU02",
+        "desc": "RUBY NECKLACE",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Oval-cut gemstones",
+        "serial": "L67890"
+      }
+    ],
+    "loan": {
+      "progress": 60,
+      "transaction_date": "2024-04-25"
+    },
+    "branch": "United Kingdom"
+  },
+  {
+    "id": 12,
+    "pledge": "CA 03/22 00567",
+    "status": "EXPIRING",
+    "date": "2024-03-15",
+    "expiry": "2024-04-15",
+    "closed": null,
+    "alpha": "CA 02/24 XYZZY",
+    "valuer": "Canadian Gem Authority",
+    "original_pledge": "CA 02/24 00013",
+    "weight": "55.40",
+    "amount": 3300,
+    "interest": "21",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "qwerty",
+    "reprint_cnt": "2",
+    "receipt": "asdfg",
+    "customer": [
+      {
+        "id": 15,
+        "name": "Sophia Johnson",
+        "avatar": "https://reqres.in/img/faces/130-image.jpg",
+        "idtype": "Social Insurance Number",
+        "idno": "SIN123456",
+        "address": "789 Maple Avenue #07-890 200789",
+        "nationality": "Canada",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "sophia.johnson@example.com",
+        "phone": "+1-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "John Miller",
+        "avatar": "https://reqres.in/img/faces/136-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Pine Street #12-567 300456",
+        "nationality": "Canada",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "john.miller@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "13",
+        "no": "13",
+        "code": "EM02",
+        "desc": "EMERALD PENDANT",
+        "quantity": "1",
+        "quality": "24K",
+        "remarks": "Round-cut gemstone",
+        "serial": "K67890"
+      }
+    ],
+    "loan": {
+      "progress": 40,
+      "transaction_date": "2024-04-05"
+    },
+    "branch": "Canada"
+  },
+  {
+    "id": 11,
+    "pledge": "AU 07/01 00987",
+    "status": "OPEN",
+    "date": "2024-02-20",
+    "expiry": "2024-03-20",
+    "closed": null,
+    "alpha": "AU 06/23 LMNOP",
+    "valuer": "Opal Gem Valuations",
+    "original_pledge": "AU 06/23 00012",
+    "weight": "50.60",
+    "amount": 3000,
+    "interest": "18",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "mnbvcx",
+    "reprint_cnt": "1",
+    "receipt": "zxcvb",
+    "customer": [
+      {
+        "id": 14,
+        "name": "Isaac Smith",
+        "avatar": "https://reqres.in/img/faces/118-image.jpg",
+        "idtype": "Passport",
+        "idno": "P789012",
+        "address": "789 Sydney Street #10-123 200789",
+        "nationality": "Australia",
+        "sex": "Male",
+        "race": "Caucasian",
+        "email": "isaac.smith@example.com",
+        "phone": "+61-1234567890"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Emily White",
+        "avatar": "https://reqres.in/img/faces/124-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Melbourne Road #15-456 300456",
+        "nationality": "Australia",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "emily.white@example.com",
+        "phone": "+61-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "12",
+        "no": "12",
+        "code": "OP02",
+        "desc": "OPAL RING",
+        "quantity": "1",
+        "quality": "14K",
+        "remarks": "Australian Opal",
+        "serial": "J67890"
+      }
+    ],
+    "loan": {
+      "progress": 10,
+      "transaction_date": "2024-03-05"
+    },
+    "branch": "Australia"
+  },
+  {
+    "id": 10,
+    "pledge": "SG 04/15 00123",
+    "status": "OPEN",
+    "date": "2024-03-01",
+    "expiry": "2024-04-01",
+    "closed": null,
+    "alpha": "SG 03/24 ABCDE",
+    "valuer": "XYZ Valuations",
+    "original_pledge": "SG 03/24 00011",
+    "weight": "70.80",
+    "amount": 4200,
+    "interest": "20",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "hjkf78",
+    "reprint_cnt": "0",
+    "receipt": "hjgfd",
+    "customer": [
+      {
+        "id": 13,
+        "name": "Daniel Lim",
+        "avatar": "https://reqres.in/img/faces/106-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8881234A",
+        "address": "789 Orchard Road #07-345 238765",
+        "nationality": "Singapore",
+        "sex": "Male",
+        "race": "Chinese",
+        "email": "daniel.lim@example.com",
+        "phone": "+65-87654321"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Linda Tan",
+        "avatar": "https://reqres.in/img/faces/112-image.jpg",
+        "idtype": "NRIC",
+        "idno": "S8987654B",
+        "address": "456 Clementi Street #12-567 120456",
+        "nationality": "Singapore",
+        "sex": "Female",
+        "race": "Chinese",
+        "email": "linda.tan@example.com",
+        "phone": "+65-98765432"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "11",
+        "no": "11",
+        "code": "DI02",
+        "desc": "DIAMOND BRACELET",
+        "quantity": "1",
+        "quality": "18K",
+        "remarks": "Baguette-cut diamonds",
+        "serial": "I67890"
+      }
+    ],
+    "loan": {
+      "progress": 15,
+      "transaction_date": "2024-03-10"
+    },
+    "branch": "Singapore"
+  },
+  {
+    "id": 9,
+    "pledge": "US 01/28 00432",
+    "status": "OPEN",
+    "date": "2024-02-10",
+    "expiry": "2024-03-10",
+    "closed": null,
+    "alpha": "US 01/24 XYZAB",
+    "valuer": "Gemstone Appraisals Inc.",
+    "original_pledge": "US 01/24 00010",
+    "weight": "80.20",
+    "amount": 4800,
+    "interest": "19",
+    "lost": "No",
+    "lost_date": null,
+    "ltd_format": "zxcvbn",
+    "reprint_cnt": "1",
+    "receipt": "asdfg",
+    "customer": [
+      {
+        "id": 12,
+        "name": "Jennifer Davis",
+        "avatar": "https://reqres.in/img/faces/94-image.jpg",
+        "idtype": "Social Security",
+        "idno": "SSN567890",
+        "address": "789 Maple Avenue #07-890 200789",
+        "nationality": "United States",
+        "sex": "Female",
+        "race": "Caucasian",
+        "email": "jennifer.davis@example.com",
+        "phone": "+1-5678901234"
+      }
+    ],
+    "guarantor": [
+      {
+        "name": "Andrew Johnson",
+        "avatar": "https://reqres.in/img/faces/100-image.jpg",
+        "idtype": "Driver's License",
+        "idno": "DL234567",
+        "address": "456 Pine Street #12-567 300456",
+        "nationality": "United States",
+        "sex": "Male",
+        "race": "African American",
+        "email": "andrew.johnson@example.com",
+        "phone": "+1-2345678901"
+      }
+    ],
+    "itemlist": [
+      {
+        "id": "10",
+        "no": "10",
+        "code": "AM02",
+        "desc": "AMETHYST EARRINGS",
+        "quantity": "1",
+        "quality": "22K",
+        "remarks": "Princess-cut stones",
+        "serial": "H67890"
+      }
+    ],
+    "loan": {
+      "progress": 25,
+      "transaction_date": "2024-02-28"
+    },
+    "branch": "United States"
   }
-}
+]
