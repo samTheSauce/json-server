@@ -98,7 +98,7 @@
       "pledge": "MY 04/10 00291",
       "status": "OPEN",
       "date": "2023-12-23",
-      "expiry": "2024-03-17",
+      "expiry": "2024-06-17",
       "closed": "2023-12-23",
       "alpha": "MY 12/22 VABYX",
       "valuer": "WLK- Avian U Yin Torn",
@@ -127,13 +127,199 @@
         }
       ],
       "loan": {
-        "progress": 100,
+        "progress": 0,
         "transaction_date": "2024-03-07"
       },
       "customer": [
         {
           "id": 2,
           "name": "Lim Yong Seng",
+          "avatar": "https://reqres.in/img/faces/8-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7785266B",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "gender": "Male",
+          "race": "Indian",
+          "email": "xyz123sekar@yahoo.com",
+          "contact": "+65-89994266",
+          "occupation": "Executive",
+          "dob": "1997-12-23"
+        }
+      ],
+      "guarantor": [
+        {
+          "name": "Nagarajan Shebagavalli",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7981374E",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "race": "Indian",
+          "email": "-",
+          "contact": "-",
+          "occupation": "Executive",
+          "dob": "16 Nov 1977"
+        }
+      ],
+      "itemlist": [
+        {
+          "id": "1",
+          "no": "1",
+          "code": "AG01",
+          "desc": "GOLD RING [U]",
+          "quantity": "4",
+          "quality": "20K 22K",
+          "remarks": "-",
+          "serial": "-"
+        },
+        {
+          "id": "2",
+          "no": "2",
+          "code": "AG02",
+          "desc": "GOLD RING [U]",
+          "quantity": "4",
+          "quality": "20K 22K",
+          "remarks": "-",
+          "serial": "-"
+        }
+      ],
+      "branch": "Malaysia"
+    },
+    {
+      "id": 3,
+      "pledge": "MY 04/10 00291",
+      "status": "EXPIRING",
+      "date": "2023-10-23",
+      "expiry": "2024-03-17",
+      "closed": "2023-10-23",
+      "alpha": "MY 12/22 VABYX",
+      "valuer": "WLK- Avian U Yin Torn",
+      "original_pledge": "MY 12/22 00002",
+      "weight": "60.90",
+      "amount": 3600,
+      "balance": 450,
+      "interest": 1.5,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": ""
+        }
+      ],
+      "loan": {
+        "progress": 70,
+        "transaction_date": "2024-03-07"
+      },
+      "customer": [
+        {
+          "id": 3,
+          "name": "Lim Yong Seng",
+          "avatar": "https://reqres.in/img/faces/8-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7785266B",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "gender": "Male",
+          "race": "Indian",
+          "email": "xyz123sekar@yahoo.com",
+          "contact": "+65-89994266",
+          "occupation": "Executive",
+          "dob": "1997-12-23"
+        }
+      ],
+      "guarantor": [
+        {
+          "name": "Nagarajan Shebagavalli",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7981374E",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "race": "Indian",
+          "email": "-",
+          "contact": "-",
+          "occupation": "Executive",
+          "dob": "16 Nov 1977"
+        }
+      ],
+      "itemlist": [
+        {
+          "id": "1",
+          "no": "1",
+          "code": "AG01",
+          "desc": "GOLD RING [U]",
+          "quantity": "4",
+          "quality": "20K 22K",
+          "remarks": "-",
+          "serial": "-"
+        },
+        {
+          "id": "2",
+          "no": "2",
+          "code": "AG02",
+          "desc": "GOLD RING [U]",
+          "quantity": "4",
+          "quality": "20K 22K",
+          "remarks": "-",
+          "serial": "-"
+        }
+      ],
+      "branch": "Malaysia"
+    },
+    {
+      "id": 4,
+      "pledge": "MY 04/10 00294",
+      "status": "OPEN",
+      "date": "2023-12-23",
+      "expiry": "2024-03-17",
+      "closed": "2023-12-23",
+      "alpha": "MY 12/22 VABYX",
+      "valuer": "WLK- Avian U Yin Torn",
+      "original_pledge": "MY 12/22 00002",
+      "weight": "60.90",
+      "amount": 3600,
+      "balance": 450,
+      "interest": 1.5,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": ""
+        }
+      ],
+      "loan": {
+        "progress": 70,
+        "transaction_date": "2024-03-07"
+      },
+      "customer": [
+        {
+          "id": 4,
+          "name": "Anne Wong",
           "avatar": "https://reqres.in/img/faces/8-image.jpg",
           "idtype": "NRIC",
           "idno": "S7785266B",
