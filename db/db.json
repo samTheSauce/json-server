@@ -74,6 +74,7 @@
           "id": "1",
           "no": "1",
           "code": "AG01",
+          "type": "Ring",
           "desc": "GOLD RING [U]",
           "quantity": "4",
           "quality": "20K 22K",
@@ -84,6 +85,7 @@
           "id": "2",
           "no": "2",
           "code": "AG02",
+          "type": "Ring",
           "desc": "GOLD RING [U]",
           "quantity": "4",
           "quality": "20K 22K",
@@ -189,16 +191,16 @@
     {
       "id": 3,
       "pledge": "MY 04/10 00291",
-      "status": "EXPIRING",
+      "status": "OPEN",
       "date": "2023-10-23",
-      "expiry": "2024-03-17",
+      "expiry": "2024-04-11",
       "closed": "2023-10-23",
       "alpha": "MY 12/22 VABYX",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
       "amount": 3600,
-      "balance": 450,
+      "balance": 0,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -206,9 +208,9 @@
       "receipt": "",
       "renewal": [
         {
-          "renew_date": "",
-          "fee": "",
-          "payment_mode": ""
+          "renew_date": "2024-03-07",
+          "fee": "5",
+          "payment_mode": "Cash"
         }
       ],
       "redemption": [
@@ -220,12 +222,11 @@
         }
       ],
       "loan": {
-        "progress": 70,
+        "progress": 100,
         "transaction_date": "2024-03-07"
       },
       "customer": [
         {
-          "id": 3,
           "name": "Lim Yong Seng",
           "avatar": "https://reqres.in/img/faces/8-image.jpg",
           "idtype": "NRIC",
@@ -260,6 +261,7 @@
           "id": "1",
           "no": "1",
           "code": "AG01",
+          "type": "Ring",
           "desc": "GOLD RING [U]",
           "quantity": "4",
           "quality": "20K 22K",
@@ -270,6 +272,7 @@
           "id": "2",
           "no": "2",
           "code": "AG02",
+          "type": "Ring",
           "desc": "GOLD RING [U]",
           "quantity": "4",
           "quality": "20K 22K",
@@ -282,7 +285,7 @@
     {
       "id": 4,
       "pledge": "MY 04/10 00294",
-      "status": "OPEN",
+      "status": "REDEEMED",
       "date": "2023-12-23",
       "expiry": "2024-03-17",
       "closed": "2023-12-23",
@@ -291,7 +294,7 @@
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
       "amount": 3600,
-      "balance": 450,
+      "balance": 0,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -306,19 +309,18 @@
       ],
       "redemption": [
         {
-          "payment_mode": "",
-          "redeem_amount": "",
+          "payment_mode": "Cash",
+          "redeem_amount": 450,
           "redeem_discount": "",
-          "redeem_date": ""
+          "redeem_date": "2024-03-07"
         }
       ],
       "loan": {
-        "progress": 70,
+        "progress": 100,
         "transaction_date": "2024-03-07"
       },
       "customer": [
         {
-          "id": 4,
           "name": "Anne Wong",
           "avatar": "https://reqres.in/img/faces/8-image.jpg",
           "idtype": "NRIC",
@@ -353,6 +355,7 @@
           "id": "1",
           "no": "1",
           "code": "AG01",
+          "type": "Ring",
           "desc": "GOLD RING [U]",
           "quantity": "4",
           "quality": "20K 22K",
@@ -363,6 +366,7 @@
           "id": "2",
           "no": "2",
           "code": "AG02",
+          "type": "Ring",
           "desc": "GOLD RING [U]",
           "quantity": "4",
           "quality": "20K 22K",
@@ -2408,7 +2412,7 @@
   "articleItems": [
     {
       "id": 1,
-      "code": "I001",
+      "code": "RG",
       "desc": "Ring",
       "serial": "No",
       "weight": "Yes",
@@ -2417,7 +2421,7 @@
     },
     {
       "id": 2,
-      "code": "I002",
+      "code": "CN",
       "desc": "Chain",
       "serial": "No",
       "weight": "Yes",
@@ -2426,7 +2430,7 @@
     },
     {
       "id": 3,
-      "code": "I003",
+      "code": "PT",
       "desc": "Pendant",
       "serial": "No",
       "weight": "Yes",
@@ -2435,7 +2439,7 @@
     },
     {
       "id": 4,
-      "code": "I004",
+      "code": "BT",
       "desc": "Bracelet",
       "serial": "No",
       "weight": "Yes",
@@ -2444,7 +2448,7 @@
     },
     {
       "id": 5,
-      "code": "I005",
+      "code": "BE",
       "desc": "Bangle",
       "serial": "No",
       "weight": "Yes",
@@ -2453,7 +2457,7 @@
     },
     {
       "id": 6,
-      "code": "I006",
+      "code": "ER",
       "desc": "Earring",
       "serial": "No",
       "weight": "Yes",
@@ -2462,7 +2466,7 @@
     },
     {
       "id": 7,
-      "code": "I007",
+      "code": "ES",
       "desc": "Earstud",
       "serial": "No",
       "weight": "Yes",
@@ -2471,7 +2475,7 @@
     },
     {
       "id": 8,
-      "code": "I008",
+      "code": "EP",
       "desc": "Ear Pendant",
       "serial": "No",
       "weight": "Yes",
@@ -2480,7 +2484,7 @@
     },
     {
       "id": 9,
-      "code": "I009",
+      "code": "NE",
       "desc": "Necklace",
       "serial": "No",
       "weight": "Yes",
@@ -2489,18 +2493,9 @@
     },
     {
       "id": 10,
-      "code": "I010",
+      "code": "NS",
       "desc": "Nosestud",
       "serial": "No",
-      "weight": "Yes",
-      "update_on": "2022-06-22",
-      "update_time": "9:45 AM"
-    },
-    {
-      "id": 11,
-      "code": "I011",
-      "desc": "assad",
-      "serial": "Yes",
       "weight": "Yes",
       "update_on": "2022-06-22",
       "update_time": "9:45 AM"
@@ -3719,6 +3714,197 @@
       "enable": "Yes",
       "update_on": "2022-03-13",
       "update_time": "9:45 AM"
+    }
+  ],
+  "pledges-list": [
+    {
+      "id": 1,
+      "date": "2024-03-06",
+      "branch": "Bedok",
+      "pledge_count": 3,
+      "total": 1200,
+      "pledges": [
+        {
+          "id": 1,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 400
+        },
+        {
+          "id": 2,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 3,
+          "discount": 0,
+          "amount": 500
+        },
+        {
+          "id": 3,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 1,
+          "discount": 0,
+          "amount": 300
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2024-03-06",
+      "branch": "Jurong East",
+      "pledge_count": 4,
+      "total": 800,
+      "pledges": [
+        {
+          "id": 4,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 1,
+          "discount": 0,
+          "amount": 200
+        },
+        {
+          "id": 5,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 300
+        },
+        {
+          "id": 6,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 1,
+          "discount": 0,
+          "amount": 100
+        },
+        {
+          "id": 7,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2024-03-06",
+      "branch": "Bukit Timah",
+      "pledge_count": 2,
+      "total": 500,
+      "pledges": [
+        {
+          "id": 8,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 300
+        },
+        {
+          "id": 9,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 1,
+          "discount": 0,
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2024-03-06",
+      "branch": "Tampines",
+      "pledge_count": 5,
+      "total": 1000,
+      "pledges": [
+        {
+          "id": 10,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 1,
+          "discount": 0,
+          "amount": 150
+        },
+        {
+          "id": 11,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 200
+        },
+        {
+          "id": 12,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 250
+        },
+        {
+          "id": 13,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 1,
+          "discount": 0,
+          "amount": 200
+        },
+        {
+          "id": 14,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 200
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "date": "2024-03-06",
+      "branch": "Woodlands",
+      "pledge_count": 4,
+      "total": 500,
+      "pledges": [
+        {
+          "id": 15,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 1,
+          "discount": 0,
+          "amount": 150
+        },
+        {
+          "id": 16,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 200
+        },
+        {
+          "id": 17,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 1,
+          "discount": 0,
+          "amount": 50
+        },
+        {
+          "id": 18,
+          "pledge_date": "2024-03-06",
+          "pledge_expiry": "2024-04-06",
+          "interest": 2,
+          "discount": 0,
+          "amount": 100
+        }
+      ]
     }
   ]
 }
