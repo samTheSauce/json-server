@@ -3,17 +3,17 @@
     {
       "id": 1,
       "pledge": "MY 04/10 00291",
-      "status": "REDEEMED",
+      "status": "OPEN",
       "date": "2023-12-23",
-      "expiry": "2023-12-23",
+      "expiry": "2023-06-23",
       "closed": "2023-12-23",
-      "ticket": "MY 12/22 VABYX",
+      "ticket": "MY 12/23 VABYX",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
-      "amount": 3600,
-      "balance": 0,
-      "interest": "-",
+      "amount": 450,
+      "balance": 450,
+      "interest": 1.5,
       "lost": "",
       "lost_date": "",
       "ltd_format": "",
@@ -27,14 +27,14 @@
       ],
       "redemption": [
         {
-          "payment_mode": "Cash",
-          "redeem_amount": 600,
+          "payment_mode": "",
+          "redeem_amount": "",
           "redeem_discount": "",
-          "redeem_date": "2024-03-06"
+          "redeem_date": ""
         }
       ],
       "loan": {
-        "progress": 100,
+        "progress": 50,
         "transaction_date": "2024-01-04"
       },
       "customer": [
@@ -102,6 +102,7 @@
       "date": "2023-12-23",
       "expiry": "2024-06-17",
       "closed": "2023-12-23",
+      "ticket": "MY 12/23 O8RMS",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
@@ -194,6 +195,7 @@
       "date": "2023-10-23",
       "expiry": "2024-04-11",
       "closed": "2023-10-23",
+      "ticket": "MY 10/23 MVB0Q",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
@@ -288,7 +290,7 @@
       "date": "2023-12-23",
       "expiry": "2024-03-17",
       "closed": "2023-12-23",
-      "ticket": "MY 12/22 VABYX",
+      "ticket": "MY 12/22 DDSQL",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
@@ -382,6 +384,7 @@
       "date": "2023-12-23",
       "expiry": "2024-06-17",
       "closed": "2023-12-23",
+      "ticket": "MY 12/23 TEWQL",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00032",
       "weight": "60.90",
@@ -474,6 +477,7 @@
       "date": "2023-10-23",
       "expiry": "2024-04-11",
       "closed": "2023-10-23",
+      "ticket": "MY 10/23 VCXB1",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
