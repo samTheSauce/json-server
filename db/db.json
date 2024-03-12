@@ -535,13 +535,148 @@
           "code": "IBE01",
           "type": "Bangle",
           "desc": "Gold Bangle",
-          "quantity": "3",
+          "quantity": 3,
           "quality": "G999",
-          "remarks": "-",
-          "serial": "-"
+          "weight": "-",
+          "serial": "GB0001"
         }
       ],
       "branch": "Cheng San"
+    },
+    {
+      "id": 7,
+      "pledge": "AH  12/03  007",
+      "status": "OPEN",
+      "date": "2024-03-12",
+      "expiry": "2024-09-12",
+      "closed": "",
+      "ticket": "AH  1203  3GJY0",
+      "valuer": "-",
+      "original_pledge": "-",
+      "weight": 0,
+      "amount": 0,
+      "balance": 0,
+      "interest": 0,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "reprint_cnt": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": ""
+        }
+      ],
+      "loan": {
+        "progress": 0,
+        "transaction_date": ""
+      },
+      "customer": [
+        {
+          "id": 7,
+          "name": "Murugesan Rajasekar",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7785266B",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "gender": "Male",
+          "race": "Indian",
+          "email": "xyz123sekar@yahoo.com",
+          "contact": "+65-89994266",
+          "occupation": "Executive",
+          "dob": "1997-12-23"
+        }
+      ],
+      "itemlist": [
+        {
+          "code": "IPT011",
+          "type": "Pendant",
+          "desc": "",
+          "quality": "",
+          "quantity": "",
+          "serial": ""
+        }
+      ],
+      "branch": "Ang Mo Kio"
+    },
+    {
+      "id": 8,
+      "pledge": "AM  12/03  008",
+      "status": "OPEN",
+      "date": "2024-03-12",
+      "expiry": "2024-09-12",
+      "closed": "",
+      "ticket": "AM  1203  BJUDN",
+      "valuer": "WLK- Avian U Yin Torn",
+      "original_pledge": "-",
+      "weight": 3,
+      "amount": 152,
+      "balance": 152,
+      "interest": 1.5,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "reprint_cnt": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": ""
+        }
+      ],
+      "loan": {
+        "progress": 0,
+        "transaction_date": ""
+      },
+      "customer": [
+        {
+          "id": 8,
+          "name": "Heng Shi Zheng",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "G1613351K",
+          "passport": "",
+          "address": "220-13, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
+          "nationality": "Chinese",
+          "gender": "Male",
+          "race": "Chinese",
+          "email": "myinfotesting@gmail.com",
+          "contact": "+65 97399245",
+          "occupation": "",
+          "dob": "2000-02-02"
+        }
+      ],
+      "itemlist": [
+        {
+          "code": "ICN011",
+          "type": "Chain",
+          "desc": "Gold Chain",
+          "quality": "G995",
+          "quantity": "2",
+          "serial": "GC00234"
+        }
+      ],
+      "branch": "Amk Mrt"
     }
   ],
   "pawners": [
@@ -4072,6 +4207,35 @@
           "amount": 100
         }
       ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "1",
+      "code": "IBE01",
+      "type": "Bangle",
+      "desc": "Gold Bangle",
+      "quantity": 3,
+      "quality": "G999",
+      "weight": "-",
+      "serial": "GB0001",
+      "pledgeid": 6,
+      "pledge": "MY 04/10 01235",
+      "date": "2023-10-23",
+      "branch": "Ang Mo kio"
+    },
+    {
+      "id": 2,
+      "code": "ICN011",
+      "type": "Chain",
+      "desc": "Gold Chain",
+      "quality": "G995",
+      "quantity": "2",
+      "serial": "GC00234",
+      "pledgeid": 8,
+      "pledge": "AM  12/03  008",
+      "date": "2024-03-12",
+      "branch": "Amk Mrt"
     }
   ]
 }
