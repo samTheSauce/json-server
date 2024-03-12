@@ -22,7 +22,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "receipt": ""
         }
       ],
       "redemption": [
@@ -30,7 +31,8 @@
           "payment_mode": "",
           "redeem_amount": "",
           "redeem_discount": "",
-          "redeem_date": ""
+          "redeem_date": "",
+          "receipt": ""
         }
       ],
       "loan": {
@@ -97,14 +99,14 @@
     },
     {
       "id": 2,
-      "pledge": "MY 04/10 00291",
+      "pledge": "MY 04/10 00292",
       "status": "OPEN",
       "date": "2023-12-23",
       "expiry": "2024-06-17",
       "closed": "2023-12-23",
       "ticket": "MY 12/23 O8RMS",
       "valuer": "WLK- Avian U Yin Torn",
-      "original_pledge": "MY 12/22 00002",
+      "original_pledge": "MY 12/22 00003",
       "weight": "60.90",
       "amount": 3600,
       "balance": 785,
@@ -117,7 +119,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "receipt": ""
         }
       ],
       "redemption": [
@@ -190,14 +193,14 @@
     },
     {
       "id": 3,
-      "pledge": "MY 04/10 00291",
+      "pledge": "MY 04/10 00293",
       "status": "EXPIRING",
       "date": "2023-10-23",
       "expiry": "2024-04-11",
       "closed": "2023-10-23",
       "ticket": "MY 10/23 MVB0Q",
       "valuer": "WLK- Avian U Yin Torn",
-      "original_pledge": "MY 12/22 00002",
+      "original_pledge": "MY 12/22 00004",
       "weight": "60.90",
       "amount": 3600,
       "balance": 650,
@@ -210,7 +213,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "receipt": ""
         }
       ],
       "redemption": [
@@ -286,9 +290,9 @@
     {
       "id": 4,
       "pledge": "MY 04/10 00294",
-      "status": "REDEEMED",
-      "date": "2023-12-23",
-      "expiry": "2024-03-17",
+      "status": "OPEN",
+      "date": "2023-11-05",
+      "expiry": "2024-05-05",
       "closed": "2023-12-23",
       "ticket": "MY 12/22 DDSQL",
       "valuer": "WLK- Avian U Yin Torn",
@@ -305,7 +309,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "receipt": ""
         }
       ],
       "redemption": [
@@ -313,7 +318,8 @@
           "payment_mode": "Cash",
           "redeem_amount": 450,
           "redeem_discount": "",
-          "redeem_date": "2024-03-07"
+          "redeem_date": "2024-03-07",
+          "receipt": ""
         }
       ],
       "loan": {
@@ -399,7 +405,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "receipt": ""
         }
       ],
       "redemption": [
@@ -492,7 +499,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "receipt": ""
         }
       ],
       "redemption": [
