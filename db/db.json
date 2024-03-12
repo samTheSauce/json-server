@@ -75,22 +75,22 @@
         {
           "id": "1",
           "no": "1",
-          "code": "AG01",
+          "code": "IRG01",
           "type": "Ring",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
+          "desc": "Gold Ring",
+          "quantity": "2",
+          "quality": "G999",
           "remarks": "-",
           "serial": "-"
         },
         {
           "id": "2",
           "no": "2",
-          "code": "AG02",
-          "type": "Ring",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
+          "code": "IBT01",
+          "type": "Bracelet",
+          "desc": "Gold Bracelet",
+          "quantity": "1",
+          "quality": "G995",
           "remarks": "-",
           "serial": "-"
         }
@@ -108,8 +108,8 @@
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00003",
       "weight": "60.90",
-      "amount": 3600,
-      "balance": 785,
+      "amount": 250,
+      "balance": 105,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -171,20 +171,11 @@
         {
           "id": "1",
           "no": "1",
-          "code": "AG01",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
-          "remarks": "-",
-          "serial": "-"
-        },
-        {
-          "id": "2",
-          "no": "2",
-          "code": "AG02",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
+          "code": "ICN01",
+          "type": "Chain",
+          "desc": "Gold Chain",
+          "quantity": "1",
+          "quality": "G750/18K",
           "remarks": "-",
           "serial": "-"
         }
@@ -298,8 +289,8 @@
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
-      "amount": 3600,
-      "balance": 0,
+      "amount": 2876,
+      "balance": 800,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -315,15 +306,15 @@
       ],
       "redemption": [
         {
-          "payment_mode": "Cash",
-          "redeem_amount": 450,
+          "payment_mode": "",
+          "redeem_amount": "",
           "redeem_discount": "",
-          "redeem_date": "2024-03-07",
+          "redeem_date": "",
           "receipt": ""
         }
       ],
       "loan": {
-        "progress": 100,
+        "progress": 70,
         "transaction_date": "2024-03-07"
       },
       "customer": [
@@ -361,11 +352,11 @@
         {
           "id": "1",
           "no": "1",
-          "code": "AG01",
-          "type": "Ring",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
+          "code": "EP01",
+          "type": "Pendant",
+          "desc": "Gold Ear Pendant",
+          "quantity": "6",
+          "quality": "G999",
           "remarks": "-",
           "serial": "-"
         },
@@ -394,8 +385,8 @@
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00032",
       "weight": "60.90",
-      "amount": 3600,
-      "balance": 785,
+      "amount": 1500,
+      "balance": 500,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -457,20 +448,10 @@
         {
           "id": "1",
           "no": "1",
-          "code": "AG01",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
-          "remarks": "-",
-          "serial": "-"
-        },
-        {
-          "id": "2",
-          "no": "2",
-          "code": "AG02",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
+          "code": "INE01",
+          "desc": "Gold Necklace",
+          "quantity": "2",
+          "quality": "G995",
           "remarks": "-",
           "serial": "-"
         }
@@ -488,8 +469,8 @@
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
-      "amount": 3600,
-      "balance": 650,
+      "amount": 5800,
+      "balance": 3550,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -551,22 +532,11 @@
         {
           "id": "1",
           "no": "1",
-          "code": "AG01",
-          "type": "Ring",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
-          "remarks": "-",
-          "serial": "-"
-        },
-        {
-          "id": "2",
-          "no": "2",
-          "code": "AG02",
-          "type": "Ring",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
+          "code": "IBE01",
+          "type": "Bangle",
+          "desc": "Gold Bangle",
+          "quantity": "3",
+          "quality": "G999",
           "remarks": "-",
           "serial": "-"
         }
