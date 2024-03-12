@@ -20,7 +20,7 @@ server.use(jsonServer.rewriter({
 	'/api/*': '/$1'
 }))
 server.use(router)
-server.listen(5000, () => {
+server.listen(3001, () => {
 	console.log('JSON Server is running')
 })
 
