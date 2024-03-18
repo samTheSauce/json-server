@@ -1186,8 +1186,8 @@
       ],
       "cash_balance": [
         {
-          "opening": "50,000.00",
-          "closing": "12,000.00"
+          "opening": "50000.00",
+          "closing": "12000.00"
         }
       ]
     },
@@ -1244,8 +1244,8 @@
       ],
       "cash_balance": [
         {
-          "opening": "50,000.00",
-          "closing": "12,000.00"
+          "opening": "50000.00",
+          "closing": "12000.00"
         }
       ]
     },
@@ -1302,8 +1302,8 @@
       ],
       "cash_balance": [
         {
-          "opening": "50,000.00",
-          "closing": "12,000.00"
+          "opening": "50000.00",
+          "closing": "12000.00"
         }
       ]
     },
@@ -1418,8 +1418,8 @@
       ],
       "cash_balance": [
         {
-          "opening": "50,000.00",
-          "closing": "12,000.00"
+          "opening": "50000.00",
+          "closing": "12000.00"
         }
       ]
     }
