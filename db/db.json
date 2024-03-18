@@ -5,14 +5,13 @@
       "pledge": "MY 04/10 00291",
       "status": "OPEN",
       "date": "2023-12-23",
-      "expiry": "2023-06-23",
+      "expiry": "2024-03-24",
       "closed": "2023-12-23",
-      "ticket": "MY 12/23 VABYX",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
       "amount": 450,
-      "balance": 450,
+      "balance": 0,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -20,10 +19,10 @@
       "receipt": "",
       "renewal": [
         {
-          "renew_date": "",
-          "fee": "",
-          "payment_mode": "",
-          "receipt": ""
+          "renew_date": "2024-03-12",
+          "fee": null,
+          "payment_mode": "DBSPaynow",
+          "receipt": "lto59bl4-edavh"
         }
       ],
       "redemption": [
@@ -36,12 +35,11 @@
         }
       ],
       "loan": {
-        "progress": 50,
-        "transaction_date": "2024-01-04"
+        "progress": 100,
+        "transaction_date": "2024-03-12"
       },
       "customer": [
         {
-          "id": 1,
           "name": "Murugesan Rajasekar",
           "avatar": "https://reqres.in/img/faces/8-image.jpg",
           "idtype": "NRIC",
@@ -185,16 +183,15 @@
     {
       "id": 3,
       "pledge": "MY 04/10 00293",
-      "status": "EXPIRING",
+      "status": "OPEN",
       "date": "2023-10-23",
-      "expiry": "2024-04-11",
+      "expiry": "2024-03-15",
       "closed": "2023-10-23",
-      "ticket": "MY 10/23 MVB0Q",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00004",
       "weight": "60.90",
       "amount": 3600,
-      "balance": 650,
+      "balance": 0,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -202,10 +199,10 @@
       "receipt": "",
       "renewal": [
         {
-          "renew_date": "",
-          "fee": "",
-          "payment_mode": "",
-          "receipt": ""
+          "renew_date": "2024-03-12",
+          "fee": "3",
+          "payment_mode": "Cash",
+          "receipt": "lto59u25-aiwk5"
         }
       ],
       "redemption": [
@@ -218,8 +215,8 @@
         }
       ],
       "loan": {
-        "progress": 40,
-        "transaction_date": "2024-03-11"
+        "progress": 100,
+        "transaction_date": "2024-03-12"
       },
       "customer": [
         {
@@ -379,14 +376,13 @@
       "pledge": "MY 04/10 00300",
       "status": "OPEN",
       "date": "2023-12-23",
-      "expiry": "2024-06-17",
+      "expiry": "2024-03-31",
       "closed": "2023-12-23",
-      "ticket": "MY 12/23 TEWQL",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00032",
       "weight": "60.90",
       "amount": 1500,
-      "balance": 500,
+      "balance": 0,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -394,10 +390,10 @@
       "receipt": "",
       "renewal": [
         {
-          "renew_date": "",
-          "fee": "",
-          "payment_mode": "",
-          "receipt": ""
+          "renew_date": "2024-03-12",
+          "fee": "5",
+          "payment_mode": "DBSPaynow",
+          "receipt": "lto5ad6d-u302f"
         }
       ],
       "redemption": [
@@ -410,7 +406,7 @@
         }
       ],
       "loan": {
-        "progress": 70,
+        "progress": 100,
         "transaction_date": "2024-03-12"
       },
       "customer": [
@@ -677,6 +673,209 @@
         }
       ],
       "branch": "Amk Mrt"
+    },
+    {
+      "id": 9,
+      "pledge": "AK  13/03  009\n",
+      "status": "OPEN",
+      "date": "2024-03-13",
+      "expiry": "2024-09-13",
+      "closed": "",
+      "ticket": "AK  1303  TFP0H",
+      "valuer": "-",
+      "original_pledge": "-",
+      "weight": 0,
+      "amount": 0,
+      "balance": 0,
+      "interest": 0,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "reprint_cnt": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": ""
+        }
+      ],
+      "loan": {
+        "progress": 0,
+        "transaction_date": ""
+      },
+      "customer": [
+        {
+          "id": 9,
+          "name": "Murugesan Rajasekar",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7785266B",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "gender": "Male",
+          "race": "Indian",
+          "email": "xyz123sekar@yahoo.com",
+          "contact": "+65-89994266",
+          "occupation": "Executive",
+          "dob": "1997-12-23"
+        }
+      ],
+      "itemlist": [
+        {
+          "code": "ICN011\n",
+          "type": "Chain",
+          "desc": "fgbfg",
+          "quality": "",
+          "quantity": "",
+          "serial": ""
+        }
+      ],
+      "branch": "Cheng San"
+    },
+    {
+      "id": 10,
+      "pledge": "AK  13/03  010\n",
+      "status": "OPEN",
+      "date": "2024-03-13",
+      "expiry": "2024-09-13",
+      "closed": "",
+      "ticket": "AK  1303  ZKLWO",
+      "valuer": "-",
+      "original_pledge": "-",
+      "weight": 0,
+      "amount": 0,
+      "balance": 0,
+      "interest": 0,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "reprint_cnt": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": ""
+        }
+      ],
+      "loan": {
+        "progress": 0,
+        "transaction_date": ""
+      },
+      "customer": [
+        {
+          "id": 10,
+          "name": "Lim Yong Xiang",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S9812379B",
+          "passport": "",
+          "address": "22-12, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
+          "nationality": "British Overseas Territories Citizen",
+          "gender": "Male",
+          "race": "Chinese",
+          "email": "myinfotesting@gmail.com",
+          "contact": "+65 97399245",
+          "occupation": "",
+          "dob": "1980-10-06"
+        }
+      ],
+      "itemlist": [
+        {
+          "code": "ICN011\n",
+          "type": "Chain",
+          "desc": "dfg",
+          "quality": "G985",
+          "quantity": "3",
+          "serial": "fd"
+        }
+      ],
+      "branch": "Cheng San"
+    },
+    {
+      "id": 11,
+      "pledge": "AM  13/03  011\n",
+      "status": "OPEN",
+      "date": "2024-03-13",
+      "expiry": "2024-09-13",
+      "closed": "",
+      "ticket": "AM  1303  WCI82",
+      "valuer": "-",
+      "original_pledge": "-",
+      "weight": 0,
+      "amount": 0,
+      "balance": 0,
+      "interest": 0,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "reprint_cnt": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": ""
+        }
+      ],
+      "loan": {
+        "progress": 0,
+        "transaction_date": ""
+      },
+      "customer": [
+        {
+          "id": 11,
+          "name": "Lim Yong Xiang",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S9812379B",
+          "passport": "",
+          "address": "22-12, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
+          "nationality": "British Overseas Territories Citizen",
+          "gender": "Male",
+          "race": "Chinese",
+          "email": "myinfotesting@gmail.com",
+          "contact": "+65 97399245",
+          "occupation": "",
+          "dob": "1980-10-06"
+        }
+      ],
+      "itemlist": [
+        {
+          "code": "IBT011\n",
+          "type": "Bracelet",
+          "desc": "",
+          "quality": "",
+          "quantity": "",
+          "serial": ""
+        }
+      ],
+      "branch": "Amk Mrt"
     }
   ],
   "pawners": [
@@ -939,399 +1138,899 @@
       "branch": "Ang Mo Kio",
       "code": "AH",
       "business": "Moneymax Pte Ltd",
+      "location": "Singapore",
       "pledge_count": 2500,
       "pledge_total": 34500,
       "date": "2022-01-12",
-      "stock_in": "10,240.00",
-      "stock_out": "10,8000.00",
-      "interest": "5,990.00",
-      "opening": "50,000.00",
-      "closing": "12,000.00"
+      "stock_in": [
+        {
+          "new": "10240.00",
+          "new_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "10",
+          "returned": "50000.00",
+          "returned_count": "5"
+        }
+      ],
+      "stock_out": [
+        {
+          "redemption": "108000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15",
+          "auctioned": "50000.00",
+          "auctioned_count": "15",
+          "forfeited": "50000.00",
+          "forfeited_count": "15",
+          "seized": "50000.00",
+          "seized_count": "15"
+        }
+      ],
+      "interest": [
+        {
+          "redemption": "50000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15"
+        }
+      ],
+      "others": [
+        {
+          "ib_renewal": "50000.00",
+          "ib_count": "15",
+          "surplus": "50000.00",
+          "surplus_count": "15",
+          "lost_fee": "12000.00",
+          "lost_count": "15"
+        }
+      ],
+      "cash_balance": [
+        {
+          "opening": "50,000.00",
+          "closing": "12,000.00"
+        }
+      ]
     },
     {
       "id": 2,
       "branch": "Cheng San",
       "code": "AK",
       "business": "Moneymax Group Pte Ltd",
+      "location": "Singapore",
       "pledge_count": 6550,
       "pledge_total": 208700,
       "date": "2022-01-12",
-      "stock_in": "10,240.00",
-      "stock_out": "10,800.00",
-      "interest": "5,990.00",
-      "opening": "50,000.00",
-      "closing": "12,000.00"
+      "stock_in": [
+        {
+          "new": "10240.00",
+          "new_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "10",
+          "returned": "50000.00",
+          "returned_count": "5"
+        }
+      ],
+      "stock_out": [
+        {
+          "redemption": "108000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15",
+          "auctioned": "50000.00",
+          "auctioned_count": "15",
+          "forfeited": "50000.00",
+          "forfeited_count": "15",
+          "seized": "50000.00",
+          "seized_count": "15"
+        }
+      ],
+      "interest": [
+        {
+          "redemption": "50000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15"
+        }
+      ],
+      "others": [
+        {
+          "ib_renewal": "50000.00",
+          "ib_count": "15",
+          "surplus": "50000.00",
+          "surplus_count": "15",
+          "lost_fee": "12000.00",
+          "lost_count": "15"
+        }
+      ],
+      "cash_balance": [
+        {
+          "opening": "50,000.00",
+          "closing": "12,000.00"
+        }
+      ]
     },
     {
       "id": 3,
       "branch": "Amk Mrt",
       "code": "AM",
       "business": "Moneymax Pte Ltd",
+      "location": "Singapore",
       "pledge_count": 2500,
       "pledge_total": 34500,
       "date": "2022-01-12",
-      "stock_in": "10,240.00",
-      "stock_out": "10,800.00",
-      "interest": "5,990.00",
-      "opening": "50,000.00",
-      "closing": "12,000.00"
+      "stock_in": [
+        {
+          "new": "10240.00",
+          "new_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "10",
+          "returned": "50000.00",
+          "returned_count": "5"
+        }
+      ],
+      "stock_out": [
+        {
+          "redemption": "108000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15",
+          "auctioned": "50000.00",
+          "auctioned_count": "15",
+          "forfeited": "50000.00",
+          "forfeited_count": "15",
+          "seized": "50000.00",
+          "seized_count": "15"
+        }
+      ],
+      "interest": [
+        {
+          "redemption": "50000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15"
+        }
+      ],
+      "others": [
+        {
+          "ib_renewal": "50000.00",
+          "ib_count": "15",
+          "surplus": "50000.00",
+          "surplus_count": "15",
+          "lost_fee": "12000.00",
+          "lost_count": "15"
+        }
+      ],
+      "cash_balance": [
+        {
+          "opening": "50,000.00",
+          "closing": "12,000.00"
+        }
+      ]
     },
     {
       "id": 4,
       "branch": "Zheng Hua",
       "code": "BH",
       "business": "Moneymax Pte Ltd",
+      "location": "Singapore",
       "pledge_count": 2500,
       "pledge_total": 34500,
       "date": "2022-01-12",
-      "stock_in": "10,240.00",
-      "stock_out": "10,800.00",
-      "interest": "5,990.00",
-      "opening": "50,000.00",
-      "closing": "12,000.00"
+      "stock_in": [
+        {
+          "new": "10240.00",
+          "new_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "10",
+          "returned": "50000.00",
+          "returned_count": "5"
+        }
+      ],
+      "stock_out": [
+        {
+          "redemption": "108000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15",
+          "auctioned": "50000.00",
+          "auctioned_count": "15",
+          "forfeited": "50000.00",
+          "forfeited_count": "15",
+          "seized": "50000.00",
+          "seized_count": "15"
+        }
+      ],
+      "interest": [
+        {
+          "redemption": "50000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15"
+        }
+      ],
+      "others": [
+        {
+          "ib_renewal": "50000.00",
+          "ib_count": "15",
+          "surplus": "50000.00",
+          "surplus_count": "15",
+          "lost_fee": "12000.00",
+          "lost_count": "15"
+        }
+      ],
+      "cash_balance": [
+        {
+          "opening": "50000.00",
+          "closing": "12000.00"
+        }
+      ]
     },
     {
       "id": 5,
       "branch": "Ban Joo",
       "code": "BJ",
       "business": "Ban Joo Pawnshop Pte Ltd",
+      "location": "Singapore",
       "pledge_count": 2500,
       "pledge_total": 34500,
       "date": "2022-01-12",
-      "stock_in": "10,240.00",
-      "stock_out": "10,800.00",
-      "interest": "5,990.00",
-      "opening": "50,000.00",
-      "closing": "12,000.00"
+      "stock_in": [
+        {
+          "new": "10240.00",
+          "new_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "10",
+          "returned": "50000.00",
+          "returned_count": "5"
+        }
+      ],
+      "stock_out": [
+        {
+          "redemption": "108000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15",
+          "auctioned": "50000.00",
+          "auctioned_count": "15",
+          "forfeited": "50000.00",
+          "forfeited_count": "15",
+          "seized": "50000.00",
+          "seized_count": "15"
+        }
+      ],
+      "interest": [
+        {
+          "redemption": "50000.00",
+          "redemption_count": "15",
+          "renewal": "50000.00",
+          "renewal_count": "15"
+        }
+      ],
+      "others": [
+        {
+          "ib_renewal": "50000.00",
+          "ib_count": "15",
+          "surplus": "50000.00",
+          "surplus_count": "15",
+          "lost_fee": "12000.00",
+          "lost_count": "15"
+        }
+      ],
+      "cash_balance": [
+        {
+          "opening": "50,000.00",
+          "closing": "12,000.00"
+        }
+      ]
     }
   ],
   "roles": [
     {
       "id": 1,
-      "code": "Hoadm",
+      "code": "R01",
       "desc": "System Administrator",
-      "branch": "Head Office"
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "1",
+          "name": "Admin"
+        },
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
       "id": 2,
-      "code": "Srmgt",
+      "code": "R03",
       "desc": "Senior Management",
-      "branch": "Head Office"
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
       "id": 3,
-      "code": "Account",
-      "desc": "Account Dept",
-      "branch": "Head Office"
+      "code": "R03",
+      "desc": "Store Admin Assistant",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
       "id": 4,
-      "code": "Goldprice",
-      "desc": "Modify Goldprice",
-      "branch": "Head Office"
+      "code": "R04",
+      "desc": "Valuer",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
       "id": 5,
-      "code": "Romgrs",
-      "desc": "RO Managers",
-      "branch": "Branch"
+      "code": "R05",
+      "desc": "Account Dept",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
       "id": 6,
-      "code": "Brmgrv",
-      "desc": "RO With Valuer Role",
-      "branch": "Branch"
+      "code": "R06",
+      "desc": "Ro",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 7,
+      "code": "R07",
+      "desc": "Report",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 8,
+      "code": "R08",
+      "desc": "Modify Goldprice",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 9,
+      "code": "R09",
+      "desc": "Store Admin",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 10,
+      "code": "R10",
+      "desc": "Marketing Dept",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 11,
+      "code": "R11",
+      "desc": "Store Admin Assistant 2",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 12,
+      "code": "R12",
+      "desc": "Senior Ro",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 13,
+      "code": "R13",
+      "desc": "Ro Managers",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 14,
+      "code": "R14",
+      "desc": "Store Admin Valuer",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 15,
+      "code": "R15",
+      "desc": "Print Address Label",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "3",
+          "name": "Inventory"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 16,
+      "code": "R16",
+      "desc": "Police Enquirey",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 17,
+      "code": "R17",
+      "desc": "Senior Accounts",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 18,
+      "code": "R18",
+      "desc": "Ro With Valuer Role",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 19,
+      "code": "R19",
+      "desc": "Hr Dept",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 20,
+      "code": "R20",
+      "desc": "Stand Alone Store Admin",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 21,
+      "code": "R21",
+      "desc": "Cash Transfer Report",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 22,
+      "code": "R22",
+      "desc": "Stand Alone Store Admin Valuer",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 23,
+      "code": "R23",
+      "desc": "Customer Service Dept",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 24,
+      "code": "R24",
+      "desc": "Audit",
+      "branch": "Head Office",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 25,
+      "code": "R25",
+      "desc": "Management",
+      "branch": "Branch",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
+    },
+    {
+      "id": 26,
+      "code": "R26",
+      "desc": "Accounts",
+      "branch": "",
+      "modules": [
+        {
+          "id": "2",
+          "name": "Inquiry"
+        },
+        {
+          "id": "3",
+          "name": "Inventory"
+        },
+        {
+          "id": "4",
+          "name": "Report"
+        }
+      ],
+      "createdOn": "2024-03-13T08:28:53.082Z"
     }
   ],
-  "roles_bc": [
+  "approver": [
     {
-      "code": "Hoadm",
-      "desc": "System Administrator",
-      "branch": "Head Office"
+      "id": 1,
+      "code": "RO",
+      "desc": "RO"
     },
     {
-      "code": "Srmgt",
-      "desc": "Senior Management",
-      "branch": "Head Office"
+      "id": 2,
+      "code": "HO",
+      "desc": "HO"
     },
     {
-      "code": "Account",
-      "desc": "Account Dept",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Report",
-      "desc": "Report",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Goldprice",
-      "desc": "Modify Goldprice",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Mkt",
-      "desc": "Marketing Dept",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Snro",
-      "desc": "Senior Ro",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Romgr",
-      "desc": "Ro Managers",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Label",
-      "desc": "Print Address Label",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Enquiry",
-      "desc": "Police Enquiry",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Snact",
-      "desc": "Senior Accounts",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Adt",
-      "desc": "Audit",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Hrd",
-      "desc": "HR Dept",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Cashtrfrpt",
-      "desc": "Cash Transfer Report",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Csd",
-      "desc": "Customer Service Dept",
-      "branch": "Head Office"
-    },
-    {
-      "code": "Aasnt",
-      "desc": "Store Admin Assistant",
-      "branch": "Branch"
-    },
-    {
-      "code": "Val",
-      "desc": "Valuer",
-      "branch": "Branch"
-    },
-    {
-      "code": "Brmgr",
-      "desc": "RO",
-      "branch": "Branch"
-    },
-    {
-      "code": "Acc",
-      "desc": "Accounts",
-      "branch": "Branch"
-    },
-    {
-      "code": "Abrmgr",
-      "desc": "Store Admin",
-      "branch": "Branch"
-    },
-    {
-      "code": "Aasnt2",
-      "desc": "Store Admin Assistant 2",
-      "branch": "Branch"
-    },
-    {
-      "code": "Mgt",
-      "desc": "Management",
-      "branch": "Branch"
-    },
-    {
-      "code": "1St Ic",
-      "desc": "Store Admin Valuer",
-      "branch": "Branch"
-    },
-    {
-      "code": "Adm",
-      "desc": "Admin",
-      "branch": "Branch"
-    },
-    {
-      "code": "Dataentry",
-      "desc": "Data Entry",
-      "branch": "Branch"
-    },
-    {
-      "code": "Romgrs",
-      "desc": "RO Managers",
-      "branch": "Branch"
-    },
-    {
-      "code": "Brmgrv",
-      "desc": "RO With Valuer Role",
-      "branch": "Branch"
-    },
-    {
-      "code": "Stabrmgr",
-      "desc": "Stand Alone Store Admin",
-      "branch": "Branch"
-    },
-    {
-      "code": "Stval",
-      "desc": "Stand Alone Store Admin Valuer",
-      "branch": "Branch"
+      "id": 3,
+      "code": "Senior Mangement",
+      "desc": "Senior Mangement"
     }
   ],
   "users": [
     {
-      "user_id": "MMQ001",
-      "username": "Anis Suraya",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
-      "role": "Store Admin",
-      "code": "",
-      "branch": "Ang Mo Kio",
-      "joinedOn": "2022-06-22",
-      "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
-      "remarks": "-",
-      "status": "Active"
-    },
-    {
-      "user_id": "MMQ002",
-      "username": "Fiona Lee",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
+      "id": 1,
+      "username": "MMQ009",
+      "employeeName": "Hazirah Bujang",
+      "employeeId": "MMQ009",
+      "password": "sdf",
       "role": "Branch Manager",
       "code": "",
-      "branch": "Ang Mo Kio",
-      "joinedOn": "2022-06-22",
-      "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
-      "remarks": "-",
-      "status": "Active"
-    },
-    {
-      "user_id": "MMQ003",
-      "username": "Esther Puyang",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
-      "role": "System Admin",
-      "code": "",
-      "branch": "Head Office",
-      "joinedOn": "2022-06-22",
-      "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
-      "remarks": "-",
-      "status": "Active"
-    },
-    {
-      "user_id": "MMQ004",
-      "username": "Khaliq Ahmad",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
-      "role": "Account",
-      "code": "",
-      "branch": "Ang Mo Kio",
-      "joinedOn": "2022-06-22",
-      "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
-      "remarks": "-",
-      "status": "Active"
-    },
-    {
-      "user_id": "MMQ005",
-      "username": "Chris Lee",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
-      "role": "Branch Admin",
-      "code": "",
-      "branch": "Ang Mo Kio",
-      "joinedOn": "2022-06-22",
-      "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
-      "remarks": "-",
-      "status": "Active"
-    },
-    {
-      "user_id": "MMQ006",
-      "username": "Gwen Tanin",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
-      "role": "Retail Officer",
-      "code": "",
-      "branch": "Cheng San",
-      "joinedOn": "2022-06-22",
-      "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
-      "remarks": "-",
-      "status": "Active"
-    },
-    {
-      "user_id": "MMQ007",
-      "username": "Sam Kim",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
-      "role": "Retail Officer",
-      "code": "",
-      "branch": "Ang Mo Kio",
-      "joinedOn": "2022-06-22",
-      "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
-      "remarks": "-",
-      "status": "Active"
-    },
-    {
-      "user_id": "MMQ008",
-      "username": "Raju Kumar",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
-      "role": "Valuer",
-      "code": "",
-      "branch": "Ang Mo Kio",
-      "joinedOn": "2022-06-22",
-      "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
-      "remarks": "-",
-      "status": "Active"
-    },
-    {
-      "user_id": "MMQ009",
-      "username": "Hazirah Bujang",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
-      "role": "Branch Manager",
-      "code": "",
+      "mobile": "",
+      "approver": "",
       "branch": "Ban Joo",
       "joinedOn": "2022-06-22",
       "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
+      "lastActive": "-",
       "remarks": "-",
       "status": "Active"
     },
     {
-      "user_id": "MMQ010",
-      "username": "Lim Eng Hoon",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
+      "id": 2,
+      "username": "MMQ010",
+      "employeeName": "Lim Eng Hoon",
+      "employeeId": "MMQ010",
+      "password": "sdf",
       "role": "Retail Officer",
       "code": "",
+      "mobile": "",
+      "approver": "",
       "branch": "Ang Mo Kio",
       "joinedOn": "2022-06-22",
       "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
+      "lastActive": "2024-03-13T08:28:53.082Z",
       "remarks": "-",
       "status": "Active"
     },
     {
-      "user_id": "MMQ011",
-      "username": "Kenny Lee",
-      "avatar": "https://reqres.in/img/faces/5-image.jpg",
+      "id": 3,
+      "username": "MMQ011",
+      "employeeName": "Kenny Lee",
+      "employeeId": "MMQ011",
+      "password": "sdf",
       "role": "Retail Officer",
       "code": "",
+      "mobile": "",
+      "approver": "",
       "branch": "Ang Mo Kio",
       "joinedOn": "2022-06-22",
       "joinedTime": "9:45 AM",
-      "lastActive": "40 min ago",
+      "lastActive": "2024-03-13T08:28:53.082Z",
       "remarks": "-",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "username": "test HO",
+      "employeeName": "sdf",
+      "password": "sdf",
+      "employeeId": "sdf",
+      "role": "Cash Transfer Report",
+      "code": "",
+      "mobile": "sdf",
+      "approver": "RO",
+      "branch": "",
+      "joinedOn": "2024-03-13T08:28:53.082Z",
+      "lastActive": "-",
+      "remarks": "sdf",
       "status": "Active"
     }
   ],
@@ -3481,7 +4180,6 @@
     {
       "users": [
         {
-          "user_id": "MMQ001",
           "username": "Anis Suraya",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Store Admin",
@@ -3494,7 +4192,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ002",
           "username": "Fiona Lee",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Branch Manager",
@@ -3507,7 +4204,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ003",
           "username": "Esther Puyang",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "System Admin",
@@ -3520,7 +4216,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ004",
           "username": "Khaliq Ahmad",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Account",
@@ -3533,7 +4228,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ005",
           "username": "Chris Lee",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Branch Admin",
@@ -3546,7 +4240,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ006",
           "username": "Gwen Tanin",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Retail Officer",
@@ -3559,7 +4252,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ007",
           "username": "Sam Kim",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Retail Officer",
@@ -3572,7 +4264,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ008",
           "username": "Raju Kumar",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Valuer",
@@ -3585,7 +4276,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ009",
           "username": "Hazirah Bujang",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Branch Manager",
@@ -3598,7 +4288,6 @@
           "status": "Active"
         },
         {
-          "user_id": "MMQ010",
           "username": "Lim Eng Hoon",
           "avatar": "https://reqres.in/img/faces/5-image.jpg",
           "role": "Retail Officer",
@@ -3832,6 +4521,7 @@
   ],
   "pledge_params": [
     {
+      "id": 1,
       "ref_id": "P001",
       "parameter": "Pledge Duration",
       "unit": "Month",
@@ -3840,6 +4530,7 @@
       "update_time": "9:45 AM"
     },
     {
+      "id": 2,
       "ref_id": "P002",
       "parameter": "Monthly pledge interest rate",
       "unit": "%",
@@ -3850,6 +4541,7 @@
   ],
   "customer_params": [
     {
+      "id": 1,
       "ref_id": "C001",
       "parameter": "Enable Singpass Myinfo",
       "unit": "NA",
@@ -3932,6 +4624,7 @@
   ],
   "gold_params": [
     {
+      "id": 1,
       "ref_id": "GS001",
       "parameter": "Gold Price",
       "unit": "SGD/gm",
@@ -3940,6 +4633,7 @@
       "update_time": "9:45 AM"
     },
     {
+      "id": 2,
       "ref_id": "GS002",
       "parameter": "Silver Price",
       "unit": "SGD/gm",
@@ -3982,6 +4676,7 @@
   ],
   "report_manage": [
     {
+      "id": 1,
       "ref_id": "R001",
       "report_name": "Pledge Listing",
       "group": "Pledge",
@@ -3991,6 +4686,7 @@
       "update_time": "9:45 AM"
     },
     {
+      "id": 2,
       "ref_id": "R002",
       "report_name": "Valuation Review",
       "group": "Pledge",
@@ -4000,6 +4696,7 @@
       "update_time": "9:45 AM"
     },
     {
+      "id": 3,
       "ref_id": "R003",
       "report_name": "New Customer",
       "group": "Customer",
@@ -4009,6 +4706,7 @@
       "update_time": "9:45 AM"
     },
     {
+      "id": 4,
       "ref_id": "R004",
       "report_name": "Outstanding Customer Listing",
       "group": "Customer",
