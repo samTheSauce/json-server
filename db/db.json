@@ -878,258 +878,52 @@
       "branch": "Amk Mrt"
     }
   ],
+  "transactions": [
+    {
+      "id": 1,
+      "code": "TR001",
+      "pawner_id": 1,
+      "pledge_id": 2,
+      "timestamp": "2024-03-12",
+      "status": "Successful",
+      "payment_ref": "Monthly payment for MY 04/10 00291",
+      "receipt": "lto59bl4-edavh"
+    }
+  ],
   "pawners": [
     {
       "id": 1,
       "name": "Lim Yong Seng",
-      "avatar": "https://reqres.in/img/faces/1-image.jpg",
-      "nationality": "Singapore",
-      "email": "alex@gmail.com",
-      "idtype": "NRIC",
-      "idno": "S8719174E",
-      "joinedOn": "2023-12-01",
-      "lastActive": "5 hr ago",
-      "contact": "+65-89994266",
-      "status": "Caution List",
-      "remarks": "Extention 1% -1/1/2014",
-      "branch": "Moneymax Group Pte Ltd (Boon Lay Branch)",
-      "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
-      "gender": "Male",
-      "race": "Chinese",
-      "exposure": "17,940.00",
-      "itemlist": [
-        {
-          "id": "1",
-          "pledge": "MY 10/21 00579 GOCVG",
-          "ori_pledge": "MY 04/21 01222",
-          "date": "07 Oct 2021",
-          "val": "WLK",
-          "weight": "53.50",
-          "expiry": "07 Oct 2021",
-          "closed": "-",
-          "code": "AWAD07",
-          "desc": [
-            {
-              "item": "1/GOLD NECKLACE [U]/22K"
-            },
-            {
-              "item": "1/GOLD STONE PEARL NECKLACE [U]/22K"
-            },
-            {
-              "item": "1/GOLD CHAIN [U]/22K"
-            },
-            {
-              "item": "2/GOLD EAR CHAIN [U]/22K"
-            },
-            {
-              "item": "1/GOLD BRACELET [U]/22K"
-            }
-          ],
-          "status": "OPEN",
-          "cdd": "no",
-          "amount": "3,270.00"
-        }
-      ],
-      "guarantor": [
-        {
-          "name": "SHIRLEY GO XUE YU",
-          "avatar": "https://reqres.in/img/faces/2-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S9026149E",
-          "address": "644 YISHUN STREET 61 #11-312",
-          "nationality": "Singapore",
-          "gender": "Female",
-          "race": "Chinese",
-          "email": "-",
-          "contact": "-"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Zarinah Binti Mamat",
-      "avatar": "https://reqres.in/img/faces/2-image.jpg",
-      "nationality": "Singapore",
-      "email": "syarah@gmail.com",
-      "idtype": "NRIC",
-      "idno": "S7400507A",
-      "joinedOn": "2023-01-01",
-      "lastActive": "15 min ago",
-      "contact": "+65-89994266",
-      "status": "Caution List",
-      "remarks": "",
-      "branch": "Woodlands Branch",
-      "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
-      "gender": "Female",
-      "race": "Malay",
-      "exposure": "17,940.00",
-      "itemlist": [
-        {
-          "id": "1",
-          "pledge": "MY 10/21 00579 GOCVG",
-          "ori_pledge": "MY 04/21 01222",
-          "date": "07 Oct 2021",
-          "val": "WLK",
-          "weight": "53.50",
-          "expiry": "07 Oct 2021",
-          "closed": "-",
-          "code": "AWAD07",
-          "desc": [
-            {
-              "item": "1/GOLD BRACELET [U]/22K"
-            }
-          ],
-          "status": "OPEN",
-          "cdd": "no",
-          "amount": "3,270.00"
-        }
-      ],
-      "guarantor": [
-        {
-          "name": "SHIRLEY GO XUE YU",
-          "avatar": "https://reqres.in/img/faces/2-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S9026149E",
-          "address": "644 YISHUN STREET 61 #11-312",
-          "nationality": "Singapore",
-          "gender": "Female",
-          "race": "Chinese",
-          "email": "-",
-          "contact": "-"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Lim Yong Seng 2",
-      "avatar": "https://reqres.in/img/faces/1-image.jpg",
-      "nationality": "Singapore",
-      "email": "alex@gmail.com",
-      "idtype": "NRIC",
-      "idno": "S8719174E",
-      "joinedOn": "2023-12-01",
-      "lastActive": "5 hr ago",
-      "contact": "+65-89994266",
-      "status": "CDD",
-      "remarks": "",
-      "branch": "Moneymax Group Pte Ltd (Boon Lay Branch)",
-      "address": "7 CHANGI BUSINESS PARK VISTA #01-01   486042",
-      "gender": "Male",
-      "race": "Chinese",
-      "exposure": "17,940.00",
-      "itemlist": [
-        {
-          "id": "1",
-          "pledge": "MY 10/21 00579 GOCVG",
-          "ori_pledge": "MY 04/21 01222",
-          "date": "07 Oct 2021",
-          "val": "WLK",
-          "weight": "53.50",
-          "expiry": "07 Oct 2021",
-          "closed": "-",
-          "code": "AWAD07",
-          "desc": [
-            {
-              "item": "1/GOLD NECKLACE [U]/22K"
-            },
-            {
-              "item": "1/GOLD STONE PEARL NECKLACE [U]/22K"
-            },
-            {
-              "item": "1/GOLD CHAIN [U]/22K"
-            },
-            {
-              "item": "2/GOLD EAR CHAIN [U]/22K"
-            },
-            {
-              "item": "1/GOLD BRACELET [U]/22K"
-            }
-          ],
-          "status": "OPEN",
-          "cdd": "no",
-          "amount": "3,270.00"
-        }
-      ],
-      "guarantor": [
-        {
-          "name": "SHIRLEY GO XUE YU",
-          "avatar": "https://reqres.in/img/faces/2-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S9026149E",
-          "address": "644 YISHUN STREET 61 #11-312",
-          "nationality": "Singapore",
-          "gender": "Female",
-          "race": "Chinese",
-          "email": "-",
-          "contact": "-"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Murugesan Rajasekar",
       "avatar": "https://reqres.in/img/faces/8-image.jpg",
-      "nationality": "Singapore",
-      "email": "xyz123sekar@yahoo.com",
       "idtype": "NRIC",
       "idno": "S7785266B",
-      "joinedOn": "2023-12-01",
-      "lastActive": "5 hr ago",
-      "contact": "+65-89994266",
-      "status": "CDD",
-      "remarks": "",
-      "branch": "Moneymax Group Pte Ltd (Boon Lay Branch)",
+      "passport": "-",
       "address": "419 Canberra Road #02-395 750419",
+      "nationality": "Singapore",
       "gender": "Male",
       "race": "Indian",
-      "exposure": "17,940.00",
-      "itemlist": [
-        {
-          "id": "1",
-          "pledge": "MY 10/21 00579 GOCVG",
-          "ori_pledge": "MY 04/21 01222",
-          "date": "07 Oct 2021",
-          "val": "WLK",
-          "weight": "53.50",
-          "expiry": "07 Oct 2021",
-          "closed": "-",
-          "code": "AWAD07",
-          "desc": [
-            {
-              "item": "1/GOLD NECKLACE [U]/22K"
-            },
-            {
-              "item": "1/GOLD STONE PEARL NECKLACE [U]/22K"
-            },
-            {
-              "item": "1/GOLD CHAIN [U]/22K"
-            },
-            {
-              "item": "2/GOLD EAR CHAIN [U]/22K"
-            },
-            {
-              "item": "1/GOLD BRACELET [U]/22K"
-            }
-          ],
-          "status": "OPEN",
-          "cdd": "no",
-          "amount": "3,270.00"
-        }
-      ],
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Female",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-"
-        }
-      ]
+      "email": "xyz123sekar@yahoo.com",
+      "contact": "+65-89994266",
+      "occupation": "Executive",
+      "dob": "1997-12-23",
+      "status": "Caution List"
+    }
+  ],
+  "guarantors": [
+    {
+      "id": 1,
+      "name": "Nagarajan Shebagavalli",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg",
+      "idtype": "NRIC",
+      "idno": "S7981374E",
+      "passport": "-",
+      "address": "419 Canberra Road #02-395 750419",
+      "nationality": "Singapore",
+      "race": "Indian",
+      "email": "-",
+      "contact": "-",
+      "occupation": "Executive",
+      "dob": "16 Nov 1977"
     }
   ],
   "businesses": [
