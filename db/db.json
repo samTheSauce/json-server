@@ -49,7 +49,7 @@
           "gender": "Male",
           "race": "Indian",
           "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
+          "contact": "-",
           "occupation": "Executive",
           "dob": "1997-12-23"
         }
@@ -145,7 +145,7 @@
           "gender": "Male",
           "race": "Indian",
           "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
+          "contact": "-",
           "occupation": "Executive",
           "dob": "1997-12-23"
         }
@@ -229,7 +229,7 @@
           "gender": "Male",
           "race": "Indian",
           "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
+          "contact": "-",
           "occupation": "Executive",
           "dob": "1997-12-23"
         }
@@ -325,7 +325,7 @@
           "gender": "Male",
           "race": "Indian",
           "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
+          "contact": "-",
           "occupation": "Executive",
           "dob": "1997-12-23"
         }
@@ -420,7 +420,7 @@
           "gender": "Male",
           "race": "Indian",
           "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
+          "contact": "-",
           "occupation": "Executive",
           "dob": "1997-12-23"
         }
@@ -460,7 +460,7 @@
       "status": "EXPIRING",
       "date": "2023-10-23",
       "expiry": "2024-04-11",
-      "closed": "2023-10-23",
+      "closed": "2024-104-19",
       "ticket": "MY 10/23 VCXB1",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
@@ -495,7 +495,7 @@
       },
       "customer": [
         {
-          "name": "Lim Yong Seng",
+          "name": "Wilson Ong",
           "avatar": "https://reqres.in/img/faces/8-image.jpg",
           "idtype": "NRIC",
           "idno": "S7785266B",
@@ -503,8 +503,8 @@
           "nationality": "Singapore",
           "gender": "Male",
           "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
+          "email": "wilsonong@moneymax.com.sg",
+          "contact": "6587121789",
           "occupation": "Executive",
           "dob": "1997-12-23"
         }
@@ -676,7 +676,7 @@
     },
     {
       "id": 9,
-      "pledge": "AK  13/03  009\n",
+      "pledge": "AK  13/03  009",
       "status": "OPEN",
       "date": "2024-03-13",
       "expiry": "2024-09-13",
@@ -743,7 +743,7 @@
     },
     {
       "id": 10,
-      "pledge": "AK  13/03  010\n",
+      "pledge": "AK  13/03  010",
       "status": "OPEN",
       "date": "2024-03-13",
       "expiry": "2024-09-13",
@@ -811,7 +811,7 @@
     },
     {
       "id": 11,
-      "pledge": "AM  13/03  011\n",
+      "pledge": "AM  13/03  011",
       "status": "OPEN",
       "date": "2024-03-13",
       "expiry": "2024-09-13",
@@ -876,6 +876,261 @@
         }
       ],
       "branch": "Amk Mrt"
+    },
+    {
+      "id": 12,
+      "pledge": "MY 04/10 01288",
+      "status": "EXPIRING",
+      "date": "2023-10-23",
+      "expiry": "2024-04-11",
+      "closed": "2024-104-19",
+      "ticket": "MY 10/23 VCXB1",
+      "valuer": "WLK- Avian U Yin Torn",
+      "original_pledge": "MY 12/22 00002",
+      "weight": "60.90",
+      "amount": 5800,
+      "balance": 3550,
+      "interest": 1.5,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": "",
+          "receipt": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": "",
+          "receipt": ""
+        }
+      ],
+      "loan": {
+        "progress": 40,
+        "transaction_date": "2024-03-11"
+      },
+      "customer": [
+        {
+          "name": "Samuel Soh",
+          "avatar": "https://reqres.in/img/faces/8-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7785266B",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "gender": "Male",
+          "race": "Indian",
+          "email": "samuelsoh@moneymax.my",
+          "contact": "60162887705",
+          "occupation": "Executive",
+          "dob": "1997-12-23"
+        }
+      ],
+      "guarantor": [
+        {
+          "name": "Nagarajan Shebagavalli",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7981374E",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "race": "Indian",
+          "email": "-",
+          "contact": "-",
+          "occupation": "Executive",
+          "dob": "16 Nov 1977"
+        }
+      ],
+      "itemlist": [
+        {
+          "id": "1",
+          "no": "1",
+          "code": "IBE01",
+          "type": "Bangle",
+          "desc": "Gold Bangle",
+          "quantity": 3,
+          "quality": "G999",
+          "weight": "-",
+          "serial": "GB0001"
+        }
+      ],
+      "branch": "Cheng San"
+    },
+    {
+      "id": 13,
+      "pledge": "MY 04/10 01288",
+      "status": "EXPIRING",
+      "date": "2023-10-23",
+      "expiry": "2024-04-11",
+      "closed": "2024-104-19",
+      "ticket": "MY 10/23 VCXB1",
+      "valuer": "WLK- Avian U Yin Torn",
+      "original_pledge": "MY 12/22 00002",
+      "weight": "60.90",
+      "amount": 5800,
+      "balance": 3550,
+      "interest": 1.5,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": "",
+          "receipt": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": "",
+          "receipt": ""
+        }
+      ],
+      "loan": {
+        "progress": 40,
+        "transaction_date": "2024-03-11"
+      },
+      "customer": [
+        {
+          "name": "Mary",
+          "avatar": "https://reqres.in/img/faces/8-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7785266B",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "gender": "Male",
+          "race": "Indian",
+          "email": "chuasiowen@moneymax.my",
+          "contact": "60166215177",
+          "occupation": "Executive",
+          "dob": "1997-12-23"
+        }
+      ],
+      "guarantor": [
+        {
+          "name": "Nagarajan Shebagavalli",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7981374E",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "race": "Indian",
+          "email": "-",
+          "contact": "-",
+          "occupation": "Executive",
+          "dob": "16 Nov 1977"
+        }
+      ],
+      "itemlist": [
+        {
+          "id": "1",
+          "no": "1",
+          "code": "IBE01",
+          "type": "Bangle",
+          "desc": "Gold Bangle",
+          "quantity": 3,
+          "quality": "G999",
+          "weight": "-",
+          "serial": "GB0001"
+        }
+      ],
+      "branch": "Cheng San"
+    },
+    {
+      "id": 13,
+      "pledge": "MY 04/10 01288",
+      "status": "EXPIRING",
+      "date": "2023-10-23",
+      "expiry": "2024-04-11",
+      "closed": "2024-104-19",
+      "ticket": "MY 10/23 VCXB1",
+      "valuer": "WLK- Avian U Yin Torn",
+      "original_pledge": "MY 12/22 00002",
+      "weight": "60.90",
+      "amount": 5800,
+      "balance": 3550,
+      "interest": 1.5,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": "",
+          "receipt": ""
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": "",
+          "receipt": ""
+        }
+      ],
+      "loan": {
+        "progress": 40,
+        "transaction_date": "2024-03-11"
+      },
+      "customer": [
+        {
+          "name": "Esther",
+          "avatar": "https://reqres.in/img/faces/8-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7785266B",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "gender": "Male",
+          "race": "Indian",
+          "email": "esther@moneymax.my",
+          "contact": "601114754638",
+          "occupation": "Executive",
+          "dob": "1997-12-23"
+        }
+      ],
+      "guarantor": [
+        {
+          "name": "Nagarajan Shebagavalli",
+          "avatar": "https://reqres.in/img/faces/1-image.jpg",
+          "idtype": "NRIC",
+          "idno": "S7981374E",
+          "address": "419 Canberra Road #02-395 750419",
+          "nationality": "Singapore",
+          "race": "Indian",
+          "email": "-",
+          "contact": "-",
+          "occupation": "Executive",
+          "dob": "16 Nov 1977"
+        }
+      ],
+      "itemlist": [
+        {
+          "id": "1",
+          "no": "1",
+          "code": "IBE01",
+          "type": "Bangle",
+          "desc": "Gold Bangle",
+          "quantity": 3,
+          "quality": "G999",
+          "weight": "-",
+          "serial": "GB0001"
+        }
+      ],
+      "branch": "Cheng San"
     }
   ],
   "transactions": [
