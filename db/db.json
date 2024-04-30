@@ -7,6 +7,7 @@
       "date": "2023-12-23",
       "expiry": "2024-03-24",
       "closed": "2023-12-23",
+      "ticket": "MY 12/23 D3RF",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
@@ -22,7 +23,7 @@
           "renew_date": "2024-03-12",
           "fee": null,
           "payment_mode": "DBSPaynow",
-          "receipt": "lto59bl4-edavh"
+          "transaction_id": 1
         }
       ],
       "redemption": [
@@ -31,29 +32,14 @@
           "redeem_amount": "",
           "redeem_discount": "",
           "redeem_date": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 100,
         "transaction_date": "2024-03-12"
       },
-      "customer": [
-        {
-          "name": "Murugesan Rajasekar",
-          "avatar": "https://reqres.in/img/faces/8-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7785266B",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Male",
-          "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
-          "occupation": "Executive",
-          "dob": "1997-12-23"
-        }
-      ],
+      "customer_id": 3,
       "guarantor": [
         {
           "name": "Nagarajan Shebagavalli",
@@ -118,7 +104,7 @@
           "renew_date": "",
           "fee": "",
           "payment_mode": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "redemption": [
@@ -127,29 +113,14 @@
           "redeem_amount": "",
           "redeem_discount": "",
           "redeem_date": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 70,
         "transaction_date": "2024-03-12"
       },
-      "customer": [
-        {
-          "name": "Lim Yong Seng",
-          "avatar": "https://reqres.in/img/faces/8-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7785266B",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Male",
-          "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
-          "occupation": "Executive",
-          "dob": "1997-12-23"
-        }
-      ],
+      "customer_id": 1,
       "guarantor": [
         {
           "name": "Nagarajan Shebagavalli",
@@ -187,6 +158,7 @@
       "date": "2023-10-23",
       "expiry": "2024-03-15",
       "closed": "2023-10-23",
+      "ticket": "MY 12/23 P0HX",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00004",
       "weight": "60.90",
@@ -202,7 +174,7 @@
           "renew_date": "2024-03-12",
           "fee": "3",
           "payment_mode": "Cash",
-          "receipt": "lto59u25-aiwk5"
+          "transaction_id": 2
         }
       ],
       "redemption": [
@@ -211,29 +183,14 @@
           "redeem_amount": "",
           "redeem_discount": "",
           "redeem_date": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 100,
         "transaction_date": "2024-03-12"
       },
-      "customer": [
-        {
-          "name": "Lim Yong Seng",
-          "avatar": "https://reqres.in/img/faces/8-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7785266B",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Male",
-          "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
-          "occupation": "Executive",
-          "dob": "1997-12-23"
-        }
-      ],
+      "customer_id": 1,
       "guarantor": [
         {
           "name": "Nagarajan Shebagavalli",
@@ -298,7 +255,7 @@
           "renew_date": "",
           "fee": "",
           "payment_mode": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "redemption": [
@@ -307,29 +264,14 @@
           "redeem_amount": "",
           "redeem_discount": "",
           "redeem_date": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 70,
         "transaction_date": "2024-03-07"
       },
-      "customer": [
-        {
-          "name": "Anne Wong",
-          "avatar": "https://reqres.in/img/faces/8-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7785266B",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Male",
-          "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
-          "occupation": "Executive",
-          "dob": "1997-12-23"
-        }
-      ],
+      "customer_id": 2,
       "guarantor": [
         {
           "name": "Nagarajan Shebagavalli",
@@ -378,6 +320,7 @@
       "date": "2023-12-23",
       "expiry": "2024-03-31",
       "closed": "2023-12-23",
+      "ticket": "MY 12/23 F6LS",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00032",
       "weight": "60.90",
@@ -393,7 +336,7 @@
           "renew_date": "2024-03-12",
           "fee": "5",
           "payment_mode": "DBSPaynow",
-          "receipt": "lto5ad6d-u302f"
+          "transaction_id": 3
         }
       ],
       "redemption": [
@@ -402,29 +345,14 @@
           "redeem_amount": "",
           "redeem_discount": "",
           "redeem_date": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 100,
         "transaction_date": "2024-03-12"
       },
-      "customer": [
-        {
-          "name": "Lim Yong Seng",
-          "avatar": "https://reqres.in/img/faces/8-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7785266B",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Male",
-          "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
-          "occupation": "Executive",
-          "dob": "1997-12-23"
-        }
-      ],
+      "customer_id": 1,
       "guarantor": [
         {
           "name": "Nagarajan Shebagavalli",
@@ -477,7 +405,7 @@
           "renew_date": "",
           "fee": "",
           "payment_mode": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "redemption": [
@@ -486,29 +414,14 @@
           "redeem_amount": "",
           "redeem_discount": "",
           "redeem_date": "",
-          "receipt": ""
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 40,
         "transaction_date": "2024-03-11"
       },
-      "customer": [
-        {
-          "name": "Lim Yong Seng",
-          "avatar": "https://reqres.in/img/faces/8-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7785266B",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Male",
-          "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
-          "occupation": "Executive",
-          "dob": "1997-12-23"
-        }
-      ],
+      "customer_id": 1,
       "guarantor": [
         {
           "name": "Nagarajan Shebagavalli",
@@ -562,7 +475,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "transaction_id": ""
         }
       ],
       "redemption": [
@@ -570,30 +484,15 @@
           "payment_mode": "",
           "redeem_amount": "",
           "redeem_discount": "",
-          "redeem_date": ""
+          "redeem_date": "",
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 0,
         "transaction_date": ""
       },
-      "customer": [
-        {
-          "id": 7,
-          "name": "Murugesan Rajasekar",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7785266B",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Male",
-          "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
-          "occupation": "Executive",
-          "dob": "1997-12-23"
-        }
-      ],
+      "customer_id": 3,
       "itemlist": [
         {
           "code": "IPT011",
@@ -629,7 +528,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "transaction_id": ""
         }
       ],
       "redemption": [
@@ -637,31 +537,15 @@
           "payment_mode": "",
           "redeem_amount": "",
           "redeem_discount": "",
-          "redeem_date": ""
+          "redeem_date": "",
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 0,
         "transaction_date": ""
       },
-      "customer": [
-        {
-          "id": 8,
-          "name": "Heng Shi Zheng",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "G1613351K",
-          "passport": "",
-          "address": "220-13, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
-          "nationality": "Chinese",
-          "gender": "Male",
-          "race": "Chinese",
-          "email": "myinfotesting@gmail.com",
-          "contact": "+65 97399245",
-          "occupation": "",
-          "dob": "2000-02-02"
-        }
-      ],
+      "customer_id": 4,
       "itemlist": [
         {
           "code": "ICN011",
@@ -697,7 +581,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "transaction_id": ""
         }
       ],
       "redemption": [
@@ -705,30 +590,15 @@
           "payment_mode": "",
           "redeem_amount": "",
           "redeem_discount": "",
-          "redeem_date": ""
+          "redeem_date": "",
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 0,
         "transaction_date": ""
       },
-      "customer": [
-        {
-          "id": 9,
-          "name": "Murugesan Rajasekar",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7785266B",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "gender": "Male",
-          "race": "Indian",
-          "email": "xyz123sekar@yahoo.com",
-          "contact": "+65-89994266",
-          "occupation": "Executive",
-          "dob": "1997-12-23"
-        }
-      ],
+      "customer_id": 3,
       "itemlist": [
         {
           "code": "ICN011\n",
@@ -764,7 +634,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "transaction_id": ""
         }
       ],
       "redemption": [
@@ -772,31 +643,15 @@
           "payment_mode": "",
           "redeem_amount": "",
           "redeem_discount": "",
-          "redeem_date": ""
+          "redeem_date": "",
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 0,
         "transaction_date": ""
       },
-      "customer": [
-        {
-          "id": 10,
-          "name": "Lim Yong Xiang",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S9812379B",
-          "passport": "",
-          "address": "22-12, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
-          "nationality": "British Overseas Territories Citizen",
-          "gender": "Male",
-          "race": "Chinese",
-          "email": "myinfotesting@gmail.com",
-          "contact": "+65 97399245",
-          "occupation": "",
-          "dob": "1980-10-06"
-        }
-      ],
+      "customer_id": 5,
       "itemlist": [
         {
           "code": "ICN011\n",
@@ -832,7 +687,8 @@
         {
           "renew_date": "",
           "fee": "",
-          "payment_mode": ""
+          "payment_mode": "",
+          "transaction_id": ""
         }
       ],
       "redemption": [
@@ -840,31 +696,15 @@
           "payment_mode": "",
           "redeem_amount": "",
           "redeem_discount": "",
-          "redeem_date": ""
+          "redeem_date": "",
+          "transaction_id": ""
         }
       ],
       "loan": {
         "progress": 0,
         "transaction_date": ""
       },
-      "customer": [
-        {
-          "id": 11,
-          "name": "Lim Yong Xiang",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S9812379B",
-          "passport": "",
-          "address": "22-12, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
-          "nationality": "British Overseas Territories Citizen",
-          "gender": "Male",
-          "race": "Chinese",
-          "email": "myinfotesting@gmail.com",
-          "contact": "+65 97399245",
-          "occupation": "",
-          "dob": "1980-10-06"
-        }
-      ],
+      "customer_id": 5,
       "itemlist": [
         {
           "code": "IBT011\n",
@@ -883,18 +723,38 @@
       "id": 1,
       "code": "TR001",
       "pawner_id": 1,
-      "pledge_id": 2,
+      "pledge_id": 1,
       "timestamp": "2024-03-12",
       "status": "Successful",
-      "payment_ref": "Monthly payment for MY 04/10 00291",
+      "payment_ref": "Renewal: monthly payment for MY 04/10 00291",
       "receipt": "lto59bl4-edavh"
+    },
+    {
+      "id": 2,
+      "code": "TR002",
+      "pawner_id": 1,
+      "pledge_id": 3,
+      "timestamp": "2024-03-12",
+      "status": "Successful",
+      "payment_ref": "Renewal: monthly payment for MY 04/10 00293",
+      "receipt": "lto59u25-aiwk5"
+    },
+    {
+      "id": 3,
+      "code": "TR003",
+      "pawner_id": 1,
+      "pledge_id": 5,
+      "timestamp": "2024-03-12",
+      "status": "Successful",
+      "payment_ref": "Renewal: monthly payment for MY 04/10 00300",
+      "receipt": "lto5ad6d-u302f"
     }
   ],
   "pawners": [
     {
       "id": 1,
       "name": "Lim Yong Seng",
-      "avatar": "https://reqres.in/img/faces/8-image.jpg",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg",
       "idtype": "NRIC",
       "idno": "S7785266B",
       "passport": "-",
@@ -906,7 +766,98 @@
       "contact": "+65-89994266",
       "occupation": "Executive",
       "dob": "1997-12-23",
-      "status": "Caution List"
+      "status": "Caution List",
+      "approve_by": 1
+    },
+    {
+      "id": 2,
+      "name": "Anne Wong",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg",
+      "idtype": "NRIC",
+      "idno": "S7785266B",
+      "passport": "-",
+      "address": "419 Canberra Road #02-395 750419",
+      "nationality": "Singapore",
+      "gender": "Female",
+      "race": "Indian",
+      "email": "xyz123sekar@yahoo.com",
+      "contact": "+65-89994266",
+      "occupation": "Executive",
+      "dob": "1997-12-23",
+      "status": "",
+      "approve_by": 2
+    },
+    {
+      "id": 3,
+      "name": "Murugesan Rajasekar",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg",
+      "idtype": "NRIC",
+      "idno": "S7785266B",
+      "passport": "-",
+      "address": "419 Canberra Road #02-395 750419",
+      "nationality": "Singapore",
+      "gender": "Male",
+      "race": "Indian",
+      "email": "xyz123sekar@yahoo.com",
+      "contact": "+65-89994266",
+      "occupation": "Executive",
+      "dob": "1997-12-23",
+      "status": "",
+      "approve_by": 2
+    },
+    {
+      "id": 4,
+      "name": "Heng Shi Zheng",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg",
+      "idtype": "NRIC",
+      "idno": "G1613351K",
+      "passport": "-",
+      "address": "220-13, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
+      "nationality": "Singapore",
+      "gender": "Male",
+      "race": "Chinese",
+      "email": "myinfotesting@gmail.com",
+      "contact": "+65 97399245",
+      "occupation": "",
+      "dob": "2000-02-02",
+      "status": "Caution List",
+      "approve_by": 3
+    },
+    {
+      "id": 5,
+      "name": "Lim Yong Xiang",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg",
+      "idtype": "NRIC",
+      "idno": "S9812379B",
+      "passport": "-",
+      "address": "220-13, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
+      "nationality": "British Overseas Territories Citizen",
+      "gender": "Male",
+      "race": "Chinese",
+      "email": "myinfotesting@gmail.com",
+      "contact": "+65 97399245",
+      "occupation": "",
+      "dob": "1980-10-06",
+      "status": "",
+      "approve_by": 3
+    },
+    {
+      "id": 6,
+      "name": "Damien Yong",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg",
+      "idtype": "NRIC",
+      "idno": "S9812379B",
+      "passport": "-",
+      "address": "220-13, Building Toa Payoh View, Block 123, Lorong 1 Toa Payoh, 310123, Singapore",
+      "nationality": "British Overseas Territories Citizen",
+      "gender": "Male",
+      "race": "Chinese",
+      "email": "myinfotesting@gmail.com",
+      "contact": "+65 97399245",
+      "occupation": "",
+      "dob": "1980-10-06",
+      "status": "",
+      "approve_by": 4
     }
   ],
   "guarantors": [
