@@ -1,85 +1,85 @@
 {
   "pledges": [
-    {
-      "id": 1,
-      "pledge": "MY 04/10 00291",
-      "status": "OPEN",
-      "date": "2023-12-23",
-      "expiry": "2024-03-24",
-      "closed": "2023-12-23",
-      "ticket": "MY 12/23 D3RF",
-      "valuer": "WLK- Avian U Yin Torn",
-      "original_pledge": "MY 12/22 00002",
-      "weight": "60.90",
-      "amount": 450,
-      "balance": 0,
-      "interest": 1.5,
-      "lost": "",
-      "lost_date": "",
-      "ltd_format": "",
-      "receipt": "",
-      "renewal": [
-        {
-          "renew_date": "2024-03-12",
-          "fee": null,
-          "payment_mode": "DBSPaynow",
-          "transaction_id": 1
-        }
-      ],
-      "redemption": [
-        {
-          "payment_mode": "",
-          "redeem_amount": "",
-          "redeem_discount": "",
-          "redeem_date": "",
-          "transaction_id": ""
-        }
-      ],
-      "loan": {
-        "progress": 100,
-        "transaction_date": "2024-03-12"
-      },
-      "customer_id": 3,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "IRG01",
-          "type": "Ring",
-          "desc": "Gold Ring",
-          "quantity": "2",
-          "quality": "G999",
-          "remarks": "-",
-          "serial": "-"
+   {
+        "id": 1,
+        "pledge": "MY 04/10 00291",
+        "status": "OPEN",
+        "date": "2023-12-23",
+        "expiry": "2024-03-24",
+        "closed": "2023-12-23",
+        "ticket": "MY 12/23 D3RF",
+        "valuer": "WLK- Avian U Yin Torn",
+        "original_pledge": "MY 12/22 00002",
+        "weight": "60.90",
+        "amount": 450,
+        "balance": 0,
+        "interest": 1.5,
+        "lost": "",
+        "lost_date": "",
+        "ltd_format": "",
+        "receipt": "",
+        "renewal": [
+            {
+                "renew_date": "2024-03-12",
+                "fee": null,
+                "payment_mode": "DBSPaynow",
+                "transaction_id": 1
+            }
+        ],
+        "redemption": [
+            {
+                "payment_mode": "",
+                "redeem_amount": "",
+                "redeem_discount": "",
+                "redeem_date": "",
+                "transaction_id": ""
+            }
+        ],
+        "loan": {
+            "progress": 100,
+            "transaction_date": "2024-03-12"
         },
-        {
-          "id": "2",
-          "no": "2",
-          "code": "IBT01",
-          "type": "Bracelet",
-          "desc": "Gold Bracelet",
-          "quantity": "1",
-          "quality": "G995",
-          "remarks": "-",
-          "serial": "-"
-        }
-      ],
-      "branch": "Ang Mo Kio"
+        "customer_id": 3,
+        "guarantor": [
+            {
+                "name": "Nagarajan Shebagavalli",
+                "avatar": "https://reqres.in/img/faces/1-image.jpg",
+                "idtype": "NRIC",
+                "idno": "S7981374E",
+                "address": "419 Canberra Road #02-395 750419",
+                "nationality": "Singapore",
+                "race": "Indian",
+                "email": "-",
+                "contact": "-",
+                "occupation": "Executive",
+                "dob": "16 Nov 1977"
+            }
+        ],
+        "itemlist": [
+            {
+                "id": "1",
+                "no": "1",
+                "code": "IRG01",
+                "type": "Ring",
+                "desc": "Gold Ring",
+                "quantity": "2",
+                "quality": "G999",
+                "remarks": "-",
+                "serial": "-"
+            },
+            {
+                "id": "2",
+                "no": "2",
+                "code": "IBT01",
+                "type": "Bracelet",
+                "desc": "Gold Bracelet",
+                "quantity": "1",
+                "quality": "G995",
+                "remarks": "-",
+                "serial": "-"
+            }
+        ],
+        "branch": "Ang Mo Kio"
     },
     {
       "id": 2,
