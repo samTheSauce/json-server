@@ -4587,7 +4587,7 @@
     {
       "id": 3,
       "ref_id": "P003",
-      "parameter": "LTV Threshold",
+      "parameter": "Loan-To-Value Threshold",
       "unit": "%",
       "value": "90",
       "update_on": "2022-03-13",
