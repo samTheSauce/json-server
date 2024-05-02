@@ -3536,6 +3536,22 @@
       "serial": "No",
       "weight": "Yes",
       "updated_on": "2022-06-22T08:18:52.066Z"
+    },
+    {
+      "id": 11,
+      "code": "WT",
+      "desc": "Watch",
+      "serial": "No",
+      "weight": "Yes",
+      "updated_on": "2022-06-22T08:18:52.066Z"
+    },
+    {
+      "id": 12,
+      "code": "BG",
+      "desc": "Bag",
+      "serial": "No",
+      "weight": "Yes",
+      "updated_on": "2022-06-22T08:18:52.066Z"
     }
   ],
   "articleMaterials": [
