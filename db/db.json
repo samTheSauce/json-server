@@ -4583,6 +4583,15 @@
       "value": "1.5",
       "update_on": "2022-03-13",
       "update_time": "9:45 AM"
+    },
+    {
+      "id": 3,
+      "ref_id": "P003",
+      "parameter": "LTV Threshold",
+      "unit": "%",
+      "value": "90",
+      "update_on": "2022-03-13",
+      "update_time": "9:45 AM"
     }
   ],
   "customer_params": [
@@ -4632,37 +4641,43 @@
   ],
   "entity_params": [
     {
+      "id": 1,
       "ref_id": "E001",
       "parameter": "MoneyMax Pte Ltd",
       "update_on": "2022-03-13",
       "update_time": "9:45 AM"
     },
     {
+      "id": 2,
       "ref_id": "E002",
       "parameter": "MoneyMax Group Pte Ltd",
       "update_on": "2022-03-13",
       "update_time": "9:45 AM"
     },
     {
+      "id": 3,
       "ref_id": "E003",
       "parameter": "Ban Joo Pawnshop Pte Ltd",
       "update_on": "2022-03-13",
       "update_time": "9:45 AM"
     },
     {
+      "id": 4,
       "ref_id": "E004",
       "parameter": "MoneyMax Express Pte Ltd",
       "update_on": "2022-03-13",
       "update_time": "9:45 AM"
     },
     {
+      "id": 5,
       "ref_id": "E005",
       "parameter": "MoneyMax Pawnshop Pte Ltd",
       "update_on": "2022-03-13",
       "update_time": "9:45 AM"
     },
     {
-      "ref_id": "E005",
+      "id": 6,
+      "ref_id": "E006",
       "parameter": "Sin Lian Pawnshop",
       "update_on": "2022-03-13",
       "update_time": "9:45 AM"
