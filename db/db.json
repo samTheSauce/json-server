@@ -1,88 +1,1426 @@
 {
   "pledges": [
-   {
-        "id": 1,
-        "pledge": "MY 04/10 00291",
-        "status": "OPEN",
-        "date": "2023-12-23",
-        "expiry": "2024-03-24",
-        "closed": "2023-12-23",
-        "ticket": "MY 12/23 D3RF",
-        "valuer": "WLK- Avian U Yin Torn",
-        "original_pledge": "MY 12/22 00002",
-        "weight": "60.90",
-        "amount": 450,
-        "balance": 0,
-        "interest": 1.5,
-        "lost": "",
-        "lost_date": "",
-        "ltd_format": "",
-        "receipt": "",
-        "renewal": [
-            {
-                "renew_date": "2024-03-12",
-                "fee": null,
-                "payment_mode": "DBSPaynow",
-                "transaction_id": 1
-            }
-        ],
-        "redemption": [
-            {
-                "payment_mode": "",
-                "redeem_amount": "",
-                "redeem_discount": "",
-                "redeem_date": "",
-                "transaction_id": ""
-            }
-        ],
-        "loan": {
-            "progress": 100,
-            "transaction_date": "2024-03-12"
+    {
+      "id": "1",
+      "pledge": "MY 04/10 00291",
+      "status": "OPEN",
+      "date": "2023-12-23",
+      "expiry": "2024-03-24",
+      "closed": "2023-12-23",
+      "ticket": "MY 12/23 D3RF",
+      "valuer": "WLK- Avian U Yin Torn",
+      "original_pledge": "MY 12/22 00002",
+      "weight": "60.90",
+      "amount": 450,
+      "balance": 0,
+      "interest": 1.5,
+      "lost": "",
+      "lost_date": "",
+      "ltd_format": "",
+      "receipt": "",
+      "renewal": [
+        {
+          "renew_date": "2024-03-12",
+          "fee": null,
+          "payment_mode": "DBSPaynow",
+          "transaction_id": 1
+        }
+      ],
+      "redemption": [
+        {
+          "payment_mode": "",
+          "redeem_amount": "",
+          "redeem_discount": "",
+          "redeem_date": "",
+          "transaction_id": ""
+        }
+      ],
+      "loan": {
+        "progress": 100,
+        "transaction_date": "2024-03-12"
+      },
+      "customer_id": 3,
+      "guarantor_id": 1,
+      "branch_id": 5,
+      "branch": [
+        {
+          "id": 1,
+          "code": "AH",
+          "long_name": "Moneymax Pte Ltd (Ang Mo Kio Branch)",
+          "name": "Ang Mo Kio",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67523733",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-0",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
         },
-        "customer_id": 3,
-        "guarantor": [
-            {
-                "name": "Nagarajan Shebagavalli",
-                "avatar": "https://reqres.in/img/faces/1-image.jpg",
-                "idtype": "NRIC",
-                "idno": "S7981374E",
-                "address": "419 Canberra Road #02-395 750419",
-                "nationality": "Singapore",
-                "race": "Indian",
-                "email": "-",
-                "contact": "-",
-                "occupation": "Executive",
-                "dob": "16 Nov 1977"
-            }
-        ],
-        "itemlist": [
-            {
-                "id": "1",
-                "no": "1",
-                "code": "IRG01",
-                "type": "Ring",
-                "desc": "Gold Ring",
-                "quantity": "2",
-                "quality": "G999",
-                "remarks": "-",
-                "serial": "-"
-            },
-            {
-                "id": "2",
-                "no": "2",
-                "code": "IBT01",
-                "type": "Bracelet",
-                "desc": "Gold Bracelet",
-                "quantity": "1",
-                "quality": "G995",
-                "remarks": "-",
-                "serial": "-"
-            }
-        ],
-        "branch": "Ang Mo Kio"
+        {
+          "id": 2,
+          "code": "AK",
+          "long_name": "Moneymax Group Pte Ltd (Cheng San Branch)",
+          "name": "Cheng San",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64512433",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-1",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 3,
+          "code": "AM",
+          "long_name": "Moneymax Pte Ltd (Amk Mrt Branch)",
+          "name": "Amk Mrt",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64592633",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-2",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 4,
+          "code": "BH",
+          "long_name": "Moneymax Pte Ltd (Zheng Hua Branch)",
+          "name": "Zheng Hua",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64621533",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-3",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 5,
+          "code": "BJ",
+          "long_name": "Ban Joo Pawnshop Pte Ltd",
+          "name": "Ban Joo",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62212794",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-4",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 6,
+          "code": "BK",
+          "long_name": "Moneymax Pte Ltd (Bukit Gombak Branch)",
+          "name": "Bukit Gombak",
+          "location": "Malaysia",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "65649533",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-5",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 7,
+          "code": "BL",
+          "long_name": "Moneymax Group Pte Ltd (Boon Lay Branch)",
+          "name": "Boon Lay",
+          "location": "Malaysia",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62642133",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-6",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 8,
+          "code": "BM",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Bukit Merah Branch)",
+          "name": "Bukit Merah",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62711033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-7",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 9,
+          "code": "BN",
+          "long_name": "Moneymax Pte Ltd (Bendemeer Branch)",
+          "name": "Bendemeer",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62951433",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-8",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 10,
+          "code": "BP",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Bukit Panjang Branch)",
+          "name": "Bukit Panjang",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67695233",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-9",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 11,
+          "code": "BS",
+          "long_name": "Moneymax Pte Ltd (Bishan Branch)",
+          "name": "Bishan",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62591233",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-10",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 12,
+          "code": "CK",
+          "long_name": "Moneymax Group Pte Ltd (Choa Chu Kang Branch)",
+          "name": "Choa Chu Kang",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67663633",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-11",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 13,
+          "code": "CP",
+          "long_name": "Moneymax Group Pte Ltd (Chong Pang Branch)",
+          "name": "Chong Pang",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64823733",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-12",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 14,
+          "code": "CW",
+          "long_name": "Moneymax Express Pte Ltd (Causeway Point Branch)",
+          "name": "Causeway Point",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Justina Tan",
+          "designation": "Managing Director",
+          "contact": "68943533",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "DBS",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-13",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 15,
+          "code": "GE",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Geylang Branch)",
+          "name": "Geylang",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67443533",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-14",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 16,
+          "code": "HA",
+          "long_name": "Moneymax Group Pte Ltd (Hougang Mall Branch)",
+          "name": "Hougang Mall",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "63820133",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-15",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 17,
+          "code": "HH",
+          "long_name": "Moneymax Group Pte Ltd (Kovan Branch)",
+          "name": "Kovan",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62870133",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-16",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 18,
+          "code": "HM",
+          "long_name": "Moneymax Pte Ltd (Hougang Branch)",
+          "name": "Hougang",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "63879833",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-17",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 19,
+          "code": "JC",
+          "long_name": "Moneymax Group Pte Ltd (Joo Chiat Branch)",
+          "name": "Joo Chiat",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64512433",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-18",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 20,
+          "code": "JE",
+          "long_name": "Moneymax Group Pte Ltd (Jurong East Branch)",
+          "name": "Jurong East",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "65651233",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-19",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 21,
+          "code": "JP",
+          "long_name": "Moneymax Pte Ltd (Jurong Point Branch)",
+          "name": "Jurong Point",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67923633",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-20",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 22,
+          "code": "JS",
+          "long_name": "Moneymax Group Pte Ltd (Junction 8)",
+          "name": "Junction 8",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64823733",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-21",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 23,
+          "code": "JT",
+          "long_name": "Moneymax Group Pte Ltd (Jurong East Mrt Branch)",
+          "name": "Jurong East Mrt",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "65646033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-22",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 24,
+          "code": "JW",
+          "long_name": "Moneymax Group Pte Ltd (Jurong West Branch)",
+          "name": "Jurong West",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "65632133",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-23",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 25,
+          "code": "LA",
+          "long_name": "Moneymax Express Pte Ltd (Lucky Plaza Branch)",
+          "name": "Lucky Plaza",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Justina Tan",
+          "designation": "Managing Director",
+          "contact": "67332033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "DBS",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-24",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 26,
+          "code": "LK",
+          "long_name": "Moneymax Group Pte Ltd (Lucky Plaza Branch)",
+          "name": "Lucky Plaza",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67818233",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-25",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 27,
+          "code": "LM",
+          "long_name": "Moneymax Group Pte Ltd (Lucky Plaza B1-04/05 Branch)",
+          "name": "Lucky Plaza B1-04/05",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62576433",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-26",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 28,
+          "code": "MB",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Bedok Branch)",
+          "name": "Bedok",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64412433",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-27",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 29,
+          "code": "MC",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Clementi Branch)",
+          "name": "Clementi",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67731233",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-28",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 30,
+          "code": "MT",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
+          "name": "Tampines",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67853033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-29",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 31,
+          "code": "MY",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
+          "name": "Yishun",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67557033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-30",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 32,
+          "code": "NJ",
+          "long_name": "Moneymax Group Pte Ltd (Serangoon Nex Branch)",
+          "name": "Serangoon Nex",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62359033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-31",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 33,
+          "code": "PB",
+          "long_name": "Moneymax Pte Ltd (Paya Lebar Mrt Branch)",
+          "name": "Paya Lebar Mrt",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "65474733",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-32",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 34,
+          "code": "PJ",
+          "long_name": "Moneymax Express Pte Ltd (Poiz Centre Branch)",
+          "name": "Poiz Centre",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Justina Tan",
+          "designation": "Managing Director",
+          "contact": "65139033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "DBS",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-33",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 35,
+          "code": "PP",
+          "long_name": "Moneymax Group Pte Ltd (Peoples Park Branch)",
+          "name": "Peoples Park",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "65382632",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-34",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 36,
+          "code": "RH",
+          "long_name": "Moneymax Pte Ltd (Redhill Branch)",
+          "name": "Redhill",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64710733",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-35",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 37,
+          "code": "RV",
+          "long_name": "Moneymax Group Pte Ltd (Sengkang Branch)",
+          "name": "Sengkang",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "63843533",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-36",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 38,
+          "code": "SE",
+          "long_name": "Moneymax Group Pte Ltd (Little India 160 Branch)",
+          "name": "Little India 160",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62935733",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-37",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 39,
+          "code": "SI",
+          "long_name": "Sin Lian Pawnshop",
+          "name": "Sin Lian",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "64432213",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-38",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 40,
+          "code": "SL",
+          "long_name": "Moneymax Group Pte Ltd (Soon Lee Branch)",
+          "name": "Soon Lee",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62359033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-39",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 41,
+          "code": "SN",
+          "long_name": "Moneymax Group Pte Ltd (Serangoon Branch)",
+          "name": "Serangoon",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62993833",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-40",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 42,
+          "code": "SS",
+          "long_name": "Moneymax Express Pte Ltd (Little India Branch)",
+          "name": "Little India",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Justina Tan",
+          "designation": "Managing Director",
+          "contact": "62995933",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "DBS",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-41",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 43,
+          "code": "ST",
+          "long_name": "Moneymax Group Pte Ltd (Tekka Branch)",
+          "name": "Tekka",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "62918133",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-42",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 44,
+          "code": "SW",
+          "long_name": "Moneymax Pte Ltd (Sembawang Mrt Branch)",
+          "name": "Sembawang Mrt",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67577133",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "UOB",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-43",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 45,
+          "code": "TA",
+          "long_name": "Moneymax Group Pte Ltd (Tampines St 21 Branch)",
+          "name": "Tampines St 21",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "67818233",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-44",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 46,
+          "code": "TG",
+          "long_name": "Moneymax Express Pte Ltd (Tanjong Pagar)",
+          "name": "Tanjong Pagar",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Justina Tan",
+          "designation": "Managing Director",
+          "contact": "62212794",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-45",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 47,
+          "code": "TP",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Toa Payoh Branch)",
+          "name": "Toa Payoh",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "63543433",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-46",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 48,
+          "code": "WL",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Woodlands Branch)",
+          "name": "Woodlands",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "63661233",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-47",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 49,
+          "code": "WM",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Woodlands Mrt Branch)",
+          "name": "Woodlands Mrt",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "63657533",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-48",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 50,
+          "code": "WS",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Pasir Ris Branch)",
+          "name": "Pasir Ris",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "65837833",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-49",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        },
+        {
+          "id": 51,
+          "code": "YT",
+          "long_name": "Moneymax Pawnshop Pte Ltd (Yew Tee Branch)",
+          "name": "Yew Tee",
+          "location": "Singapore",
+          "rcb_no": "200905887G",
+          "new_ticket_format": "Yes",
+          "zone": "Zone H",
+          "standalone": "No",
+          "postal": "560702",
+          "opening_hours": "8.30AM to 8.00PM",
+          "days_open": "Daily",
+          "address": "Blk 702 Ang Mo Kio Avenue 8, #01-2521, Singapore",
+          "contact_person": "Lim Yong Guan",
+          "designation": "Managing Director",
+          "contact": "65093033",
+          "fax": "67550495",
+          "email": "lindang@moneymax.com.sg",
+          "work_on_sunday": "Yes",
+          "bank": "OCBC",
+          "ref_no": "RP0003312011K",
+          "account_no": "348-303-014-50",
+          "code_ticket": "Yes",
+          "waive_fee": "No",
+          "status": "Active"
+        }
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "pledge": "MY 04/10 00292",
       "status": "OPEN",
       "date": "2023-12-23",
@@ -121,38 +1459,11 @@
         "transaction_date": "2024-03-12"
       },
       "customer_id": 1,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "ICN01",
-          "type": "Chain",
-          "desc": "Gold Chain",
-          "quantity": "1",
-          "quality": "G750/18K",
-          "remarks": "-",
-          "serial": "-"
-        }
-      ],
-      "branch": "Ang Mokio"
+      "guarantor_id": 1,
+      "branch_id": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "pledge": "MY 04/10 00293",
       "status": "OPEN",
       "date": "2023-10-23",
@@ -191,49 +1502,11 @@
         "transaction_date": "2024-03-12"
       },
       "customer_id": 1,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "AG01",
-          "type": "Ring",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
-          "remarks": "-",
-          "serial": "-"
-        },
-        {
-          "id": "2",
-          "no": "2",
-          "code": "AG02",
-          "type": "Ring",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
-          "remarks": "-",
-          "serial": "-"
-        }
-      ],
-      "branch": "Cheng San"
+      "guarantor_id": 1,
+      "branch_id": 2
     },
     {
-      "id": 4,
+      "id": "4",
       "pledge": "MY 04/10 00294",
       "status": "OPEN",
       "date": "2023-11-05",
@@ -272,49 +1545,11 @@
         "transaction_date": "2024-03-07"
       },
       "customer_id": 2,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "EP01",
-          "type": "Pendant",
-          "desc": "Gold Ear Pendant",
-          "quantity": "6",
-          "quality": "G999",
-          "remarks": "-",
-          "serial": "-"
-        },
-        {
-          "id": "2",
-          "no": "2",
-          "code": "AG02",
-          "type": "Ring",
-          "desc": "GOLD RING [U]",
-          "quantity": "4",
-          "quality": "20K 22K",
-          "remarks": "-",
-          "serial": "-"
-        }
-      ],
-      "branch": "Ban Joo"
+      "guarantor_id": 2,
+      "branch_id": 5
     },
     {
-      "id": 5,
+      "id": "5",
       "pledge": "MY 04/10 00300",
       "status": "OPEN",
       "date": "2023-12-23",
@@ -353,37 +1588,11 @@
         "transaction_date": "2024-03-12"
       },
       "customer_id": 1,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "INE01",
-          "desc": "Gold Necklace",
-          "quantity": "2",
-          "quality": "G995",
-          "remarks": "-",
-          "serial": "-"
-        }
-      ],
-      "branch": "Ang Mokio"
+      "guarantor_id": 1,
+      "branch_id": 1
     },
     {
-      "id": 6,
+      "id": "6",
       "pledge": "MY 04/10 01235",
       "status": "EXPIRING",
       "date": "2023-10-23",
@@ -422,38 +1631,11 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 1,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "IBE01",
-          "type": "Bangle",
-          "desc": "Gold Bangle",
-          "quantity": 3,
-          "quality": "G999",
-          "weight": "-",
-          "serial": "GB0001"
-        }
-      ],
-      "branch": "Cheng San"
+      "guarantor_id": 1,
+      "branch_id": 2
     },
     {
-      "id": 7,
+      "id": "7",
       "pledge": "AH  12/03  007",
       "status": "OPEN",
       "date": "2024-03-12",
@@ -493,20 +1675,10 @@
         "transaction_date": ""
       },
       "customer_id": 3,
-      "itemlist": [
-        {
-          "code": "IPT011",
-          "type": "Pendant",
-          "desc": "",
-          "quality": "",
-          "quantity": "",
-          "serial": ""
-        }
-      ],
-      "branch": "Ang Mo Kio"
+      "branch_id": 1
     },
     {
-      "id": 8,
+      "id": "8",
       "pledge": "AM  12/03  008",
       "status": "OPEN",
       "date": "2024-03-12",
@@ -546,20 +1718,10 @@
         "transaction_date": ""
       },
       "customer_id": 4,
-      "itemlist": [
-        {
-          "code": "ICN011",
-          "type": "Chain",
-          "desc": "Gold Chain",
-          "quality": "G995",
-          "quantity": "2",
-          "serial": "GC00234"
-        }
-      ],
-      "branch": "Amk Mrt"
+      "branch_id": 3
     },
     {
-      "id": 9,
+      "id": "9",
       "pledge": "AK  13/03  009",
       "status": "OPEN",
       "date": "2024-03-13",
@@ -599,20 +1761,10 @@
         "transaction_date": ""
       },
       "customer_id": 3,
-      "itemlist": [
-        {
-          "code": "ICN011\n",
-          "type": "Chain",
-          "desc": "fgbfg",
-          "quality": "",
-          "quantity": "",
-          "serial": ""
-        }
-      ],
-      "branch": "Cheng San"
+      "branch_id": 2
     },
     {
-      "id": 10,
+      "id": "10",
       "pledge": "AK  13/03  010",
       "status": "OPEN",
       "date": "2024-03-13",
@@ -652,20 +1804,10 @@
         "transaction_date": ""
       },
       "customer_id": 5,
-      "itemlist": [
-        {
-          "code": "ICN011\n",
-          "type": "Chain",
-          "desc": "dfg",
-          "quality": "G985",
-          "quantity": "3",
-          "serial": "fd"
-        }
-      ],
-      "branch": "Cheng San"
+      "branch_id": 2
     },
     {
-      "id": 11,
+      "id": "11",
       "pledge": "AM  13/03  011",
       "status": "OPEN",
       "date": "2024-03-13",
@@ -705,24 +1847,14 @@
         "transaction_date": ""
       },
       "customer_id": 5,
-      "itemlist": [
-        {
-          "code": "IBT011\n",
-          "type": "Bracelet",
-          "desc": "",
-          "quality": "",
-          "quantity": "",
-          "serial": ""
-        }
-      ],
-      "branch": "Amk Mrt"
+      "branch_id": 5
     },
     {
-      "id": 12,
+      "id": "12",
       "pledge": "MY 04/10 01289",
       "status": "EXPIRING",
       "date": "2023-10-23",
-     "expiry": "2024-04-25",
+      "expiry": "2024-04-25",
       "closed": "",
       "ticket": "MY 10/23 VCXB1",
       "valuer": "WLK- Avian U Yin Torn",
@@ -757,38 +1889,11 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 7,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "IBE01",
-          "type": "Bangle",
-          "desc": "Gold Bangle",
-          "quantity": 3,
-          "quality": "G999",
-          "weight": "-",
-          "serial": "GB0001"
-        }
-      ],
-      "branch": "Cheng San"
+      "guarantor_id": 1,
+      "branch_id": 3
     },
     {
-      "id": 13,
+      "id": "13",
       "pledge": "MY 04/10 01300",
       "status": "EXPIRING",
       "date": "2023-10-23",
@@ -827,38 +1932,11 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 8,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "IBE01",
-          "type": "Bangle",
-          "desc": "Gold Bangle",
-          "quantity": 3,
-          "quality": "G999",
-          "weight": "-",
-          "serial": "GB0001"
-        }
-      ],
-      "branch": "Cheng San"
+      "guarantor_id": 1,
+      "branch_id": 3
     },
     {
-      "id": 13,
+      "id": "14",
       "pledge": "MY 04/10 01301",
       "status": "EXPIRING",
       "date": "2023-10-23",
@@ -897,40 +1975,13 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 9,
-      "guarantor": [
-        {
-          "name": "Nagarajan Shebagavalli",
-          "avatar": "https://reqres.in/img/faces/1-image.jpg",
-          "idtype": "NRIC",
-          "idno": "S7981374E",
-          "address": "419 Canberra Road #02-395 750419",
-          "nationality": "Singapore",
-          "race": "Indian",
-          "email": "-",
-          "contact": "-",
-          "occupation": "Executive",
-          "dob": "16 Nov 1977"
-        }
-      ],
-      "itemlist": [
-        {
-          "id": "1",
-          "no": "1",
-          "code": "IBE01",
-          "type": "Bangle",
-          "desc": "Gold Bangle",
-          "quantity": 3,
-          "quality": "G999",
-          "weight": "-",
-          "serial": "GB0001"
-        }
-      ],
-      "branch": "Cheng San"
+      "guarantor_id": "",
+      "branch_id": 3
     }
   ],
   "transactions": [
     {
-      "id": 1,
+      "id": "1",
       "code": "TR001",
       "pawner_id": 1,
       "pledge_id": 1,
@@ -940,7 +1991,7 @@
       "receipt": "lto59bl4-edavh"
     },
     {
-      "id": 2,
+      "id": "2",
       "code": "TR002",
       "pawner_id": 1,
       "pledge_id": 3,
@@ -950,7 +2001,7 @@
       "receipt": "lto59u25-aiwk5"
     },
     {
-      "id": 3,
+      "id": "3",
       "code": "TR003",
       "pawner_id": 1,
       "pledge_id": 5,
@@ -962,7 +2013,7 @@
   ],
   "pawners": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Lim Yong Seng",
       "avatar": "https://reqres.in/img/faces/1-image.jpg",
       "idtype": "NRIC",
@@ -980,7 +2031,7 @@
       "approve_by": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Anne Wong",
       "avatar": "https://reqres.in/img/faces/2-image.jpg",
       "idtype": "NRIC",
@@ -998,7 +2049,7 @@
       "approve_by": 2
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Murugesan Rajasekar",
       "avatar": "https://reqres.in/img/faces/3-image.jpg",
       "idtype": "NRIC",
@@ -1016,7 +2067,7 @@
       "approve_by": 2
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Heng Shi Zheng",
       "avatar": "https://reqres.in/img/faces/4-image.jpg",
       "idtype": "NRIC",
@@ -1034,7 +2085,7 @@
       "approve_by": 3
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Lim Yong Xiang",
       "avatar": "https://reqres.in/img/faces/5-image.jpg",
       "idtype": "NRIC",
@@ -1052,7 +2103,7 @@
       "approve_by": 3
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Damien Yong",
       "avatar": "https://reqres.in/img/faces/6-image.jpg",
       "idtype": "NRIC",
@@ -1070,7 +2121,7 @@
       "approve_by": 4
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Samuel Soh",
       "avatar": "https://reqres.in/img/faces/8-image.jpg",
       "idtype": "NRIC",
@@ -1088,7 +2139,7 @@
       "approve_by": 1
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Mary",
       "avatar": "https://reqres.in/img/faces/8-image.jpg",
       "idtype": "NRIC",
@@ -1106,7 +2157,7 @@
       "approve_by": 1
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Esther",
       "avatar": "https://reqres.in/img/faces/8-image.jpg",
       "idtype": "NRIC",
@@ -1126,7 +2177,7 @@
   ],
   "guarantors": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Nagarajan Shebagavalli",
       "avatar": "https://reqres.in/img/faces/1-image.jpg",
       "idtype": "NRIC",
@@ -1139,11 +2190,26 @@
       "contact": "-",
       "occupation": "Executive",
       "dob": "16 Nov 1977"
+    },
+    {
+      "id": "2",
+      "name": "Vivian",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg",
+      "idtype": "NRIC",
+      "idno": "S7981374E",
+      "passport": "-",
+      "address": "419 Canberra Road #02-395 750419",
+      "nationality": "Singapore",
+      "race": "Malay",
+      "email": "-",
+      "contact": "-",
+      "occupation": "Sales",
+      "dob": "12 Jun 1979"
     }
   ],
   "businesses": [
     {
-      "id": 1,
+      "id": "1",
       "branch": "Ang Mo Kio",
       "code": "AH",
       "business": "Moneymax Pte Ltd",
@@ -1202,7 +2268,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "branch": "Cheng San",
       "code": "AK",
       "business": "Moneymax Group Pte Ltd",
@@ -1261,7 +2327,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "branch": "Amk Mrt",
       "code": "AM",
       "business": "Moneymax Pte Ltd",
@@ -1320,7 +2386,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "branch": "Zheng Hua",
       "code": "BH",
       "business": "Moneymax Pte Ltd",
@@ -1379,7 +2445,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "branch": "Ban Joo",
       "code": "BJ",
       "business": "Ban Joo Pawnshop Pte Ltd",
@@ -1440,7 +2506,7 @@
   ],
   "roles": [
     {
-      "id": 1,
+      "id": "1",
       "code": "R01",
       "desc": "System Administrator",
       "branch": "Head Office",
@@ -1465,7 +2531,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "code": "R03",
       "desc": "Senior Management",
       "branch": "Head Office",
@@ -1486,7 +2552,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "code": "R03",
       "desc": "Store Admin Assistant",
       "branch": "Branch",
@@ -1503,7 +2569,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "code": "R04",
       "desc": "Valuer",
       "branch": "Branch",
@@ -1520,7 +2586,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "code": "R05",
       "desc": "Account Dept",
       "branch": "Head Office",
@@ -1541,7 +2607,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "code": "R06",
       "desc": "Ro",
       "branch": "Branch",
@@ -1562,7 +2628,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "code": "R07",
       "desc": "Report",
       "branch": "Head Office",
@@ -1583,7 +2649,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "code": "R08",
       "desc": "Modify Goldprice",
       "branch": "Head Office",
@@ -1596,7 +2662,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "code": "R09",
       "desc": "Store Admin",
       "branch": "Branch",
@@ -1617,7 +2683,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "code": "R10",
       "desc": "Marketing Dept",
       "branch": "Head Office",
@@ -1638,7 +2704,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 11,
+      "id": "11",
       "code": "R11",
       "desc": "Store Admin Assistant 2",
       "branch": "Branch",
@@ -1659,7 +2725,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 12,
+      "id": "12",
       "code": "R12",
       "desc": "Senior Ro",
       "branch": "Head Office",
@@ -1680,7 +2746,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 13,
+      "id": "13",
       "code": "R13",
       "desc": "Ro Managers",
       "branch": "Head Office",
@@ -1701,7 +2767,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 14,
+      "id": "14",
       "code": "R14",
       "desc": "Store Admin Valuer",
       "branch": "Branch",
@@ -1722,7 +2788,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 15,
+      "id": "15",
       "code": "R15",
       "desc": "Print Address Label",
       "branch": "Head Office",
@@ -1735,7 +2801,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 16,
+      "id": "16",
       "code": "R16",
       "desc": "Police Enquirey",
       "branch": "Head Office",
@@ -1752,7 +2818,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 17,
+      "id": "17",
       "code": "R17",
       "desc": "Senior Accounts",
       "branch": "Head Office",
@@ -1773,7 +2839,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 18,
+      "id": "18",
       "code": "R18",
       "desc": "Ro With Valuer Role",
       "branch": "Branch",
@@ -1794,7 +2860,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 19,
+      "id": "19",
       "code": "R19",
       "desc": "Hr Dept",
       "branch": "Head Office",
@@ -1815,7 +2881,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 20,
+      "id": "20",
       "code": "R20",
       "desc": "Stand Alone Store Admin",
       "branch": "Branch",
@@ -1836,7 +2902,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 21,
+      "id": "21",
       "code": "R21",
       "desc": "Cash Transfer Report",
       "branch": "Head Office",
@@ -1857,7 +2923,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 22,
+      "id": "22",
       "code": "R22",
       "desc": "Stand Alone Store Admin Valuer",
       "branch": "Branch",
@@ -1878,7 +2944,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 23,
+      "id": "23",
       "code": "R23",
       "desc": "Customer Service Dept",
       "branch": "Head Office",
@@ -1899,7 +2965,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 24,
+      "id": "24",
       "code": "R24",
       "desc": "Audit",
       "branch": "Head Office",
@@ -1920,7 +2986,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 25,
+      "id": "25",
       "code": "R25",
       "desc": "Management",
       "branch": "Branch",
@@ -1941,7 +3007,7 @@
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": 26,
+      "id": "26",
       "code": "R26",
       "desc": "Accounts",
       "branch": "",
@@ -1964,24 +3030,24 @@
   ],
   "approver": [
     {
-      "id": 1,
+      "id": "1",
       "code": "RO",
       "desc": "RO"
     },
     {
-      "id": 2,
+      "id": "2",
       "code": "HO",
       "desc": "HO"
     },
     {
-      "id": 3,
+      "id": "3",
       "code": "Senior Mangement",
       "desc": "Senior Mangement"
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "MMQ009",
       "employeeName": "Hazirah Bujang",
       "employeeId": "MMQ009",
@@ -1998,7 +3064,7 @@
       "status": "Active"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "MMQ010",
       "employeeName": "Lim Eng Hoon",
       "employeeId": "MMQ010",
@@ -2015,7 +3081,7 @@
       "status": "Active"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "MMQ011",
       "employeeName": "Kenny Lee",
       "employeeId": "MMQ011",
@@ -2032,7 +3098,7 @@
       "status": "Active"
     },
     {
-      "id": 4,
+      "id": "4",
       "username": "admin",
       "employeeName": "Anita Wong",
       "password": "adminpass",
@@ -2048,7 +3114,7 @@
       "status": "Active"
     },
     {
-      "id": 5,
+      "id": "5",
       "username": "staff",
       "employeeName": "Gracey",
       "password": "staffpass",
@@ -2064,7 +3130,7 @@
       "status": "Active"
     },
     {
-      "id": 6,
+      "id": "6",
       "username": "management",
       "employeeName": "Teo",
       "password": "managementpass",
@@ -3458,7 +4524,7 @@
   ],
   "articleItems": [
     {
-      "id": 1,
+      "id": "1",
       "code": "RG",
       "desc": "Ring",
       "serial": "No",
@@ -3466,7 +4532,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "code": "CN",
       "desc": "Chain",
       "serial": "No",
@@ -3474,7 +4540,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "code": "PT",
       "desc": "Pendant",
       "serial": "No",
@@ -3482,7 +4548,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "code": "BT",
       "desc": "Bracelet",
       "serial": "No",
@@ -3490,7 +4556,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "code": "BE",
       "desc": "Bangle",
       "serial": "No",
@@ -3498,7 +4564,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "code": "ER",
       "desc": "Earring",
       "serial": "No",
@@ -3506,7 +4572,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "code": "ES",
       "desc": "Earstud",
       "serial": "No",
@@ -3514,7 +4580,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "code": "EP",
       "desc": "Ear Pendant",
       "serial": "No",
@@ -3522,7 +4588,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "code": "NE",
       "desc": "Necklace",
       "serial": "No",
@@ -3530,7 +4596,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "code": "NS",
       "desc": "Nosestud",
       "serial": "No",
@@ -3538,7 +4604,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 11,
+      "id": "11",
       "code": "WT",
       "desc": "Watch",
       "serial": "No",
@@ -3546,7 +4612,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": 12,
+      "id": "12",
       "code": "BG",
       "desc": "Bag",
       "serial": "No",
@@ -3556,64 +4622,64 @@
   ],
   "articleMaterials": [
     {
-      "id": 1,
+      "id": "1",
       "code": "AA",
       "desc": "-"
     },
     {
-      "id": 2,
+      "id": "2",
       "code": "AD",
       "desc": "DIAMOND"
     },
     {
-      "id": 3,
+      "id": "3",
       "code": "AG",
       "desc": "Gold"
     },
     {
-      "id": 4,
+      "id": "4",
       "code": "AI",
       "desc": "Intan"
     },
     {
-      "id": 5,
+      "id": "5",
       "code": "AJ",
       "desc": "Jade"
     },
     {
-      "id": 6,
+      "id": "6",
       "code": "AK",
       "desc": "K Gold"
     },
     {
-      "id": 7,
+      "id": "7",
       "code": "AN",
       "desc": "Note"
     },
     {
-      "id": 8,
+      "id": "8",
       "code": "AP",
       "desc": "Pearl"
     },
     {
-      "id": 9,
+      "id": "9",
       "code": "AS",
       "desc": "Stone"
     },
     {
-      "id": 10,
+      "id": "10",
       "code": "AV",
       "desc": "Silver"
     },
     {
-      "id": 11,
+      "id": "11",
       "code": "scsd",
       "desc": "sdcdsc"
     }
   ],
   "gold": [
     {
-      "id": 1,
+      "id": "1",
       "price": "2996.00",
       "date": "2024-01-22T03:02:55.123Z",
       "itemlist": [
@@ -3668,7 +4734,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "price": "38.31",
       "date": "2024-01-22T03:32:30.139Z",
       "itemlist": [
@@ -3683,7 +4749,7 @@
   ],
   "valuations": [
     {
-      "id": 1,
+      "id": "1",
       "serial": "S01234",
       "valuer": "Song Shian Chee",
       "pledge_no": "MY 04/10 00291",
@@ -3695,7 +4761,7 @@
       "amount": 40000
     },
     {
-      "id": 2,
+      "id": "2",
       "serial": "S01235",
       "valuer": "Stanley Yap Jia Rong",
       "pledge_no": "MY 08/10 00012",
@@ -3707,7 +4773,7 @@
       "amount": 34000
     },
     {
-      "id": 3,
+      "id": "3",
       "serial": "S01234",
       "valuer": "Stanley Yap Jia Rong",
       "pledge_no": "MY 12/10 00023",
@@ -3721,7 +4787,7 @@
   ],
   "cashStatus": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "opening_balance": 20765.1,
@@ -3734,7 +4800,7 @@
       "vault_cash_balance": 298.6
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "opening_balance": 20204,
@@ -3747,7 +4813,7 @@
       "vault_cash_balance": 18563.75
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "MB",
       "branch": "Moneymax Pawnshop Pte Ltd (Bedok Branch)",
       "opening_balance": 20765.1,
@@ -3762,7 +4828,7 @@
   ],
   "cashTransfer": [
     {
-      "id": 1,
+      "id": "1",
       "ref": "10342341",
       "date": "2023-12-23",
       "from_branch": "Head Office",
@@ -3776,7 +4842,7 @@
       "remarks": "Petty Cash"
     },
     {
-      "id": 2,
+      "id": "2",
       "ref": "10342343",
       "date": "2023-12-23",
       "from_branch": "Head Office",
@@ -3790,7 +4856,7 @@
       "remarks": "-"
     },
     {
-      "id": 3,
+      "id": "3",
       "ref": "10342356",
       "date": "2023-12-23",
       "from_branch": "Head Office",
@@ -3806,7 +4872,7 @@
   ],
   "cashless": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "receipt": "00001",
@@ -3818,7 +4884,7 @@
       "in_flow": 40000
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "receipt": "00002",
@@ -3830,7 +4896,7 @@
       "in_flow": 30000
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "MB",
       "branch": "Moneymax Pawnshop Pte Ltd (Bedok Branch)",
       "receipt": "00003",
@@ -3844,7 +4910,7 @@
   ],
   "dbspaynow": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "txn_no": "PI-MY-231004092103B2Y2P",
@@ -3857,7 +4923,7 @@
       "out_flow": 0
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "txn_no": "PO-MY-231004092015VKJ6C",
@@ -3870,7 +4936,7 @@
       "out_flow": 500
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "txn_no": "PI-MY-231004092404VSJZG",
@@ -3885,7 +4951,7 @@
   ],
   "adminfee": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-12-23",
@@ -3899,7 +4965,7 @@
       "paynow_gst": 0
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "date": "2023-12-23",
@@ -3913,7 +4979,7 @@
       "paynow_gst": 0
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-12-23",
@@ -3929,7 +4995,7 @@
   ],
   "transactionfee": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-10-02",
@@ -3939,7 +5005,7 @@
       "fee_waived": 2
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "date": "2023-11-20",
@@ -3949,7 +5015,7 @@
       "fee_waived": 2
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-12-23",
@@ -3961,7 +5027,7 @@
   ],
   "adminfeewaived": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-10-02",
@@ -3970,7 +5036,7 @@
       "fee_waived": 2
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "date": "2023-11-20",
@@ -3979,7 +5045,7 @@
       "fee_waived": 2
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-12-23",
@@ -3990,7 +5056,7 @@
   ],
   "interestreceivable": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "short_branch": "Yishun Branch",
@@ -4001,7 +5067,7 @@
       "interest_receiveable": 96345.45
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "short_branch": "Tampines Branch",
@@ -4012,7 +5078,7 @@
       "interest_receiveable": 96345.45
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "AK",
       "branch": "Moneymax Group Pte Ltd (Cheng San Branch)",
       "short_branch": "Cheng San Branch",
@@ -4025,7 +5091,7 @@
   ],
   "accural": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "short_branch": "Yishun Branch",
@@ -4051,7 +5117,7 @@
       "auctioned_interest": 6345.45
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "short_branch": "Tampines Branch",
@@ -4077,7 +5143,7 @@
       "auctioned_interest": 6345.45
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "AK",
       "branch": "Moneymax Group Pte Ltd (Cheng San Branch)",
       "short_branch": "Cheng San Branch",
@@ -4105,7 +5171,7 @@
   ],
   "accuraladjustment": [
     {
-      "id": 1,
+      "id": "1",
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "short_branch": "Yishun Branch",
@@ -4125,7 +5191,7 @@
       "auctioned_interest": 6345.45
     },
     {
-      "id": 2,
+      "id": "2",
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "short_branch": "Tampines Branch",
@@ -4145,7 +5211,7 @@
       "auctioned_interest": 6345.45
     },
     {
-      "id": 3,
+      "id": "3",
       "branch_code": "AK",
       "branch": "Moneymax Group Pte Ltd (Cheng San Branch)",
       "short_branch": "Cheng San Branch",
@@ -4167,7 +5233,7 @@
   ],
   "caution_list": [
     {
-      "id": 1,
+      "id": "1",
       "seqid": 154,
       "name": "Malik Noorzai",
       "dob": "1957",
@@ -4176,7 +5242,7 @@
       "listed_date": "4 Oct 2011"
     },
     {
-      "id": 2,
+      "id": "2",
       "seqid": 155,
       "name": "Abdul Azziz Abbasin",
       "dob": "1969",
@@ -4185,7 +5251,7 @@
       "listed_date": "4 Oct 2011"
     },
     {
-      "id": 3,
+      "id": "3",
       "seqid": 293,
       "name": "Abdul Rahim Ba’aysir",
       "dob": "16 Nov 1977",
@@ -4194,7 +5260,7 @@
       "listed_date": "19 Jul 2011"
     },
     {
-      "id": 4,
+      "id": "4",
       "seqid": 312,
       "name": "Amir Ali Chaudhry",
       "dob": "3 Aug 1986",
@@ -4351,7 +5417,8 @@
           "remarks": "-",
           "status": "Active"
         }
-      ]
+      ],
+      "id": "4fcc"
     },
     {
       "rolespermission": [
@@ -4458,7 +5525,8 @@
           "create_date": "2022-06-22",
           "create_time": "9:45 AM"
         }
-      ]
+      ],
+      "id": "ced0"
     }
   ],
   "roles_permission": [
@@ -4484,7 +5552,8 @@
           "module": "Auction"
         }
       ],
-      "create_date": "2022-06-22"
+      "create_date": "2022-06-22",
+      "id": "b769"
     },
     {
       "role_id": "R002",
@@ -4573,7 +5642,7 @@
   ],
   "pledge_params": [
     {
-      "id": 1,
+      "id": "1",
       "ref_id": "P001",
       "parameter": "Pledge Duration",
       "unit": "Month",
@@ -4581,7 +5650,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "ref_id": "P002",
       "parameter": "Monthly pledge interest rate",
       "unit": "%",
@@ -4589,7 +5658,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "ref_id": "P003",
       "parameter": "Loan-To-Value Threshold",
       "unit": "%",
@@ -4599,7 +5668,7 @@
   ],
   "customer_params": [
     {
-      "id": 1,
+      "id": "1",
       "ref_id": "C001",
       "parameter": "Enable Singpass Myinfo",
       "unit": "NA",
@@ -4639,37 +5708,37 @@
   ],
   "entity_params": [
     {
-      "id": 1,
+      "id": "1",
       "ref_id": "E001",
       "parameter": "MoneyMax Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "ref_id": "E002",
       "parameter": "MoneyMax Group Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "ref_id": "E003",
       "parameter": "Ban Joo Pawnshop Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "ref_id": "E004",
       "parameter": "MoneyMax Express Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "ref_id": "E005",
       "parameter": "MoneyMax Pawnshop Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "ref_id": "E006",
       "parameter": "Sin Lian Pawnshop",
       "updated_on": "2022-03-13T08:18:52.066Z"
@@ -4677,7 +5746,7 @@
   ],
   "gold_params": [
     {
-      "id": 1,
+      "id": "1",
       "ref_id": "GS001",
       "parameter": "Gold Price",
       "unit": "SGD/gm",
@@ -4685,7 +5754,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "ref_id": "GS002",
       "parameter": "Silver Price",
       "unit": "SGD/gm",
@@ -4727,7 +5796,7 @@
   ],
   "report_manage": [
     {
-      "id": 1,
+      "id": "1",
       "ref_id": "R001",
       "report_name": "Pledge Listing",
       "group": "Pledge",
@@ -4736,7 +5805,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "ref_id": "R002",
       "report_name": "Valuation Review",
       "group": "Pledge",
@@ -4745,7 +5814,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "ref_id": "R003",
       "report_name": "New Customer",
       "group": "Customer",
@@ -4754,7 +5823,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "ref_id": "R004",
       "report_name": "Outstanding Customer Listing",
       "group": "Customer",
@@ -4765,7 +5834,7 @@
   ],
   "pledges-list": [
     {
-      "id": 1,
+      "id": "1",
       "date": "2024-03-06",
       "branch": "Bedok",
       "pledge_count": 3,
@@ -4798,7 +5867,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "date": "2024-03-06",
       "branch": "Jurong East",
       "pledge_count": 4,
@@ -4839,7 +5908,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "date": "2024-03-06",
       "branch": "Bukit Timah",
       "pledge_count": 2,
@@ -4864,7 +5933,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "date": "2024-03-06",
       "branch": "Tampines",
       "pledge_count": 5,
@@ -4913,7 +5982,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "date": "2024-03-06",
       "branch": "Woodlands",
       "pledge_count": 4,
@@ -4957,32 +6026,208 @@
   "inventory": [
     {
       "id": "1",
+      "code": "IRG01",
+      "type": "Ring",
+      "desc": "Gold Ring",
+      "quantity": "1",
+      "quality": "G999",
+      "weight": 200,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "1"
+    },
+    {
+      "id": "2",
+      "code": "IBT01",
+      "type": "Bracelet",
+      "desc": "Gold Bracelet",
+      "quantity": 1,
+      "quality": "G995",
+      "weight": 1500,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "1"
+    },
+    {
+      "id": "3",
+      "code": "ICN01",
+      "type": "Chain",
+      "desc": "Gold Chain",
+      "quantity": 1,
+      "quality": "G750/18K",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "2"
+    },
+    {
+      "id": "4",
+      "code": "AG01",
+      "type": "Ring",
+      "desc": "GOLD RING [U]",
+      "quantity": 4,
+      "quality": "20K 22K",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "3"
+    },
+    {
+      "id": "5",
+      "code": "AG01",
+      "type": "Ring",
+      "desc": "GOLD RING [U]",
+      "quantity": 4,
+      "quality": "20K 22K",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "4"
+    },
+    {
+      "id": "6",
+      "code": "EP01",
+      "type": "Pendant",
+      "desc": "Gold Ear Pendant",
+      "quantity": 6,
+      "quality": "G999",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "4"
+    },
+    {
+      "id": "7",
+      "code": "AG02",
+      "type": "Ring",
+      "desc": "GOLD RING [U]",
+      "quantity": 4,
+      "quality": "20K 22K",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "5"
+    },
+    {
+      "id": "8",
+      "code": "INE01",
+      "type": "Necklace",
+      "desc": "Gold Necklace",
+      "quantity": 2,
+      "quality": "G995",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "6"
+    },
+    {
+      "id": "9",
+      "code": "IBE01",
+      "type": "Bangle",
+      "desc": "Gold Bangle",
+      "quantity": 3,
+      "quality": "G995",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "7"
+    },
+    {
+      "id": "10",
+      "code": "IPT011",
+      "type": "Pendant",
+      "desc": "",
+      "quantity": 1,
+      "quality": "G995",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "8"
+    },
+    {
+      "id": "11",
+      "code": "ICN011",
+      "type": "Chain",
+      "desc": "Gold Chain",
+      "quantity": 2,
+      "quality": "G995",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "GC00234",
+      "pledge_id": "8"
+    },
+    {
+      "id": "12",
+      "code": "ICN012",
+      "type": "Chain",
+      "desc": "fgbfg",
+      "quantity": 2,
+      "quality": "G995",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "-",
+      "pledge_id": "9"
+    },
+    {
+      "id": "13",
+      "code": "ICN013",
+      "type": "Chain",
+      "desc": "dfg",
+      "quantity": 3,
+      "quality": "G985",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "fd",
+      "pledge_id": "10"
+    },
+    {
+      "id": "14",
       "code": "IBE01",
       "type": "Bangle",
       "desc": "Gold Bangle",
       "quantity": 3,
       "quality": "G999",
-      "weight": "-",
+      "weight": 100,
+      "remarks": "-",
       "serial": "GB0001",
-      "pledgeid": 6,
-      "pledge": "MY 04/10 01235",
-      "date": "2023-10-23",
-      "branch": "Ang Mo kio"
+      "pledge_id": "11"
     },
     {
-      "id": 2,
-      "code": "ICN011",
-      "type": "Chain",
-      "desc": "Gold Chain",
-      "quality": "G995",
-      "quantity": "2",
-      "serial": "GC00234",
-      "pledgeid": 8,
-      "pledge": "AM  12/03  008",
-      "date": "2024-03-12",
-      "branch": "Amk Mrt"
+      "id": "15",
+      "code": "IBE01",
+      "type": "Bangle",
+      "desc": "Gold Bangle",
+      "quantity": 3,
+      "quality": "G999",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "GB0001",
+      "pledge_id": "12"
+    },
+    {
+      "id": "16",
+      "code": "IBE01",
+      "type": "Bangle",
+      "desc": "Gold Bangle",
+      "quantity": 3,
+      "quality": "G999",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "GB0001",
+      "pledge_id": "13"
+    },
+    {
+      "id": "17",
+      "code": "IBE01",
+      "type": "Bangle",
+      "desc": "Gold Bangle",
+      "quantity": 3,
+      "quality": "G999",
+      "weight": 100,
+      "remarks": "-",
+      "serial": "GB0001",
+      "pledge_id": "14"
     }
   ],
-  "pledge_log":[]
-    
+  "pledge_log": []
 }
