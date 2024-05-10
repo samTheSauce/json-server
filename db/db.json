@@ -1975,7 +1975,6 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 9,
-      "guarantor_id": "",
       "branch_id": 3
     }
   ],
@@ -6034,7 +6033,7 @@
       "weight": 200,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "1"
+      "pledge_id": 1
     },
     {
       "id": 2,
@@ -6046,7 +6045,7 @@
       "weight": 1500,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "1"
+      "pledge_id": 1
     },
     {
       "id": 3,
@@ -6058,7 +6057,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "2"
+      "pledge_id": 2
     },
     {
       "id": 4,
@@ -6070,7 +6069,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "3"
+      "pledge_id": 3
     },
     {
       "id": 5,
@@ -6082,7 +6081,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "4"
+      "pledge_id": 4
     },
     {
       "id": 6,
@@ -6094,7 +6093,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "4"
+      "pledge_id": 4
     },
     {
       "id": 7,
@@ -6106,7 +6105,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "5"
+      "pledge_id": 5
     },
     {
       "id": 8,
@@ -6118,7 +6117,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "6"
+      "pledge_id": 6
     },
     {
       "id": 9,
@@ -6130,7 +6129,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "7"
+      "pledge_id": 7
     },
     {
       "id": 10,
@@ -6142,7 +6141,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "8"
+      "pledge_id": 8
     },
     {
       "id": 11,
@@ -6154,7 +6153,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "GC00234",
-      "pledge_id": "8"
+      "pledge_id": 8
     },
     {
       "id": 12,
@@ -6166,7 +6165,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "-",
-      "pledge_id": "9"
+      "pledge_id": 9
     },
     {
       "id": 13,
@@ -6178,7 +6177,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "fd",
-      "pledge_id": "10"
+      "pledge_id": 10
     },
     {
       "id": 14,
@@ -6190,7 +6189,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "GB0001",
-      "pledge_id": "11"
+      "pledge_id": 11
     },
     {
       "id": 15,
@@ -6202,7 +6201,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "GB0001",
-      "pledge_id": "12"
+      "pledge_id": 12
     },
     {
       "id": 16,
@@ -6214,7 +6213,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "GB0001",
-      "pledge_id": "13"
+      "pledge_id": 13
     },
     {
       "id": 17,
@@ -6226,7 +6225,7 @@
       "weight": 100,
       "remarks": "-",
       "serial": "GB0001",
-      "pledge_id": "14"
+      "pledge_id": 14
     }
   ],
   "pledge_log": [],
