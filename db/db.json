@@ -1,7 +1,7 @@
 {
   "pledges": [
     {
-      "id": "1",
+      "id": 1,
       "pledge": "MY 04/10 00291",
       "status": "OPEN",
       "date": "2023-12-23",
@@ -1420,7 +1420,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "pledge": "MY 04/10 00292",
       "status": "OPEN",
       "date": "2023-12-23",
@@ -1463,7 +1463,7 @@
       "branch_id": 1
     },
     {
-      "id": "3",
+      "id": 3,
       "pledge": "MY 04/10 00293",
       "status": "OPEN",
       "date": "2023-10-23",
@@ -1506,7 +1506,7 @@
       "branch_id": 2
     },
     {
-      "id": "4",
+      "id": 4,
       "pledge": "MY 04/10 00294",
       "status": "OPEN",
       "date": "2023-11-05",
@@ -1549,7 +1549,7 @@
       "branch_id": 5
     },
     {
-      "id": "5",
+      "id": 5,
       "pledge": "MY 04/10 00300",
       "status": "OPEN",
       "date": "2023-12-23",
@@ -1592,7 +1592,7 @@
       "branch_id": 1
     },
     {
-      "id": "6",
+      "id": 6,
       "pledge": "MY 04/10 01235",
       "status": "EXPIRING",
       "date": "2023-10-23",
@@ -1635,7 +1635,7 @@
       "branch_id": 2
     },
     {
-      "id": "7",
+      "id": 7,
       "pledge": "AH  12/03  007",
       "status": "OPEN",
       "date": "2024-03-12",
@@ -1678,7 +1678,7 @@
       "branch_id": 1
     },
     {
-      "id": "8",
+      "id": 8,
       "pledge": "AM  12/03  008",
       "status": "OPEN",
       "date": "2024-03-12",
@@ -1721,7 +1721,7 @@
       "branch_id": 3
     },
     {
-      "id": "9",
+      "id": 9,
       "pledge": "AK  13/03  009",
       "status": "OPEN",
       "date": "2024-03-13",
@@ -1764,7 +1764,7 @@
       "branch_id": 2
     },
     {
-      "id": "10",
+      "id": 10,
       "pledge": "AK  13/03  010",
       "status": "OPEN",
       "date": "2024-03-13",
@@ -1807,7 +1807,7 @@
       "branch_id": 2
     },
     {
-      "id": "11",
+      "id": 11,
       "pledge": "AM  13/03  011",
       "status": "OPEN",
       "date": "2024-03-13",
@@ -1850,7 +1850,7 @@
       "branch_id": 5
     },
     {
-      "id": "12",
+      "id": 12,
       "pledge": "MY 04/10 01289",
       "status": "EXPIRING",
       "date": "2023-10-23",
@@ -1893,7 +1893,7 @@
       "branch_id": 3
     },
     {
-      "id": "13",
+      "id": 13,
       "pledge": "MY 04/10 01300",
       "status": "EXPIRING",
       "date": "2023-10-23",
@@ -1936,7 +1936,7 @@
       "branch_id": 3
     },
     {
-      "id": "14",
+      "id": 14,
       "pledge": "MY 04/10 01301",
       "status": "EXPIRING",
       "date": "2023-10-23",
@@ -1981,7 +1981,7 @@
   ],
   "transactions": [
     {
-      "id": "1",
+      "id": 1,
       "code": "TR001",
       "pawner_id": 1,
       "pledge_id": 1,
@@ -1991,7 +1991,7 @@
       "receipt": "lto59bl4-edavh"
     },
     {
-      "id": "2",
+      "id": 2,
       "code": "TR002",
       "pawner_id": 1,
       "pledge_id": 3,
@@ -2001,7 +2001,7 @@
       "receipt": "lto59u25-aiwk5"
     },
     {
-      "id": "3",
+      "id": 3,
       "code": "TR003",
       "pawner_id": 1,
       "pledge_id": 5,
@@ -2013,7 +2013,7 @@
   ],
   "pawners": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Lim Yong Seng",
       "avatar": "https://reqres.in/img/faces/1-image.jpg",
       "idtype": "NRIC",
@@ -2031,7 +2031,7 @@
       "approve_by": 1
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Anne Wong",
       "avatar": "https://reqres.in/img/faces/2-image.jpg",
       "idtype": "NRIC",
@@ -2049,7 +2049,7 @@
       "approve_by": 2
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Murugesan Rajasekar",
       "avatar": "https://reqres.in/img/faces/3-image.jpg",
       "idtype": "NRIC",
@@ -2067,7 +2067,7 @@
       "approve_by": 2
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Heng Shi Zheng",
       "avatar": "https://reqres.in/img/faces/4-image.jpg",
       "idtype": "NRIC",
@@ -2085,7 +2085,7 @@
       "approve_by": 3
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Lim Yong Xiang",
       "avatar": "https://reqres.in/img/faces/5-image.jpg",
       "idtype": "NRIC",
@@ -2103,7 +2103,7 @@
       "approve_by": 3
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Damien Yong",
       "avatar": "https://reqres.in/img/faces/6-image.jpg",
       "idtype": "NRIC",
@@ -2121,7 +2121,7 @@
       "approve_by": 4
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Samuel Soh",
       "avatar": "https://reqres.in/img/faces/8-image.jpg",
       "idtype": "NRIC",
@@ -2139,7 +2139,7 @@
       "approve_by": 1
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Mary",
       "avatar": "https://reqres.in/img/faces/8-image.jpg",
       "idtype": "NRIC",
@@ -2157,7 +2157,7 @@
       "approve_by": 1
     },
     {
-      "id": "9",
+      "id": 9,
       "name": "Esther",
       "avatar": "https://reqres.in/img/faces/8-image.jpg",
       "idtype": "NRIC",
@@ -2177,7 +2177,7 @@
   ],
   "guarantors": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Nagarajan Shebagavalli",
       "avatar": "https://reqres.in/img/faces/1-image.jpg",
       "idtype": "NRIC",
@@ -2192,7 +2192,7 @@
       "dob": "16 Nov 1977"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Vivian",
       "avatar": "https://reqres.in/img/faces/2-image.jpg",
       "idtype": "NRIC",
@@ -2209,7 +2209,7 @@
   ],
   "businesses": [
     {
-      "id": "1",
+      "id": 1,
       "branch": "Ang Mo Kio",
       "code": "AH",
       "business": "Moneymax Pte Ltd",
@@ -2268,7 +2268,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "branch": "Cheng San",
       "code": "AK",
       "business": "Moneymax Group Pte Ltd",
@@ -2327,7 +2327,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": 3,
       "branch": "Amk Mrt",
       "code": "AM",
       "business": "Moneymax Pte Ltd",
@@ -2386,7 +2386,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": 4,
       "branch": "Zheng Hua",
       "code": "BH",
       "business": "Moneymax Pte Ltd",
@@ -2445,7 +2445,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": 5,
       "branch": "Ban Joo",
       "code": "BJ",
       "business": "Ban Joo Pawnshop Pte Ltd",
@@ -2506,522 +2506,522 @@
   ],
   "roles": [
     {
-      "id": "1",
+      "id": 1,
       "code": "R01",
       "desc": "System Administrator",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "1",
+          "id": 1,
           "name": "Admin"
         },
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "code": "R03",
       "desc": "Senior Management",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "code": "R03",
       "desc": "Store Admin Assistant",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "4",
+      "id": 4,
       "code": "R04",
       "desc": "Valuer",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "5",
+      "id": 5,
       "code": "R05",
       "desc": "Account Dept",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "6",
+      "id": 6,
       "code": "R06",
       "desc": "Ro",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "7",
+      "id": 7,
       "code": "R07",
       "desc": "Report",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "8",
+      "id": 8,
       "code": "R08",
       "desc": "Modify Goldprice",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "9",
+      "id": 9,
       "code": "R09",
       "desc": "Store Admin",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "10",
+      "id": 10,
       "code": "R10",
       "desc": "Marketing Dept",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "11",
+      "id": 11,
       "code": "R11",
       "desc": "Store Admin Assistant 2",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "12",
+      "id": 12,
       "code": "R12",
       "desc": "Senior Ro",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "13",
+      "id": 13,
       "code": "R13",
       "desc": "Ro Managers",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "14",
+      "id": 14,
       "code": "R14",
       "desc": "Store Admin Valuer",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "15",
+      "id": 15,
       "code": "R15",
       "desc": "Print Address Label",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "16",
+      "id": 16,
       "code": "R16",
       "desc": "Police Enquirey",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "17",
+      "id": 17,
       "code": "R17",
       "desc": "Senior Accounts",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "18",
+      "id": 18,
       "code": "R18",
       "desc": "Ro With Valuer Role",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "19",
+      "id": 19,
       "code": "R19",
       "desc": "Hr Dept",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "20",
+      "id": 20,
       "code": "R20",
       "desc": "Stand Alone Store Admin",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "21",
+      "id": 21,
       "code": "R21",
       "desc": "Cash Transfer Report",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "22",
+      "id": 22,
       "code": "R22",
       "desc": "Stand Alone Store Admin Valuer",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "23",
+      "id": 23,
       "code": "R23",
       "desc": "Customer Service Dept",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "24",
+      "id": 24,
       "code": "R24",
       "desc": "Audit",
       "branch": "Head Office",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "25",
+      "id": 25,
       "code": "R25",
       "desc": "Management",
       "branch": "Branch",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
       "createdOn": "2024-03-13T08:28:53.082Z"
     },
     {
-      "id": "26",
+      "id": 26,
       "code": "R26",
       "desc": "Accounts",
       "branch": "",
       "modules": [
         {
-          "id": "2",
+          "id": 2,
           "name": "Inquiry"
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Report"
         }
       ],
@@ -3030,24 +3030,24 @@
   ],
   "approver": [
     {
-      "id": "1",
+      "id": 1,
       "code": "RO",
       "desc": "RO"
     },
     {
-      "id": "2",
+      "id": 2,
       "code": "HO",
       "desc": "HO"
     },
     {
-      "id": "3",
+      "id": 3,
       "code": "Senior Mangement",
       "desc": "Senior Mangement"
     }
   ],
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "username": "MMQ009",
       "employeeName": "Hazirah Bujang",
       "employeeId": "MMQ009",
@@ -3064,7 +3064,7 @@
       "status": "Active"
     },
     {
-      "id": "2",
+      "id": 2,
       "username": "MMQ010",
       "employeeName": "Lim Eng Hoon",
       "employeeId": "MMQ010",
@@ -3081,7 +3081,7 @@
       "status": "Active"
     },
     {
-      "id": "3",
+      "id": 3,
       "username": "MMQ011",
       "employeeName": "Kenny Lee",
       "employeeId": "MMQ011",
@@ -3098,7 +3098,7 @@
       "status": "Active"
     },
     {
-      "id": "4",
+      "id": 4,
       "username": "admin",
       "employeeName": "Anita Wong",
       "password": "adminpass",
@@ -3114,7 +3114,7 @@
       "status": "Active"
     },
     {
-      "id": "5",
+      "id": 5,
       "username": "staff",
       "employeeName": "Gracey",
       "password": "staffpass",
@@ -3130,7 +3130,7 @@
       "status": "Active"
     },
     {
-      "id": "6",
+      "id": 6,
       "username": "management",
       "employeeName": "Teo",
       "password": "managementpass",
@@ -4524,7 +4524,7 @@
   ],
   "articleItems": [
     {
-      "id": "1",
+      "id": 1,
       "code": "RG",
       "desc": "Ring",
       "serial": "No",
@@ -4532,7 +4532,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "code": "CN",
       "desc": "Chain",
       "serial": "No",
@@ -4540,7 +4540,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "code": "PT",
       "desc": "Pendant",
       "serial": "No",
@@ -4548,7 +4548,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "4",
+      "id": 4,
       "code": "BT",
       "desc": "Bracelet",
       "serial": "No",
@@ -4556,7 +4556,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "5",
+      "id": 5,
       "code": "BE",
       "desc": "Bangle",
       "serial": "No",
@@ -4564,7 +4564,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "6",
+      "id": 6,
       "code": "ER",
       "desc": "Earring",
       "serial": "No",
@@ -4572,7 +4572,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "7",
+      "id": 7,
       "code": "ES",
       "desc": "Earstud",
       "serial": "No",
@@ -4580,7 +4580,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "8",
+      "id": 8,
       "code": "EP",
       "desc": "Ear Pendant",
       "serial": "No",
@@ -4588,7 +4588,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "9",
+      "id": 9,
       "code": "NE",
       "desc": "Necklace",
       "serial": "No",
@@ -4596,7 +4596,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "10",
+      "id": 10,
       "code": "NS",
       "desc": "Nosestud",
       "serial": "No",
@@ -4604,7 +4604,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "11",
+      "id": 11,
       "code": "WT",
       "desc": "Watch",
       "serial": "No",
@@ -4612,7 +4612,7 @@
       "updated_on": "2022-06-22T08:18:52.066Z"
     },
     {
-      "id": "12",
+      "id": 12,
       "code": "BG",
       "desc": "Bag",
       "serial": "No",
@@ -4622,64 +4622,64 @@
   ],
   "articleMaterials": [
     {
-      "id": "1",
+      "id": 1,
       "code": "AA",
       "desc": "-"
     },
     {
-      "id": "2",
+      "id": 2,
       "code": "AD",
       "desc": "DIAMOND"
     },
     {
-      "id": "3",
+      "id": 3,
       "code": "AG",
       "desc": "Gold"
     },
     {
-      "id": "4",
+      "id": 4,
       "code": "AI",
       "desc": "Intan"
     },
     {
-      "id": "5",
+      "id": 5,
       "code": "AJ",
       "desc": "Jade"
     },
     {
-      "id": "6",
+      "id": 6,
       "code": "AK",
       "desc": "K Gold"
     },
     {
-      "id": "7",
+      "id": 7,
       "code": "AN",
       "desc": "Note"
     },
     {
-      "id": "8",
+      "id": 8,
       "code": "AP",
       "desc": "Pearl"
     },
     {
-      "id": "9",
+      "id": 9,
       "code": "AS",
       "desc": "Stone"
     },
     {
-      "id": "10",
+      "id": 10,
       "code": "AV",
       "desc": "Silver"
     },
     {
-      "id": "11",
+      "id": 11,
       "code": "scsd",
       "desc": "sdcdsc"
     }
   ],
   "gold": [
     {
-      "id": "1",
+      "id": 1,
       "price": "2996.00",
       "date": "2024-01-22T03:02:55.123Z",
       "itemlist": [
@@ -4734,7 +4734,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "price": "38.31",
       "date": "2024-01-22T03:32:30.139Z",
       "itemlist": [
@@ -4749,7 +4749,7 @@
   ],
   "valuations": [
     {
-      "id": "1",
+      "id": 1,
       "serial": "S01234",
       "valuer": "Song Shian Chee",
       "pledge_no": "MY 04/10 00291",
@@ -4761,7 +4761,7 @@
       "amount": 40000
     },
     {
-      "id": "2",
+      "id": 2,
       "serial": "S01235",
       "valuer": "Stanley Yap Jia Rong",
       "pledge_no": "MY 08/10 00012",
@@ -4773,7 +4773,7 @@
       "amount": 34000
     },
     {
-      "id": "3",
+      "id": 3,
       "serial": "S01234",
       "valuer": "Stanley Yap Jia Rong",
       "pledge_no": "MY 12/10 00023",
@@ -4787,7 +4787,7 @@
   ],
   "cashStatus": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "opening_balance": 20765.1,
@@ -4800,7 +4800,7 @@
       "vault_cash_balance": 298.6
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "opening_balance": 20204,
@@ -4813,7 +4813,7 @@
       "vault_cash_balance": 18563.75
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "MB",
       "branch": "Moneymax Pawnshop Pte Ltd (Bedok Branch)",
       "opening_balance": 20765.1,
@@ -4828,7 +4828,7 @@
   ],
   "cashTransfer": [
     {
-      "id": "1",
+      "id": 1,
       "ref": "10342341",
       "date": "2023-12-23",
       "from_branch": "Head Office",
@@ -4842,7 +4842,7 @@
       "remarks": "Petty Cash"
     },
     {
-      "id": "2",
+      "id": 2,
       "ref": "10342343",
       "date": "2023-12-23",
       "from_branch": "Head Office",
@@ -4856,7 +4856,7 @@
       "remarks": "-"
     },
     {
-      "id": "3",
+      "id": 3,
       "ref": "10342356",
       "date": "2023-12-23",
       "from_branch": "Head Office",
@@ -4872,7 +4872,7 @@
   ],
   "cashless": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "receipt": "00001",
@@ -4884,7 +4884,7 @@
       "in_flow": 40000
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "receipt": "00002",
@@ -4896,7 +4896,7 @@
       "in_flow": 30000
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "MB",
       "branch": "Moneymax Pawnshop Pte Ltd (Bedok Branch)",
       "receipt": "00003",
@@ -4910,7 +4910,7 @@
   ],
   "dbspaynow": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "txn_no": "PI-MY-231004092103B2Y2P",
@@ -4923,7 +4923,7 @@
       "out_flow": 0
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "txn_no": "PO-MY-231004092015VKJ6C",
@@ -4936,7 +4936,7 @@
       "out_flow": 500
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "txn_no": "PI-MY-231004092404VSJZG",
@@ -4951,7 +4951,7 @@
   ],
   "adminfee": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-12-23",
@@ -4965,7 +4965,7 @@
       "paynow_gst": 0
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "date": "2023-12-23",
@@ -4979,7 +4979,7 @@
       "paynow_gst": 0
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-12-23",
@@ -4995,7 +4995,7 @@
   ],
   "transactionfee": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-10-02",
@@ -5005,7 +5005,7 @@
       "fee_waived": 2
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "date": "2023-11-20",
@@ -5015,7 +5015,7 @@
       "fee_waived": 2
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-12-23",
@@ -5027,7 +5027,7 @@
   ],
   "adminfeewaived": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-10-02",
@@ -5036,7 +5036,7 @@
       "fee_waived": 2
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "date": "2023-11-20",
@@ -5045,7 +5045,7 @@
       "fee_waived": 2
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "date": "2023-12-23",
@@ -5056,7 +5056,7 @@
   ],
   "interestreceivable": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "short_branch": "Yishun Branch",
@@ -5067,7 +5067,7 @@
       "interest_receiveable": 96345.45
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "short_branch": "Tampines Branch",
@@ -5078,7 +5078,7 @@
       "interest_receiveable": 96345.45
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "AK",
       "branch": "Moneymax Group Pte Ltd (Cheng San Branch)",
       "short_branch": "Cheng San Branch",
@@ -5091,7 +5091,7 @@
   ],
   "accural": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "short_branch": "Yishun Branch",
@@ -5117,7 +5117,7 @@
       "auctioned_interest": 6345.45
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "short_branch": "Tampines Branch",
@@ -5143,7 +5143,7 @@
       "auctioned_interest": 6345.45
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "AK",
       "branch": "Moneymax Group Pte Ltd (Cheng San Branch)",
       "short_branch": "Cheng San Branch",
@@ -5171,7 +5171,7 @@
   ],
   "accuraladjustment": [
     {
-      "id": "1",
+      "id": 1,
       "branch_code": "MY",
       "branch": "Moneymax Pawnshop Pte Ltd (Yishun Branch)",
       "short_branch": "Yishun Branch",
@@ -5191,7 +5191,7 @@
       "auctioned_interest": 6345.45
     },
     {
-      "id": "2",
+      "id": 2,
       "branch_code": "MT",
       "branch": "Moneymax Pawnshop Pte Ltd (Tampines Branch)",
       "short_branch": "Tampines Branch",
@@ -5211,7 +5211,7 @@
       "auctioned_interest": 6345.45
     },
     {
-      "id": "3",
+      "id": 3,
       "branch_code": "AK",
       "branch": "Moneymax Group Pte Ltd (Cheng San Branch)",
       "short_branch": "Cheng San Branch",
@@ -5233,7 +5233,7 @@
   ],
   "caution_list": [
     {
-      "id": "1",
+      "id": 1,
       "seqid": 154,
       "name": "Malik Noorzai",
       "dob": "1957",
@@ -5242,7 +5242,7 @@
       "listed_date": "4 Oct 2011"
     },
     {
-      "id": "2",
+      "id": 2,
       "seqid": 155,
       "name": "Abdul Azziz Abbasin",
       "dob": "1969",
@@ -5251,7 +5251,7 @@
       "listed_date": "4 Oct 2011"
     },
     {
-      "id": "3",
+      "id": 3,
       "seqid": 293,
       "name": "Abdul Rahim Ba’aysir",
       "dob": "16 Nov 1977",
@@ -5260,7 +5260,7 @@
       "listed_date": "19 Jul 2011"
     },
     {
-      "id": "4",
+      "id": 4,
       "seqid": 312,
       "name": "Amir Ali Chaudhry",
       "dob": "3 Aug 1986",
@@ -5271,7 +5271,7 @@
   ],
   "auction_list": [
     {
-      "id": "1",
+      "id": 1,
       "code": "ER01",
       "desc": "Gold Earring ",
       "type": "24K",
@@ -5283,7 +5283,7 @@
       "branch": "Ang Mo Kio"
     },
     {
-      "id": "2",
+      "id": 2,
       "code": "PD02",
       "desc": "Gold Pendant",
       "type": "24K",
@@ -5427,19 +5427,19 @@
           "role": "Account",
           "access_list": [
             {
-              "id": "1",
+              "id": 1,
               "module": "Financial Reports"
             },
             {
-              "id": "2",
+              "id": 2,
               "module": "Branch Reports"
             },
             {
-              "id": "3",
+              "id": 3,
               "module": "Transaction"
             },
             {
-              "id": "4",
+              "id": 4,
               "module": "Auction"
             }
           ],
@@ -5450,19 +5450,19 @@
           "role": "Branch Admin",
           "access_list": [
             {
-              "id": "1",
+              "id": 1,
               "module": "Financial Reports"
             },
             {
-              "id": "2",
+              "id": 2,
               "module": "Branch Reports"
             },
             {
-              "id": "3",
+              "id": 3,
               "module": "Transaction"
             },
             {
-              "id": "4",
+              "id": 4,
               "module": "Auction"
             }
           ],
@@ -5474,19 +5474,19 @@
           "role": "Branch Manager",
           "access_list": [
             {
-              "id": "1",
+              "id": 1,
               "module": "Financial Reports"
             },
             {
-              "id": "2",
+              "id": 2,
               "module": "Branch Reports"
             },
             {
-              "id": "3",
+              "id": 3,
               "module": "Transaction"
             },
             {
-              "id": "4",
+              "id": 4,
               "module": "Auction"
             }
           ],
@@ -5498,15 +5498,15 @@
           "role": "Retail Officer",
           "access_list": [
             {
-              "id": "2",
+              "id": 2,
               "module": "Branch Reports"
             },
             {
-              "id": "3",
+              "id": 3,
               "module": "Inventory"
             },
             {
-              "id": "4",
+              "id": 4,
               "module": "Pledge"
             }
           ],
@@ -5518,7 +5518,7 @@
           "role": "System Admin",
           "access_list": [
             {
-              "id": "1",
+              "id": 1,
               "module": "All"
             }
           ],
@@ -5536,19 +5536,19 @@
       "branch": "Ang Mo Kio",
       "access_list": [
         {
-          "id": "1",
+          "id": 1,
           "module": "Financial Reports"
         },
         {
-          "id": "2",
+          "id": 2,
           "module": "Branch Reports"
         },
         {
-          "id": "3",
+          "id": 3,
           "module": "Transaction"
         },
         {
-          "id": "4",
+          "id": 4,
           "module": "Auction"
         }
       ],
@@ -5561,19 +5561,19 @@
       "branch": "Ang Mo Kio",
       "access_list": [
         {
-          "id": "1",
+          "id": 1,
           "module": "Financial Reports"
         },
         {
-          "id": "2",
+          "id": 2,
           "module": "Branch Reports"
         },
         {
-          "id": "3",
+          "id": 3,
           "module": "Transaction"
         },
         {
-          "id": "4",
+          "id": 4,
           "module": "Auction"
         }
       ],
@@ -5586,19 +5586,19 @@
       "branch": "Ang Mo Kio",
       "access_list": [
         {
-          "id": "1",
+          "id": 1,
           "module": "Financial Reports"
         },
         {
-          "id": "2",
+          "id": 2,
           "module": "Branch Reports"
         },
         {
-          "id": "3",
+          "id": 3,
           "module": "Transaction"
         },
         {
-          "id": "4",
+          "id": 4,
           "module": "Auction"
         }
       ],
@@ -5611,15 +5611,15 @@
       "branch": "Ang Mo Kio",
       "access_list": [
         {
-          "id": "2",
+          "id": 2,
           "module": "Branch Reports"
         },
         {
-          "id": "3",
+          "id": 3,
           "module": "Inventory"
         },
         {
-          "id": "4",
+          "id": 4,
           "module": "Pledge"
         }
       ],
@@ -5632,7 +5632,7 @@
       "branch": "Ang Mo Kio",
       "access_list": [
         {
-          "id": "1",
+          "id": 1,
           "module": "All"
         }
       ],
@@ -5642,7 +5642,7 @@
   ],
   "pledge_params": [
     {
-      "id": "1",
+      "id": 1,
       "ref_id": "P001",
       "parameter": "Pledge Duration",
       "unit": "Month",
@@ -5650,7 +5650,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "ref_id": "P002",
       "parameter": "Monthly pledge interest rate",
       "unit": "%",
@@ -5658,7 +5658,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "ref_id": "P003",
       "parameter": "Loan-To-Value Threshold",
       "unit": "%",
@@ -5668,7 +5668,7 @@
   ],
   "customer_params": [
     {
-      "id": "1",
+      "id": 1,
       "ref_id": "C001",
       "parameter": "Enable Singpass Myinfo",
       "unit": "NA",
@@ -5708,37 +5708,37 @@
   ],
   "entity_params": [
     {
-      "id": "1",
+      "id": 1,
       "ref_id": "E001",
       "parameter": "MoneyMax Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "ref_id": "E002",
       "parameter": "MoneyMax Group Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "ref_id": "E003",
       "parameter": "Ban Joo Pawnshop Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "4",
+      "id": 4,
       "ref_id": "E004",
       "parameter": "MoneyMax Express Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "5",
+      "id": 5,
       "ref_id": "E005",
       "parameter": "MoneyMax Pawnshop Pte Ltd",
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "6",
+      "id": 6,
       "ref_id": "E006",
       "parameter": "Sin Lian Pawnshop",
       "updated_on": "2022-03-13T08:18:52.066Z"
@@ -5746,7 +5746,7 @@
   ],
   "gold_params": [
     {
-      "id": "1",
+      "id": 1,
       "ref_id": "GS001",
       "parameter": "Gold Price",
       "unit": "SGD/gm",
@@ -5754,7 +5754,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "ref_id": "GS002",
       "parameter": "Silver Price",
       "unit": "SGD/gm",
@@ -5796,7 +5796,7 @@
   ],
   "report_manage": [
     {
-      "id": "1",
+      "id": 1,
       "ref_id": "R001",
       "report_name": "Pledge Listing",
       "group": "Pledge",
@@ -5805,7 +5805,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "2",
+      "id": 2,
       "ref_id": "R002",
       "report_name": "Valuation Review",
       "group": "Pledge",
@@ -5814,7 +5814,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "3",
+      "id": 3,
       "ref_id": "R003",
       "report_name": "New Customer",
       "group": "Customer",
@@ -5823,7 +5823,7 @@
       "updated_on": "2022-03-13T08:18:52.066Z"
     },
     {
-      "id": "4",
+      "id": 4,
       "ref_id": "R004",
       "report_name": "Outstanding Customer Listing",
       "group": "Customer",
@@ -5834,7 +5834,7 @@
   ],
   "pledges-list": [
     {
-      "id": "1",
+      "id": 1,
       "date": "2024-03-06",
       "branch": "Bedok",
       "pledge_count": 3,
@@ -5867,7 +5867,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "date": "2024-03-06",
       "branch": "Jurong East",
       "pledge_count": 4,
@@ -5908,7 +5908,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": 3,
       "date": "2024-03-06",
       "branch": "Bukit Timah",
       "pledge_count": 2,
@@ -5933,7 +5933,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": 4,
       "date": "2024-03-06",
       "branch": "Tampines",
       "pledge_count": 5,
@@ -5982,7 +5982,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": 5,
       "date": "2024-03-06",
       "branch": "Woodlands",
       "pledge_count": 4,
@@ -6025,7 +6025,7 @@
   ],
   "inventory": [
     {
-      "id": "1",
+      "id": 1,
       "code": "IRG01",
       "type": "Ring",
       "desc": "Gold Ring",
@@ -6037,7 +6037,7 @@
       "pledge_id": "1"
     },
     {
-      "id": "2",
+      "id": 2,
       "code": "IBT01",
       "type": "Bracelet",
       "desc": "Gold Bracelet",
@@ -6049,7 +6049,7 @@
       "pledge_id": "1"
     },
     {
-      "id": "3",
+      "id": 3,
       "code": "ICN01",
       "type": "Chain",
       "desc": "Gold Chain",
@@ -6061,7 +6061,7 @@
       "pledge_id": "2"
     },
     {
-      "id": "4",
+      "id": 4,
       "code": "AG01",
       "type": "Ring",
       "desc": "GOLD RING [U]",
@@ -6073,7 +6073,7 @@
       "pledge_id": "3"
     },
     {
-      "id": "5",
+      "id": 5,
       "code": "AG01",
       "type": "Ring",
       "desc": "GOLD RING [U]",
@@ -6085,7 +6085,7 @@
       "pledge_id": "4"
     },
     {
-      "id": "6",
+      "id": 6,
       "code": "EP01",
       "type": "Pendant",
       "desc": "Gold Ear Pendant",
@@ -6097,7 +6097,7 @@
       "pledge_id": "4"
     },
     {
-      "id": "7",
+      "id": 7,
       "code": "AG02",
       "type": "Ring",
       "desc": "GOLD RING [U]",
@@ -6109,7 +6109,7 @@
       "pledge_id": "5"
     },
     {
-      "id": "8",
+      "id": 8,
       "code": "INE01",
       "type": "Necklace",
       "desc": "Gold Necklace",
@@ -6121,7 +6121,7 @@
       "pledge_id": "6"
     },
     {
-      "id": "9",
+      "id": 9,
       "code": "IBE01",
       "type": "Bangle",
       "desc": "Gold Bangle",
@@ -6133,7 +6133,7 @@
       "pledge_id": "7"
     },
     {
-      "id": "10",
+      "id": 10,
       "code": "IPT011",
       "type": "Pendant",
       "desc": "",
@@ -6145,7 +6145,7 @@
       "pledge_id": "8"
     },
     {
-      "id": "11",
+      "id": 11,
       "code": "ICN011",
       "type": "Chain",
       "desc": "Gold Chain",
@@ -6157,7 +6157,7 @@
       "pledge_id": "8"
     },
     {
-      "id": "12",
+      "id": 12,
       "code": "ICN012",
       "type": "Chain",
       "desc": "fgbfg",
@@ -6169,7 +6169,7 @@
       "pledge_id": "9"
     },
     {
-      "id": "13",
+      "id": 13,
       "code": "ICN013",
       "type": "Chain",
       "desc": "dfg",
@@ -6181,7 +6181,7 @@
       "pledge_id": "10"
     },
     {
-      "id": "14",
+      "id": 14,
       "code": "IBE01",
       "type": "Bangle",
       "desc": "Gold Bangle",
@@ -6193,7 +6193,7 @@
       "pledge_id": "11"
     },
     {
-      "id": "15",
+      "id": 15,
       "code": "IBE01",
       "type": "Bangle",
       "desc": "Gold Bangle",
@@ -6205,7 +6205,7 @@
       "pledge_id": "12"
     },
     {
-      "id": "16",
+      "id": 16,
       "code": "IBE01",
       "type": "Bangle",
       "desc": "Gold Bangle",
@@ -6217,7 +6217,7 @@
       "pledge_id": "13"
     },
     {
-      "id": "17",
+      "id": 17,
       "code": "IBE01",
       "type": "Bangle",
       "desc": "Gold Bangle",
