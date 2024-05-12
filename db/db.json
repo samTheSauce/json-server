@@ -40,7 +40,10 @@
         "transaction_date": "2024-03-12"
       },
       "customer_id": 3,
-      "guarantor_id": 1,
+      "owner_id": 1,
+      "redeemer_id": 1,
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 5,
       "branch": [
         {
@@ -1459,7 +1462,10 @@
         "transaction_date": "2024-03-12"
       },
       "customer_id": 1,
-      "guarantor_id": 1,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": true,
+      "customerIsRedeemer": true,
       "branch_id": 1
     },
     {
@@ -1502,7 +1508,10 @@
         "transaction_date": "2024-03-12"
       },
       "customer_id": 1,
-      "guarantor_id": 1,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": true,
+      "customerIsRedeemer": false,
       "branch_id": 2
     },
     {
@@ -1545,7 +1554,10 @@
         "transaction_date": "2024-03-07"
       },
       "customer_id": 2,
-      "guarantor_id": 2,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 5
     },
     {
@@ -1588,7 +1600,10 @@
         "transaction_date": "2024-03-12"
       },
       "customer_id": 1,
-      "guarantor_id": 1,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 1
     },
     {
@@ -1631,7 +1646,10 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 1,
-      "guarantor_id": 1,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 2
     },
     {
@@ -1675,6 +1693,10 @@
         "transaction_date": ""
       },
       "customer_id": 3,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 1
     },
     {
@@ -1761,6 +1783,10 @@
         "transaction_date": ""
       },
       "customer_id": 3,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 2
     },
     {
@@ -1804,6 +1830,10 @@
         "transaction_date": ""
       },
       "customer_id": 5,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 2
     },
     {
@@ -1847,6 +1877,10 @@
         "transaction_date": ""
       },
       "customer_id": 5,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 5
     },
     {
@@ -1889,7 +1923,10 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 7,
-      "guarantor_id": 1,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 3
     },
     {
@@ -1932,7 +1969,10 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 8,
-      "guarantor_id": 1,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 3
     },
     {
@@ -1975,6 +2015,10 @@
         "transaction_date": "2024-03-11"
       },
       "customer_id": 9,
+      "owner_id": "",
+      "redeemer_id": "",
+      "customerIsOwner": false,
+      "customerIsRedeemer": false,
       "branch_id": 3
     }
   ],
@@ -1982,7 +2026,7 @@
     {
       "id": 1,
       "code": "TR001",
-      "pawner_id": 1,
+      "customer_id": 1,
       "pledge_id": 1,
       "timestamp": "2024-03-12",
       "status": "Successful",
@@ -1992,7 +2036,7 @@
     {
       "id": 2,
       "code": "TR002",
-      "pawner_id": 1,
+      "customer_id": 1,
       "pledge_id": 3,
       "timestamp": "2024-03-12",
       "status": "Successful",
@@ -2002,7 +2046,7 @@
     {
       "id": 3,
       "code": "TR003",
-      "pawner_id": 1,
+      "customer_id": 1,
       "pledge_id": 5,
       "timestamp": "2024-03-12",
       "status": "Successful",
@@ -2174,7 +2218,41 @@
       "approve_by": 1
     }
   ],
-  "guarantors": [
+  "owners": [
+    {
+      "id": 1,
+      "name": "Jacob Lee",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg",
+      "idtype": "NRIC",
+      "idno": "S7981374E",
+      "passport": "-",
+      "address": "419 Canberra Road #02-395 750419",
+      "nationality": "Singapore",
+      "gender": "Male",
+      "race": "Chinese",
+      "email": "jacoblee@gmail.com",
+      "contact": "-",
+      "occupation": "Executive",
+      "dob": "16 Nov 1977"
+    },
+    {
+      "id": 2,
+      "name": "Amrita Krishnan",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg",
+      "idtype": "NRIC",
+      "idno": "S7981374E",
+      "passport": "-",
+      "address": "419 Canberra Road #02-395 750419",
+      "nationality": "Singapore",
+      "gender": "Female",
+      "race": "Indian",
+      "email": "amritakrishnan@gmail.com",
+      "contact": "-",
+      "occupation": "Executive",
+      "dob": "12 Jun 1979"
+    }
+  ],
+  "redeemers": [
     {
       "id": 1,
       "name": "Nagarajan Shebagavalli",
@@ -2184,8 +2262,9 @@
       "passport": "-",
       "address": "419 Canberra Road #02-395 750419",
       "nationality": "Singapore",
+      "gender": "Male",
       "race": "Indian",
-      "email": "-",
+      "email": "nagarajanshebagavalli@gmail.com",
       "contact": "-",
       "occupation": "Executive",
       "dob": "16 Nov 1977"
@@ -2199,8 +2278,9 @@
       "passport": "-",
       "address": "419 Canberra Road #02-395 750419",
       "nationality": "Singapore",
-      "race": "Malay",
-      "email": "-",
+      "gender": "Female",
+      "race": "Chinese",
+      "email": "viviangoh@gmail.com",
       "contact": "-",
       "occupation": "Sales",
       "dob": "12 Jun 1979"
@@ -5577,7 +5657,8 @@
         }
       ],
       "create_date": "2022-06-22",
-      "create_time": "9:45 AM"
+      "create_time": "9:45 AM",
+      "id": "826a"
     },
     {
       "role_id": "R003",
@@ -5602,7 +5683,8 @@
         }
       ],
       "create_date": "2022-06-22",
-      "create_time": "9:45 AM"
+      "create_time": "9:45 AM",
+      "id": "3cbb"
     },
     {
       "role_id": "R004",
@@ -5623,7 +5705,8 @@
         }
       ],
       "create_date": "2022-06-22",
-      "create_time": "9:45 AM"
+      "create_time": "9:45 AM",
+      "id": "b1f8"
     },
     {
       "role_id": "R005",
@@ -5636,7 +5719,8 @@
         }
       ],
       "create_date": "2022-06-22",
-      "create_time": "9:45 AM"
+      "create_time": "9:45 AM",
+      "id": "21bc"
     }
   ],
   "pledge_params": [
@@ -5681,28 +5765,32 @@
       "parameter": "Markup Percentage",
       "unit": "%",
       "value": "13.50",
-      "updated_on": "2022-03-13T08:18:52.066Z"
+      "updated_on": "2022-03-13T08:18:52.066Z",
+      "id": "b4d7"
     },
     {
       "ref_id": "A002",
       "parameter": "Number of Auctions per month",
       "unit": "NA",
       "value": "1",
-      "updated_on": "2022-03-13T08:18:52.066Z"
+      "updated_on": "2022-03-13T08:18:52.066Z",
+      "id": "2a4f"
     },
     {
       "ref_id": "A003",
       "parameter": "Auctioneer Commission - Auctioned Pledges",
       "unit": "%",
       "value": "1.00",
-      "updated_on": "2022-03-13T08:18:52.066Z"
+      "updated_on": "2022-03-13T08:18:52.066Z",
+      "id": "1c53"
     },
     {
       "ref_id": "A004",
       "parameter": "Auctioneer Commission - Unauctioned Pledges",
       "unit": "%",
       "value": "1.00",
-      "updated_on": "2022-03-13T08:18:52.066Z"
+      "updated_on": "2022-03-13T08:18:52.066Z",
+      "id": "a200"
     }
   ],
   "entity_params": [
