@@ -12,7 +12,7 @@
       "original_pledge": "MY 12/22 00002",
       "weight": "60.90",
       "amount": 450,
-      "balance": 0,
+      "balance": 450,
       "interest": 1.5,
       "lost": "",
       "lost_date": "",
@@ -20,10 +20,10 @@
       "receipt": "",
       "renewal": [
         {
-          "renew_date": "2024-03-12",
-          "fee": null,
-          "payment_mode": "DBSPaynow",
-          "transaction_id": 1
+          "renew_date": "",
+          "fee": "",
+          "payment_mode": "",
+          "transaction_id": ""
         }
       ],
       "redemption": [
