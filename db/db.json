@@ -1461,8 +1461,8 @@
         "progress": 70,
         "transaction_date": "2024-03-12"
       },
-      "customer_id": 1,
-      "owner_id":   2,
+      "customer_id": 2,
+      "owner_id": "",
       "redeemer_id": "",
       "customerIsOwner": true,
       "customerIsRedeemer": true,
