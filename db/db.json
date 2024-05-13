@@ -1462,7 +1462,7 @@
         "transaction_date": "2024-03-12"
       },
       "customer_id": 1,
-      "owner_id": "",
+      "owner_id":   2,
       "redeemer_id": "",
       "customerIsOwner": true,
       "customerIsRedeemer": true,
