@@ -1432,7 +1432,7 @@
       "ticket": "MY 12/23 O8RMS",
       "valuer": "WLK- Avian U Yin Torn",
       "original_pledge": "MY 12/22 00003",
-      "weight": "60.90",
+      "weight": 0,
       "amount": 250,
       "balance": 105,
       "interest": 1.5,
