@@ -3179,7 +3179,7 @@
     {
       "id": 4,
       "username": "admin",
-      "employeeName": "Anita Wong",
+      "employeeName": "Admin",
       "password": "adminpass",
       "employeeId": "MMQ011",
       "role": "System Administrator",
@@ -6317,6 +6317,214 @@
       "remarks": "-",
       "serial": "GB0001",
       "pledge_id": 14
+    }
+  ],
+  "exposure_question": [
+    {
+      "id": 1,
+      "code": "q1",
+      "question": "Purpose of loan?",
+      "value": "purpose",
+      "ecdd": "no"
+    },
+    {
+      "id": 2,
+      "code": "q2",
+      "question": "Is the pawner above 18 years old?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 3,
+      "code": "q3",
+      "question": "How did the pawner obtain the pledge?",
+      "value": "obtain",
+      "ecdd": "no"
+    },
+    {
+      "id": 4,
+      "code": "q4",
+      "question": "Is the pawner familiar with the pledge?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 5,
+      "code": "q5",
+      "question": "Is the pawner the lawful owner of the pledge?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 6,
+      "code": "q6",
+      "question": "Does the pawner confirm that the pledge is not a counterfeit?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 7,
+      "code": "q7",
+      "question": "Does the pawner confirm that the pledge was not obtained through fradulent / dishonest means?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 8,
+      "code": "q8",
+      "question": "Does the pawner confirm that this transaction does not involve any money laundering activities?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 9,
+      "code": "q9",
+      "question": "Does the pawner confirm that this transaction does not involve any terrorism financing activities?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 10,
+      "code": "q10",
+      "question": "Name found in the UN Sanctions lists (for Terrorist and Proliferation Financing) or Caution Lists? If yes, the transaction must cease and STR to be filed",
+      "value": "yesno",
+      "ecdd": "yes"
+    },
+    {
+      "id": 11,
+      "code": "q11",
+      "question": "Politically Exposed Person (PEP*)? If yes, please complete Section(D) and Form for Politically Exposed Person(PEP).",
+      "value": "yesno",
+      "ecdd": "yes"
+    },
+    {
+      "id": 12,
+      "code": "q12",
+      "question": "Is Customer from one of the FATF High Risk Countries?",
+      "value": "yesno",
+      "ecdd": "yes"
+    },
+    {
+      "id": 13,
+      "code": "q13",
+      "question": "Any sign that indicates the loan is suspicious? If yes, please complete Section (E), and determine if STR should be filed",
+      "value": "yesno",
+      "ecdd": "yes"
+    },
+    {
+      "id": 14,
+      "code": "q14",
+      "question": "Remarks",
+      "value": "remark",
+      "ecdd": "no"
+    },
+    {
+      "id": 15,
+      "code": "q15",
+      "question": "Does the pawner appear to be of sound mind?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 16,
+      "code": "q16",
+      "question": "Does the pawner appear to be under any form of threat / coercion?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 17,
+      "code": "q17",
+      "question": "Does the pawner confirm that the declaration made are true and accurate at all times?",
+      "value": "yesno",
+      "ecdd": "no"
+    },
+    {
+      "id": 18,
+      "code": "q18",
+      "question": "Risk assessment of transaction",
+      "value": "risk",
+      "ecdd": "no"
+    }
+  ],
+  "exposure": [
+    {
+      "id": 1,
+      "pledge_id": 1,
+      "type": "cdd",
+      "q1": "General Expenses",
+      "q1_remarks": "",
+      "q2": "Yes",
+      "q3": "Own Purchase",
+      "q3_remarks": "",
+      "q4": "Yes",
+      "q4_remarks": "",
+      "q5": "Yes",
+      "q6": "Yes",
+      "q7": "Yes",
+      "q8": "Yes",
+      "q9": "Yes",
+      "q10": "Yes",
+      "q11": "Yes",
+      "q12": "Yes",
+      "q13": "Yes",
+      "q14": "",
+      "q15": "Yes",
+      "q16": "No",
+      "q17": "Yes",
+      "q18": "Low Risk"
+    },
+    {
+      "id": 2,
+      "pledge_id": 2,
+      "type": "cdd",
+      "q1": "Business Expenses",
+      "q1_remarks": "",
+      "q2": "Yes",
+      "q3": "Received as a Gift",
+      "q3_remarks": "",
+      "q4": "Yes",
+      "q4_remarks": "",
+      "q5": "Yes",
+      "q6": "Yes",
+      "q7": "Yes",
+      "q8": "Yes",
+      "q9": "Yes",
+      "q10": "Yes",
+      "q11": "Yes",
+      "q12": "Yes",
+      "q13": "Yes",
+      "q14": "-",
+      "q15": "Yes",
+      "q16": "No",
+      "q17": "Yes",
+      "q18": "Low Risk"
+    },
+    {
+      "id": 3,
+      "pledge_id": 3,
+      "type": "cdd",
+      "q1": "Others",
+      "q1_remarks": "Other Expenses",
+      "q2": "Yes",
+      "q3": "Others",
+      "q3_remarks": "From spouse",
+      "q4": "No",
+      "q4_remarks": "Did not attend during pledge",
+      "q5": "Yes",
+      "q6": "Yes",
+      "q7": "Yes",
+      "q8": "Yes",
+      "q9": "Yes",
+      "q10": "Yes",
+      "q11": "Yes",
+      "q12": "Yes",
+      "q13": "Yes",
+      "q14": "No remarks",
+      "q15": "Yes",
+      "q16": "No",
+      "q17": "Yes",
+      "q18": "Low Risk"
     }
   ],
   "pledge_log": [],
