@@ -5839,8 +5839,10 @@
       "id": 1,
       "ref_id": "GS001",
       "parameter": "G999",
-      "unit": "100.00",
-      "value": "105.714",
+      "unit": 100,
+      "value": 105.714,
+      "calculate": 37.8,
+      "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
       "updated_by": "System Administrator"
     },
@@ -5848,8 +5850,10 @@
       "id": 2,
       "ref_id": "GS002",
       "parameter": "G995",
-      "unit": "99.50",
-      "value": "105.186",
+      "unit": 99.5,
+      "value": 105.186,
+      "calculate": 37.99,
+      "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
       "updated_by": "System Administrator"
     },
@@ -5857,8 +5861,10 @@
       "id": 3,
       "ref_id": "GS003",
       "parameter": "G985",
-      "unit": "98.50",
-      "value": "104.129",
+      "unit": 98.5,
+      "value": 104.13,
+      "calculate": 38.375,
+      "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
       "updated_by": "System Administrator"
     },
@@ -5866,8 +5872,10 @@
       "id": 4,
       "ref_id": "GS004",
       "parameter": "G916",
-      "unit": "89.50",
-      "value": "94.614",
+      "unit": 89.5,
+      "value": 94.625,
+      "calculate": 42.23,
+      "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
       "updated_by": "System Administrator"
     },
@@ -5875,8 +5883,10 @@
       "id": 5,
       "ref_id": "GS005",
       "parameter": "G850",
-      "unit": "83.50",
-      "value": "88.271",
+      "unit": 83.5,
+      "value": 88.27,
+      "calculate": 45.27,
+      "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
       "updated_by": "System Administrator"
     },
@@ -5884,8 +5894,10 @@
       "id": 6,
       "ref_id": "GS006",
       "parameter": "G750/18K",
-      "unit": "70.00",
-      "value": "74.000",
+      "unit": 70,
+      "value": 74,
+      "calculate": 54,
+      "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
       "updated_by": "System Administrator"
     },
@@ -5893,41 +5905,23 @@
       "id": 7,
       "ref_id": "GS007",
       "parameter": "G585/14K",
-      "unit": "50.00",
-      "value": "52.857",
-      "updated_on": "2022-03-13T08:18:52.066Z"
+      "unit": 50,
+      "value": 52.857,
+      "calculate": 75.6,
+      "price": 3996,
+      "updated_on": "2022-03-13T08:18:52.066Z",
+      "updated_by": "System Administrator"
     },
     {
       "id": 8,
       "ref_id": "GS008",
       "parameter": "9K",
-      "unit": "0.00",
-      "value": "8.000",
-      "updated_on": "2022-03-13T08:18:52.066Z"
-    },
-    {
-      "id": 9,
-      "ref_id": "",
-      "parameter": "",
-      "unit": "",
-      "value": "",
-      "updated_on": "2024-05-30T01:54:45.391Z"
-    },
-    {
-      "id": 10,
-      "ref_id": "",
-      "parameter": "",
-      "unit": "",
-      "value": "",
-      "updated_on": "2024-05-30T02:47:09.068Z"
-    },
-    {
-      "id": 11,
-      "ref_id": "",
-      "parameter": "",
-      "unit": "",
-      "value": "",
-      "updated_on": "2024-05-30T02:47:43.156Z"
+      "unit": 0,
+      "value": 8,
+      "calculate": 499.5,
+      "price": 3996,
+      "updated_on": "2022-03-13T08:18:52.066Z",
+      "updated_by": "System Administrator"
     }
   ],
   "cash_transfer_params": [
