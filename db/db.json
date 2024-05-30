@@ -5844,7 +5844,7 @@
       "calculate": 37.8,
       "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
-      "updated_by": "System Administrator"
+      "updated_by": "admin"
     },
     {
       "id": 2,
@@ -5855,7 +5855,7 @@
       "calculate": 37.99,
       "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
-      "updated_by": "System Administrator"
+      "updated_by": "admin"
     },
     {
       "id": 3,
@@ -5866,7 +5866,7 @@
       "calculate": 38.375,
       "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
-      "updated_by": "System Administrator"
+      "updated_by": "admin"
     },
     {
       "id": 4,
@@ -5877,7 +5877,7 @@
       "calculate": 42.23,
       "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
-      "updated_by": "System Administrator"
+      "updated_by": "admin"
     },
     {
       "id": 5,
@@ -5888,7 +5888,7 @@
       "calculate": 45.27,
       "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
-      "updated_by": "System Administrator"
+      "updated_by": "admin"
     },
     {
       "id": 6,
@@ -5899,7 +5899,7 @@
       "calculate": 54,
       "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
-      "updated_by": "System Administrator"
+      "updated_by": "admin"
     },
     {
       "id": 7,
@@ -5910,7 +5910,7 @@
       "calculate": 75.6,
       "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
-      "updated_by": "System Administrator"
+      "updated_by": "admin"
     },
     {
       "id": 8,
@@ -5921,7 +5921,7 @@
       "calculate": 499.5,
       "price": 3996,
       "updated_on": "2022-03-13T08:18:52.066Z",
-      "updated_by": "System Administrator"
+      "updated_by": "admin"
     }
   ],
   "cash_transfer_params": [
